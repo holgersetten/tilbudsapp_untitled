@@ -1,0 +1,427 @@
+[
+  {
+    "title": "Norvegia",
+    "description": "",
+    "price": 89.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "BBqNzJjzq4cCzgZ_4mak5",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Ferdigsalater",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "f05RIrJgyL7RhyLcENXel",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Blåbær",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "02XmYXdBkGv6GW0udOnxX",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Druer",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "U3dJJ050XhKZBmkW6gIJt",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Salatbar",
+    "description": "",
+    "price": 14.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "95u-3wzAluBvFznIomAgY",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "salatbar"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Norsk brokkoli",
+    "description": "",
+    "price": 14.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "HHpXWRYxFOajzr7Mg_atN",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Norsk blomkål",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Qsx0y6HZcaMURJ8DoNmBx",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Norske plommer",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "7tU-Z2aVxoCLjRlQz4xRt",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Norsk isbergsalat",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ORt8FLNKE3UAy_fDII20L",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "salat"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Pasta Bolognese/ Carbonara",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "L1kRzu6RE6nZuYebjDFS4",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.189Z"
+  },
+  {
+    "title": "Kjøttpølse",
+    "description": "",
+    "price": 36.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "emD-fyGVAeIgluiAOz6Kg",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "pølser"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "TORO gryter",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lNsOiHwILazwuiy7wbZKP",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Biffburger/ kyllingburger",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lw1l2D2d6DTFuCtEB-HMK",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "hamburger"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Brus fra Coca-Cola/Farris/Frus/Bris/ Imsdal naturell",
+    "description": "",
+    "price": 18,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Vqmku7_yvn6IDSXAuk5bf",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Brelett",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "S_Yg4wE0XPUQgXWNEIzJh",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Dadlar",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "cMHQphOY2GzlkF5nn_FLy",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Norske reker",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "aOGe1PdonD485GoTPG9y9",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Funkygine Fiberbrød",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "-AnCjN73ERD8VTeAaqoYS",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Norsk Bondebrød",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "9S03RcmbIZWrcJ04OBqHY",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Glade luftfrisker",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "cIZYqqYiAuVuHtMJEzSnC",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Fanta Tutti Frutti",
+    "description": "",
+    "price": 9.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "uayJA2FFuSj-jxx354hIQ",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Supermix",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FiQLRsuQfEIKn4mH1VDHK",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Donut",
+    "description": "",
+    "price": 9.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "i3d8sFz-4I2wRXv2WTBiD",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Cookies",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "BFfpKoLdZdvN81Ji3F4aj",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  },
+  {
+    "title": "Calluna",
+    "description": "",
+    "price": 100,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "BNy0biV-xzMZ4DqL3kEJ3",
+    "store": "Spar",
+    "storeId": "c062vm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.191Z"
+  }
+]

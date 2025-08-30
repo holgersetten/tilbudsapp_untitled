@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Taco",
+        "ingredients": ["Kjøttdeig", "Tacosaus", "Lomper", "Ost", "Salat", "Mais", "Rømme"],
+        "difficulty": "enkel",
+        "category": "middag"
+    },
+    {
+        "name": "Pizza",
+        "ingredients": ["Pizzadeig", "Tomatsaus", "Ost", "Pepperoni", "Skinke"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "ingredients": ["Spaghetti", "Kjøttdeig", "Hakkede tomater", "Løk", "Hvitløk"],
+        "difficulty": "enkel",
+        "category": "middag"
+    },
+    {
+        "name": "Wok",
+        "ingredients": ["Kylling", "Wokgrønnsaker", "Soyasaus", "Ris", "Tomat"],
+        "difficulty": "enkel",
+        "category": "middag"
+    },
+    {
+        "name": "Omelett",
+        "ingredients": ["Egg", "Melk", "Skinke", "Ost", "Paprika"],
+        "difficulty": "enkel",
+        "category": "frokost"
+    },
+    {
+        "name": "Pannekaker",
+        "ingredients": ["Egg", "Melk", "Hvetemel", "Sukker", "Smør"],
+        "difficulty": "enkel",
+        "category": "dessert"
+    },
+    {
+        "name": "Fiskekaker med stuede grønnsaker",
+        "ingredients": ["Fiskekaker", "Gulrøtter", "Poteter", "Fløte"],
+        "difficulty": "enkel",
+        "category": "middag"
+    },
+    {
+        "name": "Frossen pizza",
+        "ingredients": ["Frossenpizza"],
+        "difficulty": "enkel",
+        "category": "middag"
+    },
+    {
+        "name": "Grillpølser med brød",
+        "ingredients": ["Grillpølser", "Brød", "Ketchup", "Senep"],
+        "difficulty": "enkel",
+        "category": "middag"
+    },
+    {
+        "name": "Kjøttkaker i brun saus",
+        "ingredients": ["Kjøttdeig", "Løk", "Poteter", "Brun saus"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Hjemmelaget kebab",
+        "ingredients": ["Kebabkjøtt", "Pitabrød", "Salat", "Løk", "Dressing"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Torsk med poteter",
+        "ingredients": ["Torsk", "Poteter", "Smør", "Gulrøtter"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Kylling i curry",
+        "ingredients": ["Kyllingfilet", "Kokosmelk", "Karri", "Løk", "Ris"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Risengrynsgrøt",
+        "ingredients": ["Risengryn", "Melk", "Salt", "Kanel", "Sukker"],
+        "difficulty": "enkel",
+        "category": "frokost"
+    },
+    {
+        "name": "Nudler",
+        "ingredients": ["Nudler", "Vann", "Soyasaus"],
+        "difficulty": "enkel",
+        "category": "middag"
+    },
+    {
+        "name": "Toast med ost og skinke",
+        "ingredients": ["Brød", "Ost", "Skinke", "Smør"],
+        "difficulty": "enkel",
+        "category": "frokost"
+    },
+    {
+        "name": "Kyllingsalat",
+        "ingredients": ["Kyllingfilet", "Salat", "Tomat", "Fetaost", "Oliven"],
+        "difficulty": "medium",
+        "category": "lunsj"
+    },
+    {
+        "name": "Lasagne",
+        "ingredients": ["Lasagneplater", "Kjøttdeig", "Hakkede tomater", "Ost", "Melk"],
+        "difficulty": "vanskelig",
+        "category": "middag"
+    },
+    {
+        "name": "Pasta Carbonara",
+        "ingredients": ["Spaghetti", "Bacon", "Egg", "Parmesan"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Havregrøt",
+        "ingredients": ["Havregryn", "Melk", "Salt", "Sukker"],
+        "difficulty": "enkel",
+        "category": "frokost"
+    },
+    {
+        "name": "Lapskaus",
+        "ingredients": ["Poteter", "Gulrøtter", "Løk", "Kjøtt", "Buljong"],
+        "difficulty": "vanskelig",
+        "category": "middag"
+    },
+    {
+        "name": "Blomkålsuppe",
+        "ingredients": ["Blomkål", "Løk", "Hvitløk", "Fløte"],
+        "difficulty": "medium",
+        "category": "lunsj"
+    },
+    {
+        "name": "Chili con carne",
+        "ingredients": ["Kjøttdeig", "Hakkede tomater", "Kidneybønner", "Løk", "Chili"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Fiskeboller i hvit saus",
+        "ingredients": ["Fiskeboller", "Melk", "Mel", "Poteter"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Hjemmelaget burger",
+        "ingredients": ["Kjøttdeig", "Hamburgerbrød", "Ost", "Salat"],
+        "difficulty": "medium",
+        "category": "middag"
+    },
+    {
+        "name": "Pytt i panne",
+        "ingredients": ["Poteter", "Løk", "Pølse", "Egg"],
+        "difficulty": "enkel",
+        "category": "middag"
+    },
+    {
+        "name": "Grønnsakssuppe",
+        "ingredients": ["Gulrøtter", "Kålrot", "Løk", "Buljong"],
+        "difficulty": "enkel",
+        "category": "lunsj"
+    },
+    {
+        "name": "Risotto",
+        "ingredients": ["Ris", "Buljong", "Løk", "Parmesan"],
+        "difficulty": "vanskelig",
+        "category": "middag"
+    }
+]

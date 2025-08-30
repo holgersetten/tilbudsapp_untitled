@@ -1,0 +1,23 @@
+{
+    "ost": ["gulost", "jarlsberg", "norvegia", "ridderost"],
+    "brus": ["cola", "pepsi", "fanta", "sprite", "coca cola", "pepsi max", "zero sugar"],
+    "saft": ["fun light", "husholdningssaft", "julebrus light", "solbærsaft"],
+    "energidrikke": ["redbull", "monster", "battery", "burn"],
+    "salami": ["gullsalami", "pepperoni", "chorizo"],
+    "leverpostei": ["stabburet leverpostei", "go' leverpostei"],
+    "kjøttdeig": ["karbonadedeig", "deig av storfe"],
+    "kylling": ["kyllingfilet", "kyllinglår", "kyllingbryst"],
+    "bønner": ["hvite bønner", "sorte bønner", "brune bønner", "bønner i tomatsaus"],
+    "mais": ["mais", "mais på boks", "mais i lake"],
+    "epler": ["granny smith", "pink lady", "fuji", "red delicious"],
+    "salat": ["crispy salat", "hodesalat", "isbergsalat", "romanosalat"],
+    "potet": ["mandelpotet", "nypotet", "bakepotet"],
+    "pasta": ["spaghetti", "penne", "fusilli", "tagliatelle"],
+    "ris": ["jasminris", "basmatiris", "sushiris"],
+    "brød": ["kneipp", "loff", "grovbrød", "speltbrød"],
+    "yoghurt": ["skyr", "go'morgen yoghurt", "god morgen"],
+    "drikkeyoghurt": ["biola"],
+    "gulrot": ["gulrøtter", "gulrot", "snacksgulrot", "snackgulrot"],
+    "frossenpizza": ["grandiosa", "big one", "bigone", "oetker", "ristorante", "pizza"],
+    "saus": ["saus"]
+}

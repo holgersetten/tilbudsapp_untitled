@@ -1,0 +1,6 @@
+# Placeholder for store logos
+# Add .png files for each store:
+# - rema_1000_logo.png
+# - kiwi_logo.png
+# - meny_logo.png
+# - etc.

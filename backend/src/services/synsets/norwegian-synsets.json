@@ -1,0 +1,182 @@
+[
+  {
+    "canonical": "melk",
+    "synonyms": ["melk", "lettmelk", "helmelk", "skummet melk", "skumma melk", "q-melk", "laktosefri melk", "økologisk melk"],
+    "exclude": ["melkesjokolade", "sjokolademelk", "melkesyre", "melkepudding", "proteinmelk", "havremelk", "mandelmelk", "kokosmelk"],
+    "brands": ["tine", "q", "first price", "rema", "eldorado", "synnøve"],
+    "category": { "top": "Meieri og egg", "mid": "Melk og fløte", "leaf": "Melk" },
+    "maxPrice": 50,
+    "strictMatching": true
+  },
+  {
+    "canonical": "kjøttdeig",
+    "synonyms": ["kjøttdeig", "karbonadedeig", "kjøttdeig av storfe", "svinedeig", "hakket kjøtt", "kjøttdeig blandet", "storfekjøtt hakket", "kjøttfarse"],
+    "exclude": ["pølse", "korv", "wiener", "bacon", "salami", "kjøttpølse", "hamburger", "medisterpølse"],
+    "brands": ["gilde", "first price", "rema", "prior", "nortura"],
+    "category": { "top": "Kjøtt og fisk", "mid": "Kjøttdeig og farse", "leaf": "Kjøttdeig" },
+    "maxPrice": 120,
+    "strictMatching": false
+  },
+  {
+    "canonical": "pølse",
+    "synonyms": ["pølse", "korv", "wiener", "kjøttpølse", "grillpölse", "cocktailpølse", "medisterpølse", "bratwurst"],
+    "exclude": ["kjøttdeig", "farse", "hakket", "deig", "burger"],
+    "brands": ["gilde", "prior", "rema", "stabburet", "finsbråten"],
+    "category": { "top": "Kjøtt og fisk", "mid": "Pölse og pålegg", "leaf": "Pölse" },
+    "maxPrice": 80,
+    "strictMatching": true
+  },
+  {
+    "canonical": "ris",
+    "synonyms": ["ris", "basmatiris", "jasminris", "rundkornris", "langkornris", "sushiris", "parboiled ris", "uncle bens ris"],
+    "exclude": ["farris", "bris", "mineralvann", "zero", "sugar", "cola", "brus", "norris", "chris", "boris", "lando"],
+    "brands": ["uncle ben", "toro", "eldorado", "first price"],
+    "category": { "top": "Tørrvarer", "mid": "Ris og pasta", "leaf": "Ris" },
+    "maxPrice": 60,
+    "strictMatching": true
+  },
+  {
+    "canonical": "egg",
+    "synonyms": ["egg", "hønseegg", "økologiske egg", "frittgående egg", "burhøns egg"],
+    "exclude": ["eggekrem", "eggerøre", "eggeplomme", "eggehvite", "eggelikør"],
+    "brands": ["prior", "rema", "first price", "nortura"],
+    "category": { "top": "Meieri og egg", "mid": "Egg", "leaf": "Egg" },
+    "maxPrice": 60,
+    "strictMatching": true
+  },
+  {
+    "canonical": "kylling",
+    "synonyms": ["kylling", "kyllingfilet", "kyllingbryst", "kyllinglår", "hel kylling", "kyllingvinger", "kyllingkjøtt"],
+    "exclude": ["kyllingpölse", "kyllingdeig", "kyllingsuppe", "kyllingkrydder"],
+    "brands": ["prior", "rema", "nortura", "gilde"],
+    "category": { "top": "Kjøtt og fisk", "mid": "Kylling", "leaf": "Kyllingfilet" },
+    "maxPrice": 200,
+    "strictMatching": false
+  },
+  {
+    "canonical": "laks",
+    "synonyms": ["laks", "laksefilet", "røkelaks", "gravet laks", "fersk laks", "lakseloins", "atlanterhavslaks"],
+    "exclude": ["laksepålegg", "laksesalat", "røkelakspålegg"],
+    "brands": ["lerøy", "salmar", "first price", "rema"],
+    "category": { "top": "Kjøtt og fisk", "mid": "Fisk", "leaf": "Laks" },
+    "maxPrice": 300,
+    "strictMatching": false
+  },
+  {
+    "canonical": "torsk",
+    "synonyms": ["torsk", "torskefilet", "torskeloins", "fersk torsk", "torskekjøtt"],
+    "exclude": ["torskelever", "torskerogn"],
+    "brands": ["lerøy", "first price", "rema"],
+    "category": { "top": "Kjøtt og fisk", "mid": "Fisk", "leaf": "Torsk" },
+    "maxPrice": 250,
+    "strictMatching": false
+  },
+  {
+    "canonical": "pasta",
+    "synonyms": ["pasta", "spaghetti", "penne", "fusilli", "farfalle", "makaroni", "tagliatelle", "linguine"],
+    "exclude": ["pastasalat", "pastasaus", "lasagneplater"],
+    "brands": ["barilla", "eldorado", "first price", "toro"],
+    "category": { "top": "Tørrvarer", "mid": "Ris og pasta", "leaf": "Pasta" },
+    "maxPrice": 40,
+    "strictMatching": false
+  },
+  {
+    "canonical": "tomat",
+    "synonyms": ["tomat", "cherrytomater", "cocktailtomater", "plommetomater", "stortomater", "tomater på boks", "hakkede tomater"],
+    "exclude": ["tomatketchup", "tomatsaus", "tomatpuré", "tomatsuppe"],
+    "brands": ["mutti", "first price", "eldorado"],
+    "category": { "top": "Frukt og grønt", "mid": "Grønnsaker", "leaf": "Tomat" },
+    "maxPrice": 80,
+    "strictMatching": false
+  },
+  {
+    "canonical": "løk",
+    "synonyms": ["løk", "gul løk", "hvit løk", "rødløk", "sjalottløk", "kepaløk"],
+    "exclude": ["løkringer", "løkpulver", "tørket løk"],
+    "brands": ["first price", "rema"],
+    "category": { "top": "Frukt og grønt", "mid": "Grønnsaker", "leaf": "Løk" },
+    "maxPrice": 30,
+    "strictMatching": false
+  },
+  {
+    "canonical": "ost",
+    "synonyms": ["ost", "gulost", "hvitost", "norvegia", "jarlsberg", "cheddar", "mozzarella", "feta", "brie", "camembert"],
+    "exclude": ["ostepop", "ostesnacks", "ostesaus"],
+    "brands": ["tine", "synnøve", "jarlsberg", "président"],
+    "category": { "top": "Meieri og egg", "mid": "Ost", "leaf": "Fast ost" },
+    "maxPrice": 150,
+    "strictMatching": false
+  },
+  {
+    "canonical": "smør",
+    "synonyms": ["smør", "meierismør", "saltet smør", "usaltet smør", "lett smør"],
+    "exclude": ["peanøttsmør", "sjokoladesmør"],
+    "brands": ["tine", "synnøve", "first price"],
+    "category": { "top": "Meieri og egg", "mid": "Smør og margarin", "leaf": "Smør" },
+    "maxPrice": 60,
+    "strictMatching": true
+  },
+  {
+    "canonical": "brød",
+    "synonyms": ["brød", "rundstykker", "loff", "grovbrød", "kneippbrød", "baguetter", "ciabatta"],
+    "exclude": ["brødcroutons", "brødkrummer", "pølsebrød", "hamburgerbrød"],
+    "brands": ["bakehuset", "first price", "rema"],
+    "category": { "top": "Brød og bakervarer", "mid": "Fersk brød", "leaf": "Brød" },
+    "maxPrice": 40,
+    "strictMatching": false
+  },
+  {
+    "canonical": "rømme",
+    "synonyms": ["rømme", "seterrømme", "crème fraîche", "rømme 18%", "lett rømme"],
+    "exclude": ["søt rømme", "vaniljerømme", "jordbærrømme"],
+    "brands": ["tine", "synnøve", "first price"],
+    "category": { "top": "Meieri og egg", "mid": "Rømme og fløte", "leaf": "Rømme" },
+    "maxPrice": 35,
+    "strictMatching": true
+  },
+  {
+    "canonical": "mais",
+    "synonyms": ["mais", "hermetisk mais", "sweet corn", "maiskorn", "sweetcorn"],
+    "exclude": ["popcorn", "cornflakes", "tortilla", "snacks", "nachos"],
+    "brands": ["first price", "eldorado", "rema"],
+    "category": { "top": "Tørrvarer", "mid": "Hermetikk", "leaf": "Mais" },
+    "maxPrice": 25,
+    "strictMatching": true
+  },
+  {
+    "canonical": "salat",
+    "synonyms": ["salat", "iceberg", "ruccola", "feldsalat", "babysalat", "mixed salat", "salatblanding"],
+    "exclude": ["pastasalat", "potetsalat", "kyllingalat", "dressing"],
+    "brands": ["first price", "rema"],
+    "category": { "top": "Frukt og grønt", "mid": "Grønnsaker", "leaf": "Salat" },
+    "maxPrice": 30,
+    "strictMatching": false
+  },
+  {
+    "canonical": "lomper",
+    "synonyms": ["lomper", "lefse", "tortilla", "wraps", "pølsebrød", "flatbrød"],
+    "exclude": ["rundstykker", "hamburgerbrød", "pitabrød"],
+    "brands": ["first price", "rema", "mission"],
+    "category": { "top": "Brød og bakervarer", "mid": "Flatbrød", "leaf": "Lomper" },
+    "maxPrice": 40,
+    "strictMatching": false
+  },
+  {
+    "canonical": "tacosaus",
+    "synonyms": ["tacosaus", "taco saus", "tex mex saus", "salsa", "mild salsa", "hot salsa"],
+    "exclude": ["ketchup", "majones", "sennep"],
+    "brands": ["santa maria", "old el paso", "first price"],
+    "category": { "top": "Tørrvarer", "mid": "Sauser og krydder", "leaf": "Tacosaus" },
+    "maxPrice": 35,
+    "strictMatching": true
+  },
+  {
+    "canonical": "skinke",
+    "synonyms": ["skinke", "kokt skinke", "røkt skinke", "skinkepålegg", "skinkebit"],
+    "exclude": ["kylling", "kalkun", "salami"],
+    "brands": ["gilde", "prior", "finsbråten"],
+    "category": { "top": "Kjøtt og fisk", "mid": "Pålegg", "leaf": "Skinke" },
+    "maxPrice": 150,
+    "strictMatching": false
+  }
+]

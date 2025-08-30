@@ -1,0 +1,223 @@
+[
+  {
+    "title": "PLUKK & MIKS",
+    "description": "",
+    "price": 14.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "TZ0Ctth-QLgV64zfsk326",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "GRANDIOSA",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "UNba9odRxMe7kGreBbLMT",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "ferdigpizza"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "COOP KJØTTDEIG",
+    "description": "",
+    "price": 100,
+    "originalPrice": 145.8,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "HV36h33sDIEI2sfH6XPQp",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "kjøttdeig"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "XTRA BAGUETTER 2 STK",
+    "description": "",
+    "price": 21.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "LQhbZVSfyGtXijqRzYIls",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "brød"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "XTRA APPELSINJUICE",
+    "description": "",
+    "price": 17.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "zFKuYArFX1PJNGcPkPFf3",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "XTRA FISKEGRATENG",
+    "description": "",
+    "price": 22.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "bdW26zWZXDkr6QcGjRPjz",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "XTRA EARL GREY",
+    "description": "",
+    "price": 7.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "SGUvap8gmuVHZCnYNAFhL",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "COOP TOALETT-/TØRKEPAPIR",
+    "description": "",
+    "price": 70,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QAWDl4YqbdQFUdhNiENsx",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "COOP HAKKEDE TOMATER",
+    "description": "",
+    "price": 20,
+    "originalPrice": 25.8,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "eJjq9-7QyIiDeLwCXcrcU",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "tomat"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "COOP CHIPS",
+    "description": "",
+    "price": 36,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "TI_p4fwI8Id_iZR8_wj4z",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "potetgull"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.174Z"
+  },
+  {
+    "title": "COOP MORGENSTYKKER 8 PK",
+    "description": "",
+    "price": 60,
+    "originalPrice": 71.8,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "fU_YittQaAqbiHbR1zO44",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.175Z"
+  },
+  {
+    "title": "COOP BRØD",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lpfmkEK5V7ofNeLGZv0mw",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.175Z"
+  },
+  {
+    "title": "MIDDAGSPØLSE",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": 77.9,
+    "discount": null,
+    "validFrom": "2025-08-25T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "dtvHdCoERHSiccvcnPCGf",
+    "store": "Coop Extra",
+    "storeId": "80742m",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.175Z"
+  }
+]

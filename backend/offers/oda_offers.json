@@ -1,0 +1,302 @@
+[
+    {
+        "title": "Utvalgte fiskeprodukter",
+        "price": "35.91 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "Lårbiff av kylling",
+        "price": "99.9 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "biff"
+        ]
+    },
+    {
+        "title": "Skinke- og salamirpålegg",
+        "price": "34.96 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "salami"
+        ]
+    },
+    {
+        "title": "Utvalgte grønnsaker",
+        "price": "12.53 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Minipaprika, miniagurk og snacksgulrot",
+        "price": "17.43 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "paprika"
+        ]
+    },
+    {
+        "title": "Salami Piccante skivet",
+        "price": "35.2 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "salami"
+        ]
+    },
+    {
+        "title": "Salami i skiver",
+        "price": "39.92 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "salami"
+        ]
+    },
+    {
+        "title": "Fennikelsalami skivet",
+        "price": "35.2 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "salami"
+        ]
+    },
+    {
+        "title": "Kokt skinke",
+        "price": "34.96 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "kokt_skinke"
+        ]
+    },
+    {
+        "title": "Torshovskinke bøkerrøkt",
+        "price": "55.92 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "skinke"
+        ]
+    },
+    {
+        "title": "Torshovskinke",
+        "price": "55.92 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "skinke"
+        ]
+    },
+    {
+        "title": "Ida Gran-Jansen Matpakkebrød og Frøbrød",
+        "price": "49.9 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "brød"
+        ]
+    },
+    {
+        "title": "Stor Hjertesalat",
+        "price": "19.53 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "salat"
+        ]
+    },
+    {
+        "title": "Grønnkålmiks Vasket",
+        "price": "19.88 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Brokkoli",
+        "price": "12.53 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Stekemix med Aspargesbønner Gulrot & Løk",
+        "price": "45.08 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "bønner"
+        ]
+    },
+    {
+        "title": "Knoll Småpoteter",
+        "price": "24.43 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Knoll Langpanne Poteter",
+        "price": "20.93 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Hardanger Epler Discovery / Aroma",
+        "price": "39.83 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "Store Pærer, Conference",
+        "price": "20.16 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Magre kjøttpølser",
+        "price": "49.9 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "pølser"
+        ]
+    },
+    {
+        "title": "Lårbiff av kylling",
+        "price": "99.9 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "biff"
+        ]
+    },
+    {
+        "title": "Stor Fiskegrateng",
+        "price": "86.03 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "Helsprø Fiskeburger",
+        "price": "48.3 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "hamburger"
+        ]
+    },
+    {
+        "title": "Sprøbakt Torsk 63%",
+        "price": "45.15 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "torsk"
+        ]
+    },
+    {
+        "title": "Fiskegrateng Klassisk",
+        "price": "35.91 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "Burger av Torsk & Sei 86%",
+        "price": "70.14 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "torsk"
+        ]
+    },
+    {
+        "title": "Burger av Torsk & Hyse 86%",
+        "price": "77 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "torsk"
+        ]
+    },
+    {
+        "title": "Hjertefiskekaker 60%",
+        "price": "59.08 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "fiskekaker"
+        ]
+    },
+    {
+        "title": "Hjemmelagde fiskekaker 60%",
+        "price": "56.84 NOK",
+        "valid_from": "2025-01-12",
+        "valid_until": "2025-02-01",
+        "store": "Oda",
+        "tags": [
+            "fiskekaker"
+        ]
+    }
+]

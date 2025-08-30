@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Middagstilbud (Enkel)</title>
+    <style>
+        :root { 
+            --bg:linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%); 
+            --card:#ffffff; 
+            --border:#e2e8f0; 
+            --text:#1f2937; 
+            --muted:#6b7280; 
+            --accent:#ea580c; 
+            --accent-bg:#fff7ed; 
+            --orange:#f97316; 
+        }
+        * { box-sizing:border-box; }
+        body { 
+            margin:0; 
+            font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; 
+            background:var(--bg); 
+            color:var(--text); 
+            min-height:100vh; 
+        }
+        
+        /* Header */
+        header { 
+            position:sticky; 
+            top:0; 
+            z-index:30; 
+            backdrop-filter:blur(12px); 
+            background:rgba(255,255,255,0.7); 
+            border-bottom:1px solid var(--border); 
+        }
+        .header-content { 
+            max-width:1200px; 
+            margin:0 auto; 
+            padding:16px 20px; 
+            display:flex; 
+            align-items:center; 
+            justify-content:space-between; 
+        }
+        .logo { display:flex; align-items:center; gap:12px; }
+        .logo-text { font-size:24px; font-weight:800; letter-spacing:-0.025em; }
+        
+        /* Hero section */
+        .hero { text-align:center; padding:64px 20px 32px; max-width:1200px; margin:0 auto; }
+        .hero h2 { 
+            font-size:clamp(32px, 5vw, 56px); 
+            font-weight:900; 
+            margin:0 0 16px; 
+            line-height:1.1; 
+        }
+        .hero p { 
+            font-size:18px; 
+            color:var(--muted); 
+            margin:0 0 32px; 
+            max-width:600px; 
+            margin-left:auto; 
+            margin-right:auto; 
+        }
+        .search-box { max-width:600px; margin:0 auto; display:flex; gap:8px; }
+        .search-input { position:relative; flex:1; }
+        .search-input input { 
+            width:100%; 
+            padding:14px 16px 14px 48px; 
+            border:1px solid var(--border); 
+            border-radius:24px; 
+            font-size:16px; 
+            background:#fff; 
+        }
+        .search-icon { 
+            position:absolute; 
+            left:16px; 
+            top:50%; 
+            transform:translateY(-50%); 
+            color:var(--muted); 
+        }
+        .search-btn { 
+            padding:14px 24px; 
+            background:var(--accent); 
+            color:#fff; 
+            border:none; 
+            border-radius:24px; 
+            font-weight:600; 
+            cursor:pointer; 
+        }
+        .search-btn:hover { background:#dc2626; }
+        
+        /* Store filter */
+        .store-filter { 
+            background:rgba(255,255,255,0.7); 
+            border-radius:20px; 
+            border:1px solid var(--border); 
+            padding:16px 20px; 
+            margin:0 20px 40px; 
+            max-width:1200px; 
+            margin-left:auto; 
+            margin-right:auto; 
+            display:flex; 
+            align-items:center; 
+            gap:12px; 
+            overflow-x:auto; 
+            white-space:nowrap;
+        }
+        .store-filter::-webkit-scrollbar { height: 4px; }
+        .store-filter::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 2px; }
+        .store-filter::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+        .store-buttons-container { 
+            display:flex; 
+            align-items:center; 
+            gap:12px; 
+            flex-wrap:nowrap;
+            min-width:fit-content;
+        }
+        .store-btn { 
+            display:flex; 
+            align-items:center; 
+            justify-content:center; 
+            min-width:100px;
+            height:56px; 
+            padding:0 16px;
+            border:2px solid var(--border); 
+            background:#fff; 
+            border-radius:12px; 
+            cursor:pointer; 
+            transition:all 0.2s; 
+            flex-shrink:0;
+            gap:8px;
+        }
+        .store-btn:hover { 
+            box-shadow:0 4px 6px -1px rgba(0,0,0,0.1); 
+            transform:translateY(-2px);
+            border-color:var(--primary);
+        }
+        .store-btn.active {
+            border-color:var(--primary);
+            background:rgba(59, 130, 246, 0.1);
+        }
+        .store-logo-btn { 
+            height:36px; 
+            width:auto; 
+            max-width:64px;
+            object-fit:contain;
+        }
+        
+        /* Dropdown for additional stores */
+        .store-dropdown { 
+            position: relative; 
+            display: inline-block; 
+        }
+        .dropdown-btn { 
+            display:flex; 
+            align-items:center; 
+            justify-content:center; 
+            min-width:64px;
+            height:56px; 
+            border:2px solid var(--border); 
+            background:#fff; 
+            border-radius:12px; 
+            cursor:pointer; 
+            transition:all 0.2s; 
+            font-size:20px;
+            color:var(--muted);
+        }
+        .dropdown-btn:hover {
+            box-shadow:0 4px 6px -1px rgba(0,0,0,0.1); 
+            transform:translateY(-2px);
+            border-color:var(--primary);
+        }
+        .dropdown-content { 
+            display: none; 
+            position: absolute; 
+            right: 0; 
+            top: 56px;
+            background: white; 
+            min-width: 200px; 
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
+            border-radius: 12px; 
+            border: 1px solid var(--border);
+            z-index: 1000; 
+            padding: 8px;
+        }
+        .dropdown-content.show { display: block; }
+        .dropdown-item { 
+            display: flex; 
+            align-items: center; 
+            gap: 12px; 
+            padding: 12px 16px; 
+            cursor: pointer; 
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        .dropdown-item:hover { background: #f8fafc; }
+        .dropdown-item.active { background: rgba(59, 130, 246, 0.1); }
+        .dropdown-logo { height: 24px; width: 24px; object-fit: contain; }
+        
+        /* Main content */
+        main { max-width:1200px; margin:0 auto; padding:0 20px 80px; }
+        #content { min-height: 200px; }  /* Ensure content area is visible */
+        
+        /* Cards */
+        .section-header { 
+            display:flex; 
+            align-items:center; 
+            justify-content:space-between; 
+            margin-bottom:20px; 
+        }
+        .section-title { 
+            font-size:24px; 
+            font-weight:700; 
+            display:flex; 
+            align-items:center; 
+            gap:8px; 
+        }
+        .recipe-grid { 
+            display:grid; 
+            gap:20px; 
+            grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); 
+        }
+        .recipe-card { 
+            background:#fff; 
+            border-radius:20px; 
+            border:1px solid var(--border); 
+            padding:20px; 
+            box-shadow:0 1px 3px rgba(0,0,0,0.1); 
+            transition:all 0.2s; 
+        }
+        .recipe-card:hover { box-shadow:0 4px 6px -1px rgba(0,0,0,0.1); }
+        .recipe-header { 
+            display:flex; 
+            justify-content:space-between; 
+            align-items:flex-start; 
+            margin-bottom:12px; 
+        }
+        .recipe-title { font-size:18px; font-weight:600; margin:0; line-height:1.3; }
+        .price-badge { 
+            background:var(--accent); 
+            color:#fff; 
+            padding:4px 12px; 
+            border-radius:20px; 
+            font-size:12px; 
+            font-weight:600; 
+        }
+        .ingredients-tags { 
+            display:flex; 
+            flex-wrap:wrap; 
+            gap:8px; 
+            margin-bottom:16px; 
+        }
+        .ingredient-tag { 
+            display:flex; 
+            align-items:center; 
+            gap:6px; 
+            padding:6px 12px; 
+            border:1px solid var(--border); 
+            background:#fff; 
+            border-radius:16px; 
+            font-size:12px; 
+        }
+        .ingredient-logo { height:16px; width:auto; object-fit:contain; }
+        .recipe-actions { display:flex; gap:8px; }
+        .btn { 
+            padding:10px 16px; 
+            border-radius:16px; 
+            font-weight:500; 
+            cursor:pointer; 
+            border:1px solid; 
+            text-decoration:none; 
+            display:inline-flex; 
+            align-items:center; 
+            gap:6px; 
+            font-size:14px; 
+        }
+        .btn-primary { 
+            background:var(--accent); 
+            color:#fff; 
+            border-color:var(--accent); 
+        }
+        .btn-secondary { 
+            background:#f8fafc; 
+            color:var(--text); 
+            border-color:var(--border); 
+        }
+        .btn:hover { opacity:0.9; }
+        
+        /* Offers grid */
+        .offers-grid { 
+            display:grid; 
+            gap:16px; 
+            grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); 
+        }
+        .offer-card { 
+            background:#fff; 
+            border-radius:20px; 
+            border:1px solid var(--border); 
+            overflow:hidden; 
+            box-shadow:0 1px 3px rgba(0,0,0,0.1); 
+            transition:all 0.2s; 
+        }
+        .offer-card:hover { box-shadow:0 4px 6px -1px rgba(0,0,0,0.1); }
+        .offer-image { 
+            position:relative; 
+            width:100%; 
+            height:128px; 
+            background:#f8fafc; 
+            display:flex; 
+            align-items:center; 
+            justify-content:center; 
+            overflow:hidden; 
+        }
+        .offer-product-image { 
+            width:100%; 
+            height:100%; 
+            object-fit:cover; 
+        }
+        .offer-store-logo { 
+            position:absolute; 
+            top:8px; 
+            left:8px; 
+            height:24px; 
+            width:auto; 
+            object-fit:contain; 
+            filter:drop-shadow(0 1px 2px rgba(0,0,0,0.1)); 
+            z-index:2; 
+            background:rgba(255,255,255,0.9); 
+            padding:2px 4px; 
+            border-radius:4px; 
+        }
+        .offer-content { padding:16px; }
+        .offer-title { 
+            font-weight:500; 
+            font-size:14px; 
+            line-height:1.4; 
+            margin:0 0 8px; 
+            min-height:2.8em; 
+            display:-webkit-box; 
+            -webkit-line-clamp:2; 
+            -webkit-box-orient:vertical; 
+            overflow:hidden; 
+        }
+        .offer-price { display:flex; align-items:baseline; gap:8px; }
+        .offer-price-main { font-size:20px; font-weight:700; color:var(--text); }
+        .offer-price-unit { font-size:12px; color:var(--muted); }
+        .offer-btn { width:100%; margin-top:12px; }
+        
+        /* Search results */
+        .search-results { margin:40px 0; }
+        .results-header { 
+            display:flex; 
+            justify-content:space-between; 
+            align-items:center; 
+            margin-bottom:16px; 
+        }
+        .results-meta { 
+            display:flex; 
+            gap:16px; 
+            align-items:center; 
+            font-size:14px; 
+            color:var(--muted); 
+        }
+        .ingredient-section { margin-bottom:32px; }
+        .ingredient-header { 
+            display:flex; 
+            justify-content:space-between; 
+            align-items:center; 
+            margin-bottom:16px; 
+            padding:12px 0; 
+            border-bottom:2px solid var(--accent-bg); 
+        }
+        .ingredient-title { font-size:20px; font-weight:700; color:var(--accent); }
+        .count-badge { 
+            background:var(--accent-bg); 
+            color:var(--accent); 
+            padding:4px 10px; 
+            border-radius:12px; 
+            font-size:12px; 
+            font-weight:600; 
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) { 
+            .hero { padding:32px 20px 24px; }
+            .hero h2 { font-size:32px; }
+            .search-box { flex-direction:column; }
+            .store-filter { margin:0 16px 32px; }
+            main { padding:0 16px 60px; }
+        }
+        
+        /* Loading and empty states */
+        .loading { animation:pulse 1.2s ease-in-out infinite; color:var(--muted); }
+        @keyframes pulse { 0%,100%{opacity:.35} 50%{opacity:1} }
+        .empty { 
+            padding:40px 20px; 
+            text-align:center; 
+            color:var(--muted); 
+            background:rgba(255,255,255,0.5); 
+            border:2px dashed var(--border); 
+            border-radius:16px; 
+        }
+        
+        /* Tabs */
+        .tabs { display:flex; gap:4px; margin:16px 0; }
+        .tab-btn { 
+            padding:8px 16px; 
+            border:1px solid var(--border); 
+            background:#fff; 
+            border-radius:20px; 
+            font-size:14px; 
+            cursor:pointer; 
+            font-weight:500; 
+        }
+        .tab-btn.active { 
+            background:var(--accent); 
+            color:#fff; 
+            border-color:var(--accent); 
+        }
+        
+        /* Chips */
+        .chips { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0; }
+        .chip { 
+            background:var(--accent-bg); 
+            color:var(--accent); 
+            font-size:12px; 
+            padding:6px 12px; 
+            border-radius:16px; 
+            display:flex; 
+            align-items:center; 
+            gap:6px; 
+        }
+        .chip button { 
+            all:unset; 
+            cursor:pointer; 
+            font-size:16px; 
+            line-height:1; 
+            padding:0 4px; 
+            color:var(--accent); 
+            font-weight:700; 
+        }
+    </style>
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <span style="font-size:32px;">🍳</span>
+                <h1 class="logo-text">Middagstilbud</h1>
+            </div>
+            <nav>
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="middager">Middager</button>
+                    <button class="tab-btn" data-tab="tilbud">Tilbud</button>
+                    <button class="tab-btn" data-tab="handleliste">Handleliste</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Hva er det til middag?</h2>
+        <p>Vi kobler ukens tilbud til enkle og rimelige middagsforslag.</p>
+        <div class="search-box">
+            <div class="search-input">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="ingredientsInput" placeholder="Søk etter ingrediens, rett eller butikk…" />
+            </div>
+            <button class="search-btn" onclick="findOffers()">Søk</button>
+        </div>
+    </section>
+
+    <!-- Store Filter -->
+    <div class="store-filter">
+        <div class="store-buttons-container">
+            <!-- Alle butikker -->
+            <div class="store-btn active" data-store="" onclick="filterStore(this)" title="Alle butikker">
+                <span style="font-size:18px;">🏪</span>
+                <span style="font-size:14px; font-weight:600;">Alle butikker</span>
+            </div>
+            
+            <!-- Hovedbutikker (største markedsandeler) -->
+            <div class="store-btn" data-store="Rema 1000" onclick="filterStore(this)" title="Rema 1000">
+                <img src="/images/rema_logo.png" class="store-logo-btn" alt="Rema 1000" />
+            </div>
+            <div class="store-btn" data-store="Kiwi" onclick="filterStore(this)" title="Kiwi">
+                <img src="/images/kiwi_logo.png" class="store-logo-btn" alt="Kiwi" />
+            </div>
+            <div class="store-btn" data-store="Meny" onclick="filterStore(this)" title="Meny">
+                <img src="/images/meny_logo.png" class="store-logo-btn" alt="Meny" />
+            </div>
+            <div class="store-btn" data-store="Coop Extra" onclick="filterStore(this)" title="Coop Extra">
+                <img src="/images/coop_extra_logo.png" class="store-logo-btn" alt="Coop Extra" />
+            </div>
+            <div class="store-btn" data-store="Bunnpris" onclick="filterStore(this)" title="Bunnpris">
+                <img src="/images/bunnpris_logo.png" class="store-logo-btn" alt="Bunnpris" />
+            </div>
+            
+            <!-- Dropdown for mindre butikker -->
+            <div class="store-dropdown">
+                <div class="dropdown-btn" onclick="toggleDropdown()" title="Flere butikker">
+                    <span>⋯</span>
+                </div>
+                <div class="dropdown-content" id="storeDropdown">
+                    <div class="dropdown-item" data-store="Coop Mega" onclick="filterStoreFromDropdown(this)">
+                        <img src="/images/coop_mega_logo.png" class="dropdown-logo" alt="Coop Mega" />
+                        <span>Coop Mega</span>
+                    </div>
+                    <div class="dropdown-item" data-store="Coop Marked" onclick="filterStoreFromDropdown(this)">
+                        <img src="/images/coop_marked_logo.png" class="dropdown-logo" alt="Coop Marked" />
+                        <span>Coop Marked</span>
+                    </div>
+                    <div class="dropdown-item" data-store="Coop Prix" onclick="filterStoreFromDropdown(this)">
+                        <img src="/images/coop_prix_logo.png" class="dropdown-logo" alt="Coop Prix" />
+                        <span>Coop Prix</span>
+                    </div>
+                    <div class="dropdown-item" data-store="Coop Obs" onclick="filterStoreFromDropdown(this)">
+                        <img src="/images/coop_obs_logo.png" class="dropdown-logo" alt="Coop Obs" />
+                        <span>Coop Obs</span>
+                    </div>
+                    <div class="dropdown-item" data-store="Spar" onclick="filterStoreFromDropdown(this)">
+                        <img src="/images/spar_logo_1.png" class="dropdown-logo" alt="Spar" />
+                        <span>Spar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <div id="content">
+            <!-- Default content will be shown here -->
+        </div>
+    </main>
+
+    <script>
+        // Global state
+        const state = {
+            offersRaw: [],
+            filteredOffers: [],
+            currentIngredients: [],
+            selectedStore: '',
+            loadingOffers: false,
+            recipes: []
+        };
+
+        // Load product images function
+        async function loadProductImages() {
+            console.log('🖼️ Starting loadProductImages function');
+            
+            const offerCards = document.querySelectorAll('.offer-card[data-store][data-heading]');
+            console.log(`🖼️ Found ${offerCards.length} offer cards with data attributes`);
+            
+            for (const card of offerCards) {
+                const storeName = card.getAttribute('data-store');
+                const heading = card.getAttribute('data-heading');
+                const imageElement = card.querySelector('.offer-product-image');
+                
+                console.log(`🖼️ Processing card: store="${storeName}", heading="${heading}"`);
+                
+                if (!imageElement) {
+                    console.log('🖼️ No image element found in card');
+                    continue;
+                }
+                
+                try {
+                    const url = `/api/product-image/${encodeURIComponent(storeName)}/${encodeURIComponent(heading)}`;
+                    console.log(`🖼️ Fetching image from: ${url}`);
+                    
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        console.log(`🖼️ Failed to fetch image: ${response.status} ${response.statusText}`);
+                        continue;
+                    }
+                    
+                    const data = await response.json();
+                    console.log(`🖼️ Received image data:`, data);
+                    
+                    if (data.imageUrl) {
+                        imageElement.src = data.imageUrl;
+                        imageElement.style.display = 'block';
+                        console.log(`🖼️ Set image URL: ${data.imageUrl}`);
+                    } else {
+                        console.log('🖼️ No imageUrl in response');
+                    }
+                } catch (error) {
+                    console.error(`🖼️ Error loading image for ${storeName}/${heading}:`, error);
+                }
+            }
+            
+            console.log('🖼️ Finished loadProductImages function');
+        }
+
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set up event listeners
+            const input = document.getElementById('ingredientsInput');
+            input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    findOffers();
+                }
+            });
+
+            // Tab switching
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const tab = this.dataset.tab;
+                    switchView(tab);
+                });
+            });
+
+            // Show default content
+            showDefaultContent();
+        });
+
+        async function findOffers() {
+            const input = document.getElementById('ingredientsInput').value.trim();
+            if (!input) return;
+
+            console.log('🔍 Starting search for:', input);
+            state.loadingOffers = true;
+            state.currentIngredients = input.split(/[,\s]+/).filter(i => i.length > 0);
+            
+            try {
+                const cleaned = state.currentIngredients.map(i => i.toLowerCase().trim());
+                const url = `/api/best-offers?ingredients=${encodeURIComponent(cleaned.join(','))}`;
+                console.log('📡 Fetching:', url);
+                
+                const res = await fetch(url);
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                
+                state.offersRaw = await res.json();
+                console.log('📦 Mottok data:', state.offersRaw);
+                state.loadingOffers = false;
+                renderOffers();
+                
+                // Last produktbilder etter rendering
+                setTimeout(loadProductImages, 100);
+            } catch (err) {
+                console.error('❌ Error:', err);
+                state.loadingOffers = false;
+                document.getElementById('content').innerHTML = `
+                    <div class="empty">
+                        <h3>Feil ved søk</h3>
+                        <p>Kunne ikke hente tilbud. Prøv igjen senere.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderOffers() {
+            console.log('🎨 renderOffers() called');
+            console.log('🎨 state.offersRaw:', state.offersRaw);
+            console.log('🎨 state.loadingOffers:', state.loadingOffers);
+            
+            const content = document.getElementById('content');
+            
+            if (state.loadingOffers) {
+                console.log('🎨 Showing loading state');
+                content.innerHTML = '<div class="loading">Søker etter tilbud...</div>';
+                return;
+            }
+
+            if (!state.offersRaw || state.offersRaw.length === 0) {
+                console.log('🎨 No offers found, showing empty state');
+                content.innerHTML = `
+                    <div class="empty">
+                        <h3>Ingen tilbud funnet</h3>
+                        <p>Prøv andre ingredienser eller søkeord.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            console.log('🎨 Processing offers data...');
+            // Data comes as grouped format from server: [{ingredient: "name", offers: [...]}]
+            const grouped = {};
+            state.offersRaw.forEach(group => {
+                console.log('🎨 Processing group:', group);
+                if (group.ingredient && group.offers) {
+                    grouped[group.ingredient] = group.offers;
+                }
+            });
+            console.log('🎨 Grouped data:', grouped);
+
+            // Apply store filter
+            const filteredGrouped = {};
+            Object.keys(grouped).forEach(ingredient => {
+                filteredGrouped[ingredient] = grouped[ingredient].filter(offer => {
+                    if (!state.selectedStore) return true;
+                    return offer.store && offer.store.toLowerCase().includes(state.selectedStore.toLowerCase());
+                });
+            });
+
+            // Render grouped offers
+            let html = '<div class="search-results">';
+            
+            Object.keys(filteredGrouped).forEach(ingredient => {
+                const offers = filteredGrouped[ingredient];
+                if (offers.length === 0) return;
+
+                html += `
+                    <div class="ingredient-section">
+                        <div class="ingredient-header">
+                            <h3 class="ingredient-title">${ingredient}</h3>
+                            <span class="count-badge">${offers.length} tilbud</span>
+                        </div>
+                        <div class="offers-grid">
+                `;
+
+                offers.forEach(offer => {
+                    html += `
+                        <div class="offer-card" data-store="${offer.store || ''}" data-heading="${offer.title || ''}">
+                            <div class="offer-image">
+                                <img class="offer-product-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23f3f4f6'/%3E%3Ctext x='50' y='50' text-anchor='middle' dy='.3em' fill='%23999'%3Elaster bilde%3C/text%3E%3C/svg%3E" alt="Produktbilde" style="display:none;" />
+                                <img class="offer-store-logo" src="${getStoreLogo(offer.store)}" alt="${offer.store}" />
+                            </div>
+                            <div class="offer-content">
+                                <h4 class="offer-title">${offer.title || 'Ukjent produkt'}</h4>
+                                <div class="offer-price">
+                                    <span class="offer-price-main">${offer.price || 'N/A'}</span>
+                                    <span class="offer-price-unit">${offer.originalPrice || ''}</span>
+                                </div>
+                                <button class="btn btn-primary offer-btn">Se tilbud</button>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += '</div></div>';
+            });
+
+            html += '</div>';
+            console.log('🎨 Generated HTML length:', html.length);
+            console.log('🎨 Setting content.innerHTML...');
+            content.innerHTML = html;
+            console.log('🎨 Content set successfully');
+        }
+
+        function getStoreLogo(storeName) {
+            const logos = {
+                'Rema 1000': '/images/rema_logo.png',
+                'Kiwi': '/images/kiwi_logo.png',
+                'Meny': '/images/meny_logo.png',
+                'Coop Extra': '/images/coop_extra_logo.png',
+                'Coop Mega': '/images/coop_mega_logo.png',
+                'Coop Marked': '/images/coop_marked_logo.png',
+                'Coop Prix': '/images/coop_prix_logo.png',
+                'Coop Obs': '/images/coop_obs_logo.png',
+                'Bunnpris': '/images/bunnpris_logo.png',
+                'Spar': '/images/spar_logo_1.png'
+            };
+            return logos[storeName] || 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24"%3E%3Crect width="24" height="24" fill="%23e5e7eb"/%3E%3C/svg%3E';
+        }
+
+        function filterStore(btn) {
+            // Remove active class from all buttons and dropdown items
+            document.querySelectorAll('.store-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.dropdown-item').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            state.selectedStore = btn.dataset.store;
+            console.log('🏪 Filter set to:', state.selectedStore || 'Alle butikker');
+            renderOffers();
+            
+            // Close dropdown if open
+            document.getElementById('storeDropdown').classList.remove('show');
+        }
+
+        function toggleDropdown() {
+            const dropdown = document.getElementById('storeDropdown');
+            dropdown.classList.toggle('show');
+            
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function closeDropdown(e) {
+                if (!e.target.closest('.store-dropdown')) {
+                    dropdown.classList.remove('show');
+                    document.removeEventListener('click', closeDropdown);
+                }
+            });
+        }
+
+        function filterStoreFromDropdown(item) {
+            // Remove active class from all buttons and dropdown items
+            document.querySelectorAll('.store-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.dropdown-item').forEach(b => b.classList.remove('active'));
+            item.classList.add('active');
+            
+            state.selectedStore = item.dataset.store;
+            console.log('🏪 Filter set to:', state.selectedStore);
+            renderOffers();
+            
+            // Close dropdown
+            document.getElementById('storeDropdown').classList.remove('show');
+        }
+
+        function switchView(tab) {
+            // Update tab buttons
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.tab === tab);
+            });
+
+            // Show different content based on tab
+            switch(tab) {
+                case 'middager':
+                    showDefaultContent();
+                    break;
+                case 'tilbud':
+                    if (state.offersRaw.length > 0) {
+                        renderOffers();
+                        setTimeout(loadProductImages, 100);
+                    } else {
+                        showDefaultContent();
+                    }
+                    break;
+                case 'handleliste':
+                    showShoppingList();
+                    break;
+            }
+        }
+
+        function showDefaultContent() {
+            document.getElementById('content').innerHTML = `
+                <div class="empty">
+                    <h3>Velkommen til Middagstilbud!</h3>
+                    <p>Søk etter ingredienser for å finne ukens beste tilbud.</p>
+                </div>
+            `;
+        }
+
+        function showShoppingList() {
+            document.getElementById('content').innerHTML = `
+                <div class="empty">
+                    <h3>Handleliste</h3>
+                    <p>Denne funksjonen kommer snart!</p>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+[
+    {
+        "title": "🔥 GRANDIOSA SPESIAL PEPPERONI",
+        "price": "74.9 NOK",
+        "valid_from": "2025-01-29",
+        "valid_until": "2025-02-02",
+        "store": "Rema 1000",
+        "tags": [
+            "ferdigpizza"
+        ]
+    },
+    {
+        "title": "🔥 TORTILLA ORIGINAL LARGE",
+        "price": "35.8 NOK",
+        "valid_from": "2025-01-29",
+        "valid_until": "2025-02-02",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "🔥 COMFORT FRESH TECH",
+        "price": "38.9 NOK",
+        "valid_from": "2025-01-29",
+        "valid_until": "2025-02-02",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "🔥 YOGHURT SKOGSBÆR",
+        "price": "23.5 NOK",
+        "valid_from": "2025-01-29",
+        "valid_until": "2025-02-02",
+        "store": "Rema 1000",
+        "tags": [
+            "bær"
+        ]
+    },
+    {
+        "title": "🔥 GRANDIOSA SPESIAL PEPPERONI",
+        "price": "74.9 NOK",
+        "valid_from": "2025-01-29",
+        "valid_until": "2025-02-02",
+        "store": "Rema 1000",
+        "tags": [
+            "ferdigpizza"
+        ]
+    }
+]

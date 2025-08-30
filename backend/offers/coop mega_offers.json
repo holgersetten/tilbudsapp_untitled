@@ -1,0 +1,592 @@
+[
+    {
+        "title": "FERSKE REKER",
+        "price": "179 NOK",
+        "valid_from": "2025-02-05",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "reker"
+        ]
+    },
+    {
+        "title": "PEPSI MAX",
+        "price": "89 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "brus"
+        ]
+    },
+    {
+        "title": "JORDBÆR",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "bær"
+        ]
+    },
+    {
+        "title": "GILDE YTREFILET",
+        "price": "399 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "biff"
+        ]
+    },
+    {
+        "title": "COOP KYLLINGFILET I BITER",
+        "price": "69.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "kyllingfilet"
+        ]
+    },
+    {
+        "title": "XTRA REINSDYRSKAV",
+        "price": "109 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "rein"
+        ]
+    },
+    {
+        "title": "COOP YTREFILET",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "biff"
+        ]
+    },
+    {
+        "title": "FINDUS OVNSBAKT FISKEFILET",
+        "price": "49.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "fiskeburger"
+        ]
+    },
+    {
+        "title": "POLAR REKER 70/90",
+        "price": "199 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "reker"
+        ]
+    },
+    {
+        "title": "FRØYA LAKS MID LOIN 1/2",
+        "price": "129 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "laks"
+        ]
+    },
+    {
+        "title": "TOUCH FOND",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BJELLANDS FISKEBOLLER",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "COOP SPELTBRØD",
+        "price": "36.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "brød"
+        ]
+    },
+    {
+        "title": "MORSDAGSKAKE",
+        "price": "149 NOK",
+        "valid_from": "2025-02-06",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP DONUT",
+        "price": "10 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "DANONINO DRIKKEYOGHURT 4 PK",
+        "price": "24.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "STABBUR-MAKRELL",
+        "price": "30 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FREIA REGIA SJOKOLADEDRIKK 10 PK",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "sjokolade"
+        ]
+    },
+    {
+        "title": "TINE ØSTAVIND",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GILDE SMÅRETTSKINKE",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "skinke"
+        ]
+    },
+    {
+        "title": "COOP GRESK LANDBRØD",
+        "price": "29.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "brød"
+        ]
+    },
+    {
+        "title": "SKREI",
+        "price": "149 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "LETTSALTET TORSKEFILET",
+        "price": "199 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "torsk"
+        ]
+    },
+    {
+        "title": "MEAL DEAL",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP MEGAS SKREIBURGER",
+        "price": "14.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "hamburger"
+        ]
+    },
+    {
+        "title": "COOP MEGAS LOLLIPOP KYLLINGVINGER",
+        "price": "12.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "kyllingvinger"
+        ]
+    },
+    {
+        "title": "LE CRÉMIER DE CHAUMES",
+        "price": "99 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FERSKE REKER",
+        "price": "179 NOK",
+        "valid_from": "2025-02-05",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "reker"
+        ]
+    },
+    {
+        "title": "FREIA NOUGATHJERTER",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAKRONER 12 STK",
+        "price": "54.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FREIA MELKEHJERTER/ PREMIUM HJERTER",
+        "price": "49.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MONSTER/BURN 4 PK",
+        "price": "69.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "energidrikke"
+        ]
+    },
+    {
+        "title": "SØRLANDSCHIPS VERDENS TYNNESTE",
+        "price": "34.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "potetgull"
+        ]
+    },
+    {
+        "title": "TORO MUFFINS",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PEPSI MAX 10 PK",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "brus"
+        ]
+    },
+    {
+        "title": "PEPSI MAX 6 PK",
+        "price": "89 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "brus"
+        ]
+    },
+    {
+        "title": "AJAX ALLRENGJØRING",
+        "price": "34.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PALMOLIVE DUSJ",
+        "price": "34.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "LOTUS TORKY 2 PK",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FREIA MELKEHJERTER/ PREMIUM HJERTER",
+        "price": "49.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MORSDAGSKAKE",
+        "price": "149 NOK",
+        "valid_from": "2025-02-06",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FRØYA LAKS MID LOIN 1/2",
+        "price": "129 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "laks"
+        ]
+    },
+    {
+        "title": "FREIA NOUGATHJERTER",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAKRONER 12 STK",
+        "price": "54.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GILDE YTREFILET",
+        "price": "399 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "biff"
+        ]
+    },
+    {
+        "title": "TORO DESSERT",
+        "price": "29.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TORO MUFFINS",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TINE LETTMELK MED SMAK 1 L",
+        "price": "23.5 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BARILLA",
+        "price": "26.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "L’OR KAFFEKAPSLER 10 STK",
+        "price": "49.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "kaffe"
+        ]
+    },
+    {
+        "title": "AMALIES GROVBRØD/ COOP TINDEBRØD",
+        "price": "24.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "brød"
+        ]
+    },
+    {
+        "title": "MUNNHYGIENE",
+        "price": "13.5 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SMAK* RØDE APPELSINER",
+        "price": "29.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SMAK* PICCOLOTOMATER",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "tomat"
+        ]
+    },
+    {
+        "title": "GULRØTTER",
+        "price": "24.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "gulrot"
+        ]
+    },
+    {
+        "title": "PINK LADY EPLER 6 PK",
+        "price": "39 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Tulipaner 20 stk",
+        "price": "169 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MORSDAGSBUKETT",
+        "price": "249 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "JORDBÆR",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-08",
+        "store": "Coop Mega",
+        "tags": [
+            "bær"
+        ]
+    }
+]

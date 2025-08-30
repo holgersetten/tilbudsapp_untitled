@@ -1,0 +1,53 @@
+[
+  {
+    "title": "FERSKE REKER",
+    "description": "",
+    "price": 199,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QKitawQRZVVKA6JAgUT9p",
+    "store": "Coop Mega",
+    "storeId": "de79dm",
+    "tags": [
+      "reker"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.113Z"
+  },
+  {
+    "title": "COOP FORMLOFF MED VALMUE",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Tm22TRe4S7hbbPivcI3_-",
+    "store": "Coop Mega",
+    "storeId": "de79dm",
+    "tags": [
+      "brød"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.113Z"
+  },
+  {
+    "title": "CAMEMBERT MARIE HAREL",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-27T22:00:00+0000",
+    "validTo": "2025-08-30T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ws3irOnzMWFwzTP0us2oG",
+    "store": "Coop Mega",
+    "storeId": "de79dm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.113Z"
+  }
+]

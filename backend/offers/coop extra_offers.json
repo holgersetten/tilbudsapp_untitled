@@ -1,0 +1,802 @@
+[
+    {
+        "title": "COOP KYLLINGFILET",
+        "price": "139 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "kyllingfilet"
+        ]
+    },
+    {
+        "title": "COOP DRUER",
+        "price": "29 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "druer"
+        ]
+    },
+    {
+        "title": "XTRA KJØTTDEIG SVIN",
+        "price": "48.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "kjøttdeig"
+        ]
+    },
+    {
+        "title": "XTRA FISKEGRATENG",
+        "price": "29.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "KIMS POTETCHIPS",
+        "price": "24.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "potetgull"
+        ]
+    },
+    {
+        "title": "FREIA SJOKOLADEBARER",
+        "price": "15 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "sjokolade"
+        ]
+    },
+    {
+        "title": "COOP KYLLINGFILET",
+        "price": "139 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "kyllingfilet"
+        ]
+    },
+    {
+        "title": "PEPSI MAX 6 PK",
+        "price": "89 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "brus"
+        ]
+    },
+    {
+        "title": "COOP NORSKE POTETER",
+        "price": "34 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP DRUER",
+        "price": "29 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "druer"
+        ]
+    },
+    {
+        "title": "COOP NORSK LØK",
+        "price": "10 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "gul_løk"
+        ]
+    },
+    {
+        "title": "KIWI GRØNN",
+        "price": "5 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP SUKKERERTER",
+        "price": "24 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP SØDMETOMATER",
+        "price": "30 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "tomat"
+        ]
+    },
+    {
+        "title": "COOP NORSK CRISPISALAT",
+        "price": "29 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "salat"
+        ]
+    },
+    {
+        "title": "COOP JORDBÆR",
+        "price": "39 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "bær"
+        ]
+    },
+    {
+        "title": "XTRA FISKEGRATENG",
+        "price": "29.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "XTRA KJØTTDEIG SVIN",
+        "price": "48.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "kjøttdeig"
+        ]
+    },
+    {
+        "title": "XTRA SEIFILET",
+        "price": "36.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "sei"
+        ]
+    },
+    {
+        "title": "XTRA FETTUCCINE",
+        "price": "39.4 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA PASTASAUS",
+        "price": "22.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "pasta"
+        ]
+    },
+    {
+        "title": "XTRA FLØTEPOTETER",
+        "price": "69.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA CHAMPIGNONER",
+        "price": "10.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA PIZZA PEPPERONI 2 STK",
+        "price": "40.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA PIZZA HAM & CHEESE 2 STK",
+        "price": "44.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA PØLSEGRYTE",
+        "price": "59.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "gryte"
+        ]
+    },
+    {
+        "title": "XTRA TORTELLINI",
+        "price": "45.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA FRUKTKARAMELLER",
+        "price": "49.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA EARL GREY",
+        "price": "8.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA MARIEKJEKS",
+        "price": "9.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA CHOCOLATE CHIP COOKIES",
+        "price": "18.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "brus"
+        ]
+    },
+    {
+        "title": "XTRA GULVKLUTER 3 STK",
+        "price": "24.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA VINDUSSPRAY",
+        "price": "40.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA HÅNDOPPVASK",
+        "price": "17.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA LITERMÅLSETT",
+        "price": "59.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA SAKSESETT 3 STK",
+        "price": "79.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA POSELUKKERE",
+        "price": "39.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA OPPBEVARINGSBOKSER 3 PK",
+        "price": "49.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA KJØKKENHÅNDKLE 2 PK",
+        "price": "52.8 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA KLESRULLE",
+        "price": "19.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP FRA HAVET LAKSEFILET",
+        "price": "82.3 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "laks"
+        ]
+    },
+    {
+        "title": "TORO PASTA DI PARMA",
+        "price": "63.5 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "pasta"
+        ]
+    },
+    {
+        "title": "COOP FRA HAVET CRISPY FISKEBURGER",
+        "price": "29.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "hamburger"
+        ]
+    },
+    {
+        "title": "BREAD OTW GRESK PITABRØD",
+        "price": "38.6 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "brød"
+        ]
+    },
+    {
+        "title": "BREAD OTW PINSA",
+        "price": "32.5 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "CARDINI’S CEASARDRESSING",
+        "price": "73.5 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BREAD OTW BAO BUNS",
+        "price": "46.3 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MONSTER ZERO SUGAR",
+        "price": "20.2 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "energidrikke"
+        ]
+    },
+    {
+        "title": "COOP HJERTEDONUT M/BRINGEBÆR",
+        "price": "10 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "bær"
+        ]
+    },
+    {
+        "title": "FREIA MELKEHJERTER",
+        "price": "59.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "AUNT MABEL’S COOKIES",
+        "price": "30.2 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TINE RISLUNSJ",
+        "price": "12.5 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "ris"
+        ]
+    },
+    {
+        "title": "TINE RISLUNSJ",
+        "price": "13.7 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "ris"
+        ]
+    },
+    {
+        "title": "FINISH ALL IN 1 POWERBALL",
+        "price": "102 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "JORDAN TANNBØRSTER SOFT",
+        "price": "25.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "JORDAN TANNBØRSTER MEDIUM",
+        "price": "25.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SOLIDOX SYREBESKYTTELSE",
+        "price": "36.3 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SOLIDOX HVITE TENNER",
+        "price": "39.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TINE YT KAKAO",
+        "price": "50 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SØRLANDSCHIPS RIFLA",
+        "price": "50 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "potetgull"
+        ]
+    },
+    {
+        "title": "FREIA SMAKFULL",
+        "price": "79 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COMFORT TØYMYKNER",
+        "price": "49 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "HATTING FAMILEBRIKS/ FLERKORNSTYKKER",
+        "price": "55 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP PIZZA",
+        "price": "60 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP PASTA FULLKORN",
+        "price": "35 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "pasta"
+        ]
+    },
+    {
+        "title": "COOP SVINESNITZEL",
+        "price": "60 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP SPEKESKINKE",
+        "price": "69 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "skinke"
+        ]
+    },
+    {
+        "title": "COOP MARGARIN",
+        "price": "45 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP KYLLINGPÅLEGG",
+        "price": "48 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP SYLTETØY",
+        "price": "50 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP NØTTEMIX",
+        "price": "65 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "ÄNGLAMARK SMOOTHIE",
+        "price": "22 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MON AMI BRIE/CAMEMBERT",
+        "price": "80 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP AVFALLSPOSE 40 L",
+        "price": "45 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP FRYSEPOSER",
+        "price": "25 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP TUBA LIGHTER",
+        "price": "45 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP RENGJØRINGSSPRAY",
+        "price": "60 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP FLYTENDE VASKEMIDDEL",
+        "price": "65 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TORO HJEMMELAGET PIZZABUNN",
+        "price": "37 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TORO PIZZAFYLL",
+        "price": "28.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TORO PIZZAFYLL",
+        "price": "25.8 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TORO PIZZAFYLL",
+        "price": "30.8 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SAFARI COOKIES",
+        "price": "32.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PIANO VANILJEKREM",
+        "price": "36.6 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PIANO VANILJEKREM BAKEFAST",
+        "price": "41.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FREIA PREMIUM",
+        "price": "52.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FREIA PREMIUM",
+        "price": "49.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FREIA PREMIUM",
+        "price": "62.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FREIA PREMIUM",
+        "price": "62.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP SPRUDLE",
+        "price": "25 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "NORTHPEAK DRIKKE-/ MOTIVASJONSFLASKE",
+        "price": "99 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PIERRE ROBERT UNDERTØY 3 PK",
+        "price": "149 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "OKIDOKI KOSEBAMSE MED HJERTE",
+        "price": "99.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "HJERTEKRUS",
+        "price": "49.9 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "OSRAM LEDSPOT",
+        "price": "149 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BRILLERENS 30 PK",
+        "price": "45 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "XTRA KNAPPCELLER",
+        "price": "50 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Tulipaner 20 stk",
+        "price": "169 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MORSDAGSBUKETT",
+        "price": "249 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COOP MARSIPANKAKE",
+        "price": "129 NOK",
+        "store": "Coop Extra",
+        "tags": [
+            "Annet"
+        ]
+    }
+]

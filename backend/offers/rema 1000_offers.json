@@ -1,0 +1,666 @@
+[
+    {
+        "title": "FROKOSTKAFFE",
+        "price": "32.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KJØTTDEIG AV STORFE 14%",
+        "price": "59.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "kjøttdeig"
+        ]
+    },
+    {
+        "title": "KJØTTDEIG AV STORFE 14%",
+        "price": "59.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "kjøttdeig"
+        ]
+    },
+    {
+        "title": "HVITE BØNNER",
+        "price": "15.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "bønner"
+        ]
+    },
+    {
+        "title": "BOIL IN BAG JASMIN",
+        "price": "34.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "ris"
+        ]
+    },
+    {
+        "title": "PASTASAUS",
+        "price": "22.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "saus"
+        ]
+    },
+    {
+        "title": "LØK GUL 4PK",
+        "price": "19.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "gul_løk"
+        ]
+    },
+    {
+        "title": "Chili Con Carne",
+        "price": "153.5 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "gryte"
+        ]
+    },
+    {
+        "title": "LYS LAPSKAUS",
+        "price": "62.3 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "gryte"
+        ]
+    },
+    {
+        "title": "MEKSIKANSK GRYTE",
+        "price": "79.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "gryte"
+        ]
+    },
+    {
+        "title": "INDISK KYLLINGSUPPE",
+        "price": "64.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "suppe"
+        ]
+    },
+    {
+        "title": "THAISUPPE",
+        "price": "64.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "suppe"
+        ]
+    },
+    {
+        "title": "TOM KHA SUPPE",
+        "price": "64.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "suppe"
+        ]
+    },
+    {
+        "title": "GULROT",
+        "price": "14.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "gulrot"
+        ]
+    },
+    {
+        "title": "SJOKOLADEKAKE",
+        "price": "129.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "sjokolade"
+        ]
+    },
+    {
+        "title": "MARSIPANKAKE",
+        "price": "149.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SJOKOLADELAKRIS",
+        "price": "46.5 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "sjokolade"
+        ]
+    },
+    {
+        "title": "MELKESJOKOHJERTER",
+        "price": "59.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "sjokolade"
+        ]
+    },
+    {
+        "title": "FROKOSTKAFFE",
+        "price": "32.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FILTERMALT/HELE BØNNER FROKOSTKAFFE",
+        "price": "64.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "bønner"
+        ]
+    },
+    {
+        "title": "RISTORANTE MOZZARELLA/SPECIALE",
+        "price": "64.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PEANØTTER",
+        "price": "20 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "nøtter"
+        ]
+    },
+    {
+        "title": "VÅTSERVIETTER 24PK",
+        "price": "20 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "HANDLENETT STORT",
+        "price": "20 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SALTE KJEKS",
+        "price": "20 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FUSILLI",
+        "price": "20 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "pasta"
+        ]
+    },
+    {
+        "title": "PENNE",
+        "price": "20 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "pasta"
+        ]
+    },
+    {
+        "title": "UTVALGTE KJØTTPRODUKTER",
+        "price": "99 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SVINEKOTELETTER",
+        "price": "99.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "svinekoteletter"
+        ]
+    },
+    {
+        "title": "TORSK LOIN",
+        "price": "119.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "torsk"
+        ]
+    },
+    {
+        "title": "SCAMPI NATURELL",
+        "price": "59.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "scampi"
+        ]
+    },
+    {
+        "title": "FISKEBURGER HYSE & TORSK",
+        "price": "44.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "hamburger"
+        ]
+    },
+    {
+        "title": "FISKEKAKER",
+        "price": "50 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "fiskekaker"
+        ]
+    },
+    {
+        "title": "SKREIKAKER",
+        "price": "29.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "fiskekaker"
+        ]
+    },
+    {
+        "title": "HEL LANDKYLLING",
+        "price": "99 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "hel_kylling"
+        ]
+    },
+    {
+        "title": "KARBONADER",
+        "price": "69.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "kjøttkaker"
+        ]
+    },
+    {
+        "title": "SVINEKJØTTDEIG 20%",
+        "price": "29.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "kjøttdeig"
+        ]
+    },
+    {
+        "title": "PIZZA RUSTICA PEPPERONI",
+        "price": "59.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "ferdigpizza"
+        ]
+    },
+    {
+        "title": "RISTORANTE POLLO",
+        "price": "39.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "CHILIKREPS I AIOLI",
+        "price": "29.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "NUGATTI CRISP",
+        "price": "49.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "ris"
+        ]
+    },
+    {
+        "title": "HAVREBRØD M/ SPELT",
+        "price": "39 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "brød"
+        ]
+    },
+    {
+        "title": "DELIKATESS SESAM",
+        "price": "27.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PARTIVARE",
+        "price": "34.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KREOLSK KYLLING SALAT",
+        "price": "29.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "salat"
+        ]
+    },
+    {
+        "title": "STRYNSKINKE",
+        "price": "89 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "skinke"
+        ]
+    },
+    {
+        "title": "SALAMI",
+        "price": "79 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "salami"
+        ]
+    },
+    {
+        "title": "UTVALGTE PÅLEGGSALATER",
+        "price": "24.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "salat"
+        ]
+    },
+    {
+        "title": "URTEMARINERT YTREFILET AV SVIN",
+        "price": "79.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "biff"
+        ]
+    },
+    {
+        "title": "LAKSEFILET M/SKINN",
+        "price": "79.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "laks"
+        ]
+    },
+    {
+        "title": "FERSK HAMBURGER",
+        "price": "79.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "hamburger"
+        ]
+    },
+    {
+        "title": "SEIFILET",
+        "price": "79.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "sei"
+        ]
+    },
+    {
+        "title": "XXL SKINKE",
+        "price": "42.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "skinke"
+        ]
+    },
+    {
+        "title": "SCAMPI MARINERT",
+        "price": "49.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "scampi"
+        ]
+    },
+    {
+        "title": "KARBONADEDEIG",
+        "price": "82.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "kjøttdeig"
+        ]
+    },
+    {
+        "title": "TORSK SPRØBAKT",
+        "price": "79.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "torsk"
+        ]
+    },
+    {
+        "title": "KYLLINGFILET",
+        "price": "79 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "kyllingfilet"
+        ]
+    },
+    {
+        "title": "REIN STEK SURRET",
+        "price": "379 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "rein"
+        ]
+    },
+    {
+        "title": "STRIMLET KYLLINGFILET",
+        "price": "89.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "kyllingfilet"
+        ]
+    },
+    {
+        "title": "SKAVET REINKJØTT",
+        "price": "89 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "rein"
+        ]
+    },
+    {
+        "title": "TYTTEBÆRSYLTETØY",
+        "price": "49.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "bær"
+        ]
+    },
+    {
+        "title": "GRILLET KYLLINGLÅR",
+        "price": "149 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "kyllinglår"
+        ]
+    },
+    {
+        "title": "TERNET BACON",
+        "price": "37.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "bacon"
+        ]
+    },
+    {
+        "title": "D-VITAMIN",
+        "price": "19.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "LINSECHIPS",
+        "price": "19.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "potetgull"
+        ]
+    },
+    {
+        "title": "FLERKORNCHIPS",
+        "price": "19.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "potetgull"
+        ]
+    },
+    {
+        "title": "C-VITAMIN",
+        "price": "27.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "APOBASE OILY CREAM",
+        "price": "69.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "RED BULL PINK EDITION",
+        "price": "36.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "energidrikke"
+        ]
+    },
+    {
+        "title": "COCA-COLA U/ SUKKER 6PK",
+        "price": "89 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "brus"
+        ]
+    },
+    {
+        "title": "RED BULL SPRING EDITION",
+        "price": "36.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "energidrikke"
+        ]
+    },
+    {
+        "title": "Peanøttsmør",
+        "price": "54.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SVISKER",
+        "price": "17.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "Vesterhavsost",
+        "price": "69.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KOKOS MASSE",
+        "price": "21.2 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Casteletrano oliven",
+        "price": "29.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "oliven"
+        ]
+    },
+    {
+        "title": "Aprikoser Tørkede",
+        "price": "41.2 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Kalamon oliven",
+        "price": "29.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "oliven"
+        ]
+    },
+    {
+        "title": "HASSEL NØTTER",
+        "price": "31.7 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "nøtter"
+        ]
+    },
+    {
+        "title": "VALNØTT KJERNER",
+        "price": "31.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "nøtter"
+        ]
+    },
+    {
+        "title": "Mocca latte",
+        "price": "14.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MANDLER",
+        "price": "34.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "nøtter"
+        ]
+    },
+    {
+        "title": "Caffè latte",
+        "price": "14.9 NOK",
+        "store": "Rema 1000",
+        "tags": [
+            "Annet"
+        ]
+    }
+]

@@ -1,0 +1,1322 @@
+[
+    {
+        "title": "OMO/BLENDA VASKEPULVER",
+        "price": "119 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MINDE/NIDAR SJOKOLADE",
+        "price": "120 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "sjokolade"
+        ]
+    },
+    {
+        "title": "TOALETTPAPIR SUPER SOFT",
+        "price": "89.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KIMS POTETCHIPS",
+        "price": "25 NOK",
+        "valid_from": "2025-02-06",
+        "valid_until": "2025-02-08",
+        "store": "Europris",
+        "tags": [
+            "potetgull"
+        ]
+    },
+    {
+        "title": "VEDBRIKETTER",
+        "price": "49.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-02-04",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "VARTA BATTERIER",
+        "price": "69.9 NOK",
+        "valid_from": "2025-02-04",
+        "valid_until": "2025-02-06",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Tulipaner, 10-pk",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-06",
+        "valid_until": "2025-02-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "ARCTIC FRITIDSGARN",
+        "price": "29.52 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SKY GARN",
+        "price": "119.2 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SUPERWASH ULLGARN",
+        "price": "29.52 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COTTON MEDI",
+        "price": "26.32 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KNÆSJ GARN",
+        "price": "55.92 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "LOLLIPOP GARN",
+        "price": "31.92 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "LABBETUSS",
+        "price": "31.92 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SOLIDOX TANNKREM",
+        "price": "29.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "ELVITAL",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "DEFINE SHAMPOO/BALSAM",
+        "price": "119 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "ELVITAL HÅRMASKE",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "L´ORÉAL DAG-/NATTKREM",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "DUSJSÅPE/SHAMPOO",
+        "price": "19.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PROFFS",
+        "price": "29.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TIGI BED HEAD",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "O`KEEFFE`S HUDKREM",
+        "price": "199 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "COLGATE MUNNSKYLL",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "DEFINE MEN",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "O'KEEFFE'S KREM",
+        "price": "119 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "ELIZABETH ARDEN",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Lip repair",
+        "price": "49.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "STEKEPANNE",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "STEKEPANNE KERAMISK",
+        "price": "399 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "Alle skjærebrett!",
+        "price": "69.93 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TERMOKOPP TUMBLER",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BAKEPAPIR AIRFRYER",
+        "price": "100 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SERVISE HVIT",
+        "price": "50 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "SERVISE VIDDA",
+        "price": "100 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "title": "MATOPPBEVARINGSBOKS",
+        "price": "26.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "STORE IT FLEXIBLE CLEAR",
+        "price": "29.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SMARTSTORE",
+        "price": "29.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TØRRMATOPPBEVARING",
+        "price": "59.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Alle Pyrex ildfaste former!",
+        "price": "104 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Utvalgte airfryere!",
+        "price": "359 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "DYNEJAKKE MED HETTE",
+        "price": "399 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KOSEBUKSE",
+        "price": "199 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TIGHTS",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TRYSILSOKK GOD OG VARM",
+        "price": "41.93 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "VOTT BARN",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FLANELLSKJORTE",
+        "price": "199 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BOXERSHORTS",
+        "price": "150 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "T-SHIRT",
+        "price": "200 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TRYSILSOKK TYNN OG VARM",
+        "price": "48.93 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TRYSILSOKK",
+        "price": "31.43 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TRYSILSOKKEN GOD OG VARM",
+        "price": "104.3 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TRYSILSOKK EKSTRA VARM",
+        "price": "62.93 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN LYSDEMPENDE GRÅ",
+        "price": "249 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN LYSDEMPENDE GYLDEN/GRØNN",
+        "price": "249 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN LYSDEMPENDE SORT",
+        "price": "249 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN SIENNA OFFWHITE",
+        "price": "149 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN SIENNA LYS BEIGE",
+        "price": "149 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN SIENNA GRÅ",
+        "price": "149 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN MILLA GRNN",
+        "price": "149 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN VIKTORIA BEIGE/GRÅBLÅ",
+        "price": "299 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GARDIN MILLA MIDNATTSBLÅ",
+        "price": "149 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "All motorolje!",
+        "price": "118.3 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BATTERI ENERGY+",
+        "price": "29.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BATTERI ENERGY+",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "HÅRFØNER",
+        "price": "149.5 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "RETTETANG",
+        "price": "99.5 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "ROSER",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-06",
+        "valid_until": "2025-02-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FLAMINGOBLOMST",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MORSDAGSBUKETT",
+        "price": "179 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MORSDAGS-GRUPPE",
+        "price": "139 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Ansiktstrimmer",
+        "price": "69.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Hårtrimmer",
+        "price": "139 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Barbermaskin",
+        "price": "174 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SOFTLAN SKYLLEMIDDEL",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "YES OPPVASKTABLETTER",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "A+ TRADITIONAL TØYVASK",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "EFFEKT SKYLLEMIDDEL",
+        "price": "29.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "EFFEKT VASKEKAPSLER",
+        "price": "89.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "EFFEKT VASKEPULVER",
+        "price": "129.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "EFFEKT TØYVASK",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "AJAX SPRAY",
+        "price": "29.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "AJAX",
+        "price": "49.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "EFFEKT RENGJØRING",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "EFFEKT RENGJØRING",
+        "price": "69.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "EFFEKT AVLØPSÅPNER",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "PLUMBO",
+        "price": "59.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "EFFEKT RENSETABLETT",
+        "price": "49.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "OPPBEVARINGSBOKS PLAST MED BAMBUSLOKK",
+        "price": "41.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "SMARTSTORE CLEAR",
+        "price": "23.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GLASSBOKS MED BAMBUSLOKK",
+        "price": "47.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GLASSBOKS MED BAMBUSLOKK",
+        "price": "35.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GLASSBOKS MED BAMBUSLOKK",
+        "price": "59.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GLASSBOKS MED BAMBUSLOKK",
+        "price": "29.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BOKS MED BAMBUSLOKK",
+        "price": "35.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KRUKKE MED BAMBUSLOKK",
+        "price": "59.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BOLLE MED BAMBUSLOKK",
+        "price": "77.4 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "BOKS MED BAMBUSLOKK",
+        "price": "29.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KJØLESKAPSOPPBEVARING",
+        "price": "29.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KJØLESKAPSOPPBEVARING",
+        "price": "35.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "STORE IT",
+        "price": "29.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "STORE IT",
+        "price": "23.94 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TØRKESTATIV",
+        "price": "149 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Engangshansker, nitril",
+        "price": "80 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Xerox kopipapir",
+        "price": "299 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Xerox kopipapir",
+        "price": "699 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Earl Grey te",
+        "price": "100 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Effekt WC-rens",
+        "price": "30 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Pappbeger engangs",
+        "price": "110 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Engangstallerken",
+        "price": "50 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Effekt rengjøringsspray",
+        "price": "45 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "Maxi toalett-/tørkepapir",
+        "price": "299 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "DUFTOLJE",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "LAMMESKINN",
+        "price": "399 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "DUFTLYS",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "GLASSLAMPE",
+        "price": "149 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "FIGUR PAR LOVE",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KRONELYS",
+        "price": "69.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KRONELYS LED",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "LEDLYS MED SOTET GLASS",
+        "price": "199 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "KUBBELYS",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "TELYS",
+        "price": "170 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXDOG PREMIUM",
+        "price": "259 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXDOG PREMIUM SELECTED",
+        "price": "189 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXDOG PREMIUM SELECTED",
+        "price": "339 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXDOG DENTAL STICKS",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXDOG HUNDEMAT PREMIUM",
+        "price": "44.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXDOG HUNDESNACKS",
+        "price": "99.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXCAT FLYTENDE KATTESNACKS",
+        "price": "19.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXCAT KATTESAND",
+        "price": "119.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MAXCAT KATTESAND",
+        "price": "79.9 NOK",
+        "valid_from": "2025-02-02",
+        "valid_until": "2025-03-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    },
+    {
+        "title": "MELKEHJERTER",
+        "price": "39.9 NOK",
+        "valid_from": "2025-02-06",
+        "valid_until": "2025-02-08",
+        "store": "Europris",
+        "tags": [
+            "Annet"
+        ]
+    }
+]

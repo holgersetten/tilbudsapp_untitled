@@ -1,0 +1,1092 @@
+[
+  {
+    "title": "GILDE SKINNFRI KJØTTPØLSE",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "R0GjZ_6AHpDXOkCJlptGK",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "pølser"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.205Z"
+  },
+  {
+    "title": "MAT I FARTA",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "cCI7iDs6KB-lf1iXJ7QUz",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "SYNNØVE GULOST",
+    "description": "",
+    "price": 100,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QS_avge37qkD6Vs-JF00l",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "FREIA SMÅSJOKOLADER",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "EbodjJ0sldMGHWgVuTxaW",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "sjokolade"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "NORSKE RØDE EPLER",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "k61tu5V-vVqUIeCIJgY7P",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "LIBA TYNNBRØD",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "hq8e5UQxNgkcQofos7e2s",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "COOP SPRUDLE/VANN",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ATb8_Cb3ICiFIcgOSzcUb",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "KINDERSJOKOLADE MAXI",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "B9iWXqJXn7KjZZ92L0Zyp",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "sjokolade"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "STABBURET LEVERPOSTEI",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lVAmroPb_MSDHXVbtQK1G",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "COOP MAKE-UP WIPES",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "kWn5pYL22EautAP8vNM10",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "MR. LEE NUDLER",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "MqgqSRX8-PVangFXzR_DU",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "TINE SJOKOMELK",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "LzH41BxxtlUxSYqHEdxmn",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "sjokolade"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "TORO RETT I KOPPEN",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "8ZG4stPqgGBFHFvGRFpNo",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "MILLS POTETMOS ORIGINAL",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "hBrWq2-ZGb74HQ4YBa7xo",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "COOP BLÅBÆRKNUTE",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "pFJ5UiRZKgPVpTf0etohZ",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "COOP FERSKEN ISTE",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "c8Q3e8UElYzXbDWJPe-zK",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "PALMOLIVE DUSJSÅPE",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "z94aKSMhMZ9ygL4tylmec",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "SVINT STÅLULL PADS",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "5RWmSiJiclaiTa3Uox9L5",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "DUCK WC-BLOKK",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lwJ31RM3AUTy_SZjhWI_a",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "STABBURET MAKRELLFILET",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "qvKORm3a2E1khDBG2q890",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "SNICKERS/TWIX",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "OlK0WQtdQUzoO4aKeWCUU",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "COOP ISTERNINGPOSER",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_oEJ3aA6SZa9v1jcHxQ7V",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "TINE SJOKOMELK",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "7YD0jMxW0JzyFcG2Gd54D",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "sjokolade"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "TINE KREMGO",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "VOBpQzyZr74BJtHV3NEQf",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "BLUE DRAGON WOKSAUS",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Q8GLR6hZXNBxe46ftygQb",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "MILLS FROKOSTPRODUKTER",
+    "description": "",
+    "price": 60,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "KoYisIg-5JdkMdeVrMg3U",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.206Z"
+  },
+  {
+    "title": "FJORDLAND RISGRØT",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Bo09sPJH-k9ootCmiz1d0",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "BLIW HÅNDSÅPE",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "GaF43PrdwA2WYyD6hoxTI",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "OMO COLOR FLYTENDE",
+    "description": "",
+    "price": 110,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_q_Ron0ilhIeNsneDrmHm",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "YUM YUM NUDLER",
+    "description": "",
+    "price": 70,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "KWFgwHl5vdl1pchWwN0Ay",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "COOP SMOOTHIE",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "mYdW_CJjjnY1jo2IEo6hH",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "COLGATE TANNKREM/TANNBØRSTE",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "PoS7rUyyuqPqt2YW2L2jT",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "MONSTER/BURN",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "i_dM7qKdc1TIkWvPC1jvy",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "energidrikke"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "NORSKE RØDE EPLER",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "bh1ChPKiEibObv3VcmljQ",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "COOP ISBERGMIKS",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "y1QZJZGoHMwL3jITTM5-I",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "salat"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "NORSKE GULRØTTER",
+    "description": "",
+    "price": 25,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "HwBylgTc5HEz6Z7b5BFHt",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "gulrot"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "NORSKE POTETER",
+    "description": "",
+    "price": 15,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "svm4ZasWIIVAfOqFuhHLa",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "LYNG - QUATRO",
+    "description": "",
+    "price": 99.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Ws1THXY83wXZXMc2WsxUb",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "TINE YT RESTITUSJONSDRIKK",
+    "description": "",
+    "price": 60,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "DTEaKx7IZk__J9Ju0pR-o",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "SMAK JUICE",
+    "description": "",
+    "price": 70,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "s8zD4vYdH6szv4606jeWL",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "BILLYS PAN PIZZA",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "AiXFggvNduPVIu7Dzsuk5",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "WERTHER’S/MR. BROWNIE",
+    "description": "",
+    "price": 70,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "OxKIFJ5cX8AS-bsD6I1GB",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "FINDUS MIDDAGSRETTER",
+    "description": "",
+    "price": 100,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "2cZ7WG8x-eZ6aX9z0MSUj",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "BLENDA SENSITIV",
+    "description": "",
+    "price": 100,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "O9dn0B5ZJoX6OOWoT6GSb",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "NIDAR SMASH",
+    "description": "",
+    "price": 90,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "WBLxaraW8AowAk2ug-JE_",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "OREO KJEKS",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "wRrLb7WopUcD3M3shvD9b",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "SMÅ FRISTELSER",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "JCG2g67SlJgk5Atvyqft3",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "GILDE GRILLPØLSE",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "d2qMot3hzTMW3HW_7Aoit",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "SOFTLAN OUTDOOR FRESH",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "OYgVmpjW__f9sjWO8kUTh",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "KLEENEX MINI LOMMETØRKLE 8 PK",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Lll-CIMzbU1TpFepFgavs",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "GILDE SMÅRETTSKINKE/SALAMI SILIANA",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "VwFFMNztqP-W-THdDqT-5",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "salami",
+      "skinke"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "GILDE KOKT SKINKE/LEVERPOSTEI",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "VrRqm4PlvZT0ez4mp-nG4",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "kokt_skinke",
+      "skinke"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "LAMBI TOALETT-/TØRKEPAPIR",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "U_aF4W_Q2TYt4kbk9k1Oq",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "COCA-COLA 10PK",
+    "description": "",
+    "price": 95,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "fSgcAnLqlV5cAT_Jk4Jtg",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "Nidar smågodt i løsvekt",
+    "description": "",
+    "price": 12,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-09-04T22:00:00+0000",
+    "validTo": "2025-09-05T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "71pjPPFhQmOtDNj6QXX8y",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "Grandiosa pepperoni 500 g",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-09-03T22:00:00+0000",
+    "validTo": "2025-09-04T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "705rrUMausC-D10bs4Bmo",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "ferdigpizza"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "MAARUD SNACKS",
+    "description": "",
+    "price": 60,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QQ6iUGHuIRYi6dauVtfBf",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "DOLMIO SAUSER",
+    "description": "",
+    "price": 60,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ZoPLip6PyTWb44vtyOPgl",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "SOPPS PASTA",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Ngo1ZAbXYRfJark3zdWZY",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "TINE LUNSJDEAL",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-10-26T22:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "uI3Nx4WxslISmwZBxLqsV",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "LYPSYL ORIGINAL",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-07T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "C4DdyaboKPIHGmjTZnrQF",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.207Z"
+  },
+  {
+    "title": "SØRLANDSCHIPS",
+    "description": "",
+    "price": 55,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "sckIRM9gpkXaTBoZ1IZjH",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "potetgull"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.208Z"
+  },
+  {
+    "title": "SYNNØVE SKIVET GULOST",
+    "description": "",
+    "price": 90,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "64WKvqPBYptM3S2iKP0xD",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.208Z"
+  },
+  {
+    "title": "FUN LIGHT",
+    "description": "",
+    "price": 60,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-28T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "GOspg3iJ9iAc0hhA6gjRo",
+    "store": "Coop Prix",
+    "storeId": "f5d5lm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.208Z"
+  }
+]

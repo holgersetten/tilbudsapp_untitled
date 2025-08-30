@@ -1,0 +1,1488 @@
+[
+  {
+    "title": "HJEMMELAGDE FISKEKAKER",
+    "description": "",
+    "price": 67.9,
+    "originalPrice": 87.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Tn6t-mvmRYiqSAwgUloDF",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "fiskekaker"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.230Z"
+  },
+  {
+    "title": "MATPAKKEKAKER",
+    "description": "",
+    "price": 17.9,
+    "originalPrice": 23.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "zu9tVltwYa6m-htUB5cF3",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.230Z"
+  },
+  {
+    "title": "TOMATSUPPE M/FULLKORNSMAKARONI",
+    "description": "",
+    "price": 21.9,
+    "originalPrice": 27.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "5BjXX0HAQ56NuxPooLxK-",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "tomat",
+      "pasta",
+      "suppe"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.230Z"
+  },
+  {
+    "title": "WOK CLASSIC",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 51.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "YVwwtAAfb8TZbFVecbPPT",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.230Z"
+  },
+  {
+    "title": "TORSKELOINS",
+    "description": "",
+    "price": 108,
+    "originalPrice": 136,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "zDatMSzOFl2BUf76d4fuB",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.230Z"
+  },
+  {
+    "title": "LAKSEFILET M/SKINN",
+    "description": "",
+    "price": 58.9,
+    "originalPrice": 74.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "SzCZ-1DMjk9s6e0x7P_Fa",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "laks"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "FISKEKAKER",
+    "description": "",
+    "price": 38.8,
+    "originalPrice": 49.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "MSxofxTDMoZcOL0BiBZuz",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "fiskekaker"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "FISKEGRATENG",
+    "description": "",
+    "price": 41.9,
+    "originalPrice": 78.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "P--5c-yweD03eFmmuwfr-",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "BABYGULRØTTER",
+    "description": "",
+    "price": 11.9,
+    "originalPrice": 14.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "cd_S8j-RbM9-NXtZOJ1BX",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "gulrot"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "SMÅRETTSKINKE",
+    "description": "",
+    "price": 25.9,
+    "originalPrice": 32.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ljdJCiYVzmhW4e8lK_Jxi",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "skinke"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "ERTER",
+    "description": "",
+    "price": 12.4,
+    "originalPrice": 15.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "MyH7i9L59vEvgUD1ivH8c",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "BROKKOLIBLANDING",
+    "description": "",
+    "price": 18.9,
+    "originalPrice": 23.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "s0-O1DAwGs07KwptzYPaL",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "FULLKORNRIS BOIL IN BAG",
+    "description": "",
+    "price": 33.4,
+    "originalPrice": 41.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "pmuIlnlSC4ykwA4xWSU6Z",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "PIZZABUNN FULLKORN",
+    "description": "",
+    "price": 21.9,
+    "originalPrice": 27.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_c0UU9hTnHNYNg2Tzdahb",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "FROKOSTYOGHURT",
+    "description": "",
+    "price": 28.4,
+    "originalPrice": 35.6,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QzF_P5WRJQ96VGcIsGXfm",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "FUSILLI FULLKORN",
+    "description": "",
+    "price": 18.9,
+    "originalPrice": 23.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "tj3659A2r0udMoBEzCOoj",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "pasta"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "NUDE STRAWBERRY/MANGO",
+    "description": "",
+    "price": 38.9,
+    "originalPrice": 48.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "NadCUiSk0aEVWkNYxs7SB",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "NYT ISKREM, DOBBELSJOKO/SALT KARAMELL",
+    "description": "",
+    "price": 54.9,
+    "originalPrice": 69.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "mKV1DBcPtnRFxUNBU5Ct1",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "sjokolade"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "KNEKKEBRØD NORMAL STEKT",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": 26.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "wHW8ktw7gg_hohi5T00n1",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "SKORPOR FULLKORN",
+    "description": "",
+    "price": 22.9,
+    "originalPrice": 28.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "PKCFCNvrRmheqHEvVIV-J",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "TORTILLA FULLKORN",
+    "description": "",
+    "price": 10.7,
+    "originalPrice": 15.899999999999999,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "sbJM9w-bCLHoYVvMa0nEz",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "RYVITA KNEKKEBRØD",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 38.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "d-JHDA5u9oNSjrQo8sAYi",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "COCA-COLA ZERO",
+    "description": "",
+    "price": 89,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lXlb8agiavXTxsjRmrAn3",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "COCA-COLA ZERO",
+    "description": "",
+    "price": 109,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "KAj-pSW6h0c0fvKQH6tty",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "KARBONADER",
+    "description": "",
+    "price": 89,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FHlsDrvqSuy7YLI4PYVj3",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "kjøttkaker"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "KJØTTBOLLER",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "9FkM9ETImc95r37vC4oCS",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "JUBELSALAMI",
+    "description": "",
+    "price": 54.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "oDPkMv0-9667c38K8gGP6",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "salami"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "HAMBURGERRYGG/KOKT SKINKE",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "60GiDsXE5-VydIG1-RDfr",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "kokt_skinke",
+      "skinke",
+      "hamburger"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "MAKRELLFILET/LEVERPOSTEI",
+    "description": "",
+    "price": 17.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "H0prjOAPok67CdLzMlqO7",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "PIZZA GRANDIOSA",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 69.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_0XULAkAhhZGgRo7A0bO6",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "ferdigpizza"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "BACONOST/SKINKEOST",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "mf2gNIydNb4U-e2gP1A0x",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "skinke",
+      "bacon"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "SOFT FLORA",
+    "description": "",
+    "price": 28.9,
+    "originalPrice": 36.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "4lYCgACghD7AkR5TJFhaT",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "BAGUETTER GROVE",
+    "description": "",
+    "price": 13.4,
+    "originalPrice": 16.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "WfSKPFzSlZ60q6XCZUufQ",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "brød"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "SANDWICHBAGUETTER FULLKORN",
+    "description": "",
+    "price": 47.9,
+    "originalPrice": 59.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "DU4WvqQYcfT46GB6BGp2D",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "brød"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "PØLSEBRØD GROVE",
+    "description": "",
+    "price": 25.9,
+    "originalPrice": 32.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "s7QNS35Xp9MJpLVFpI_AS",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "BURGERBRØD GROVE",
+    "description": "",
+    "price": 23.9,
+    "originalPrice": 29.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "AqwP7evDdct1vxRcH7Urv",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "hamburger"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "EVERGOOD KAFFE",
+    "description": "",
+    "price": 99,
+    "originalPrice": 117,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yisl7xJGEKPW4i7gDAEGF",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "EPLEJUICE",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": 32.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "g-9alGdOIqYvfZK9NHvvG",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "GULOST ORIGINAL",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_sFp77qE2uiI9x1o9XrpW",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "SØRLANDSIS",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": 59.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yKlRnuaQdL1kwDyFkmVg7",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "FRISKIS SORBET",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 49.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QB9KF92Mok5IN_uSejizn",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "KLEMENTINER",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "-VSGqHRpSd3nzUtK-Bs44",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "MANGO",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "jK4IKqFZvoH45ORdCsSQ7",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "BLÅBÆR",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ooRpkkGsDKFWnrOh3jwBS",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "SMOOTHIE BENDIT",
+    "description": "",
+    "price": 14.9,
+    "originalPrice": 21.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "NKCe2KxMIVxwdO3mCX3Ax",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "TORSK I PURRELØKSAUS",
+    "description": "",
+    "price": 64.9,
+    "originalPrice": 81.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "uBO3vUsbWsXqYAYeZpWSG",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "gul_løk",
+      "purreløk"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "SPRØBAKTE OSTEPANETTER",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": 62.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QZArnvEYhFYy6bn0CAm_G",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "GRILLEDE KYLLINGLÅR",
+    "description": "",
+    "price": 109,
+    "originalPrice": 137.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "aeBeCdbhitG9bVcXRJBXI",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "kyllinglår"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "FISKEPUDDING",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 49.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "y9siaG90175xibpq69fLS",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "fiskekaker"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "BANANER",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "EWd1IgK4rR9VG1TkEovMB",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.231Z"
+  },
+  {
+    "title": "RØD PAPRIKA",
+    "description": "",
+    "price": 14.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "OVxAU9KX4Ox_RECTkvD9k",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "paprika"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "CHILIPEPPER",
+    "description": "",
+    "price": 4.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Tty1lrRIBMLF2JP1jInbR",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "HVITLØK",
+    "description": "",
+    "price": 4.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "EgO5FxCL7Ln-SkxSdUUrO",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "gul_løk",
+      "hvitløk"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "SUKKERERTER",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "oqe_2I7ITrED2BReohdRo",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "RUCCULA SALAT, SUPER BABYSPINAT, BABYLEAF MIX, FELDSALAT MIX, RØD BABYLEAF MIX",
+    "description": "",
+    "price": 16.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-09-14T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "MfOq3rtIPum2l2IBL8f1R",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "GULROT",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-09-14T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "5Ddmtr-8YWibtc2KN_6rr",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "gulrot"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "NYPOTETER",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-09-14T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yJ1xZw3rpILlMf3tuFGyv",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "TOMATER",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "W7KnG6hoGbEVL3-qg_CVd",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "tomat"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KYLLINGFILET",
+    "description": "",
+    "price": 54.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "JhHdXtbhuKw4iLRYuQvkf",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "kyllingfilet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "TOALETTPAPIR",
+    "description": "",
+    "price": 89,
+    "originalPrice": 109,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "f4vlqG3NOJZmRVYGiPpuP",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "CALLUNA",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "waeWDkxfPCtKdoivaSxjG",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "ROSER",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_ZE0oxTWEv2AATEkkAqmt",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "FAVORITTBUKETT",
+    "description": "",
+    "price": 199,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "cBiCklHwaMTmiXmjotiv1",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KIWI 100 % GROVBRØD",
+    "description": "",
+    "price": 27.9,
+    "originalPrice": 34.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "TjYF2Mz0FsPY3GEZJAMdY",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "brød"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "CALLUNA TRIO",
+    "description": "",
+    "price": 69.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ezsu3aW2epjHCWpow76ju",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KORNBRØD, HAVREBRØD",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": 25.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Pozb4uA7g2pwiwwDl4e9V",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "FISKEGRATENG",
+    "description": "",
+    "price": 41.9,
+    "originalPrice": 78.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yZL1T3xc9htCHkF6DGZbs",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "LETTKOKTE HAVREGRYN",
+    "description": "",
+    "price": 18.9,
+    "originalPrice": 23.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "cP8XUH34-0Bs22owLM4oA",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KIWI 100 % GROVBRØD",
+    "description": "",
+    "price": 27.9,
+    "originalPrice": 34.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "G232FRpwfafhcALwZVPyW",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "brød"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "HAVRESTYKKER, BJØRN",
+    "description": "",
+    "price": 31.9,
+    "originalPrice": 39.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_f3ZNdl1ej9uPUT1kVLaH",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "PIZZA GRANDIOSA",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 69.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lEPg-JhAwR287lQwffUiE",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "ferdigpizza"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "4-KORN",
+    "description": "",
+    "price": 18.4,
+    "originalPrice": 23.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "iL1gkqAVfCDGbFRnZcsOd",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KARBONADEDEIG",
+    "description": "",
+    "price": 67.9,
+    "originalPrice": 88.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "qnCKrtPpRo5rMobT4s-a5",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "kjøttdeig"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KARBONADEDEIG",
+    "description": "",
+    "price": 57.9,
+    "originalPrice": 72.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "3Tnu9rSLI_IIHnGb5zZyh",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "kjøttdeig"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KARBONADEDEIG",
+    "description": "",
+    "price": 63.9,
+    "originalPrice": 81.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "3RxaNY87E7Vho1n4u9Q8T",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "kjøttdeig"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "FISKEPINNER",
+    "description": "",
+    "price": 35.9,
+    "originalPrice": 51.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "9CXmH_di7nTQLXwpjqkKi",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "fiskeburger"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "FISKEPINNER",
+    "description": "",
+    "price": 58.3,
+    "originalPrice": 83.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Bo2kxsYxTon0WxLE5WYXK",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "fiskeburger"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "FISH & FUN",
+    "description": "",
+    "price": 37,
+    "originalPrice": 52.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "5nB61k8y--xcVSFelET_H",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "FISH & CRISP",
+    "description": "",
+    "price": 48.9,
+    "originalPrice": 69.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "vVIWNtqOwjh8JASq_cAC9",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "FREIA STORE SJOKOLADEPLATER",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 59.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "sHUzYwAnPhMeg8guBrjDT",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "sjokolade"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KJØTTPØLSE SKINNFRI",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 52.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "7TagjUQ0VFYLl88VZQtSS",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "pølser"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KJØTTPØLSE SKINNFRI",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 52.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "etWyzzSqyZnha7ZG_ZX3n",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "pølser"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KALKUNKORV",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 49.9,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "rWB5TL0aJ8DnbGeTnf5fx",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "JIF SKUREKREM",
+    "description": "",
+    "price": 15.3,
+    "originalPrice": 26.4,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Q8Ij9JkH57kW9LZAkbhEE",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "KRYSTAL GRØNNSÅPE",
+    "description": "",
+    "price": 22.1,
+    "originalPrice": 38.400000000000006,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "hu70RW0uXNPpdW6KBwwCk",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "JIF KJØKKENSPRAY",
+    "description": "",
+    "price": 23.3,
+    "originalPrice": 39.900000000000006,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_FGmuB89BFPBxQ9eRRIKk",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  },
+  {
+    "title": "JIF UNIVERSAL/BADEROM",
+    "description": "",
+    "price": 23.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "IaEvqt-dtCmAxE8rNTT6H",
+    "store": "Kiwi",
+    "storeId": "257bxm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.232Z"
+  }
+]

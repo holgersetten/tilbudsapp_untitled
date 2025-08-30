@@ -1,0 +1,21 @@
+{
+    "ost": ["ost"],
+    "brus": ["brus"],
+    "saft": ["saft"],
+    "energidrikke": ["energidrikke"],
+    "salami": ["salami"],
+    "leverpostei": ["leverpostei"],
+    "kjøttdeig": ["kjøttdeig"],
+    "kylling": ["kylling"],
+    "bønner": ["bønner"],
+    "mais": ["mais"],
+    "epler": ["epler"],
+    "salat": ["salat"],
+    "potet": ["potet"],
+    "pasta": ["pasta"],
+    "ris": ["ris"],
+    "brød": ["brød"],
+    "yoghurt": ["yoghurt"],
+    "gulrot": ["gulrot"],
+    "frossenpizza": ["frossenpizza"]
+}

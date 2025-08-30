@@ -1,0 +1,226 @@
+[
+    {
+        "category": "rødløk",
+        "aliases": ["rødløk", "økologisk rødløk", "rød løk", "fersk rødløk"]
+    },
+    {
+        "category": "gul_løk",
+        "aliases": ["gul løk", "økologisk gul løk", "kepaløk", "vanlig løk", "løk"]
+    },
+    {
+        "category": "hvitløk",
+        "aliases": ["hvitløk", "fersk hvitløk", "økologisk hvitløk", "hvitløksfedd", "hvitløk fersk"]
+    },
+    {
+        "category": "tomat",
+        "aliases": ["tomat", "tomater", "cherrytomat", "cocktailtomat", "mini tomat", "småtomater", "snacktomat", "plommetomat", "roma tomat", "salattomat", "runde tomater", "klassiske tomater"]
+    },
+    {
+        "category": "sjalottløk",
+        "aliases": ["sjalottløk", "økologisk sjalottløk", "sjalott"]
+    },
+    {
+        "category": "paprika",
+        "aliases": ["rød paprika", "paprika rød", "gul paprika", "paprika gul", "grønn paprika", "paprika grønn", "spisspaprika"]
+    },
+    {
+        "category": "purreløk",
+        "aliases": ["purreløk", "fersk purreløk", "purre"]
+    },
+    {
+        "category": "gulrot",
+        "aliases": ["gulrot", "gulrøtter", "gulrot i pose", "gulrøtter i pose", "snackgulrot", "babygulerøtter", "minikulrøtter"]
+    },
+    {
+        "category": "vårløk",
+        "aliases": ["vårløk", "fersk vårløk", "pipeløk"]
+    },
+    {
+        "category": "druer",
+        "aliases": ["røde druer", "rød drue", "grønne druer", "grønn drue", "druer uten kjerner"]
+    },
+    {
+        "category": "salat",
+        "aliases": ["isbergsalat", "isberg", "romanosalat", "romano", "hjertesalat", "ruccola", "ruccolasalat", "rocket"]
+    },
+    {
+        "category": "spekeskinke",
+        "aliases": ["spekeskinke", "parmaskinke", "serranoskinke"]
+    },
+    {
+        "category": "salami",
+        "aliases": ["salami", "gullsalami", "dansk salami", "italiensk salami"]
+    },
+    {
+        "category": "kokt_skinke",
+        "aliases": ["kokt skinke", "kokt hamburgrygg", "kokt bayonneskinke"]
+    },
+    {
+        "category": "kyllingfilet",
+        "aliases": ["kyllingfilet", "fersk kyllingfilet", "kyllingbryst", "marinert kyllingfilet", "krydret kyllingfilet"]
+    },
+    {
+        "category": "kyllingklubber",
+        "aliases": ["kyllingklubber", "krydret kyllingklubber", "grillet kyllingklubber"]
+    },
+    {
+        "category": "kyllinglår",
+        "aliases": ["kyllinglår", "grillet kyllinglår", "kyllinglårfilet"]
+    },
+    {
+        "category": "kyllingvinger",
+        "aliases": ["kyllingvinger", "hot wings", "buffalo wings"]
+    },
+    {
+        "category": "hel_kylling",
+        "aliases": ["hel kylling", "grillkylling", "fersk kylling hel","hel landkylling"]
+    },
+    {
+        "category": "kjøttdeig",
+        "aliases": ["kjøttdeig", "storfe kjøttdeig", "karbonadedeig", "svinekjøttdeig", "kjøttdeig av svin", "kyllingkjøttdeig", "kyllingdeig"]
+    },
+    {
+        "category": "biff",
+        "aliases": ["indrefilet", "okse indrefilet", "storfe indrefilet", "ytrefilet", "okse ytrefilet", "storfe ytrefilet", "entrecôte", "entrecote", "ribeye"]
+    },
+    {
+        "category": "kalkunfilet",
+        "aliases": ["kalkunfilet", "fersk kalkunfilet", "kalkunbryst"]
+    },
+    {
+        "category": "svinekoteletter",
+        "aliases": ["svinekoteletter", "grillet svinekoteletter", "nakkekoteletter", "svineknoke"]
+    },
+    {
+        "category": "pølser",
+        "aliases": ["wienerpølser", "wiener", "grillpølser", "kjøttpølse", "grill kjøttpølse", "bratwurst"]
+    },
+    {
+        "category": "laks",
+        "aliases": ["fersk laks", "laksefilet fersk", "fersk laksefilet", "røkt laks", "røkt laksefilet", "laksefile"]
+    },
+    {
+        "category": "ørret",
+        "aliases": ["fersk ørret", "ørretfilet fersk", "fersk ørretfilet", "røkt ørret", "ørretfilet"]
+    },
+    {
+        "category": "torsk",
+        "aliases": ["fersk torsk", "torskefilet fersk", "fersk torskefilet", "frossen torsk", "torskefilet frossen"]
+    },
+    {
+        "category": "reker",
+        "aliases": ["ferske reker", "kokte reker", "håndpillede reker", "frosne reker", "pillede reker frossen"]
+    },
+    {
+        "category": "ferdigpizza",
+        "aliases": ["grandiosa", "pizza grandiosa", "grandiosa original", "big one", "rustica", "dr oetker", "ristorante","ristorante pollo"]
+    },
+    {
+        "category": "energidrikke",
+        "aliases": ["battery", "red bull", "monster", "burn", "nocco", "energidrikke"]
+    },
+    {
+        "category": "sjokolade",
+        "aliases": ["melkesjokolade", "mørk sjokolade", "hvit sjokolade","sjoko"]
+    },
+    {
+        "category": "potetgull",
+        "aliases": ["salt potetgull", "paprika potetgull", "sourcream potetgull", "linsechips", "potetgull", "chips"]
+    },
+    {
+        "category": "rein",
+        "aliases": ["reinsdyrfilet", "reinkjøtt", "reinsdyrkjøtt", "reinsdyrsteik", "finnbiff"]
+    },
+    {
+        "category": "scampi",
+        "aliases": ["scampi", "kongereker", "store reker", "tigerreker"]
+    },
+    {
+        "category": "sei",
+        "aliases": ["fersk sei", "seifilet fersk", "fersk seifilet", "frossen sei", "seifilet"]
+    },
+    {
+        "category": "skinke",
+        "aliases": ["skinke", "røkt skinke", "kokt skinke", "hamburgerrygg"]
+    },
+    {
+        "category": "hamburger",
+        "aliases": ["hamburger", "burger", "hamburgere", "cheeseburger"]
+    },
+    {
+        "category": "brød",
+        "aliases": ["grovbrød", "loff", "kneippbrød", "rundstykker", "baguette"]
+    },
+    {
+        "category": "kjøttkaker",
+        "aliases": ["kjøttkaker", "karbonader", "kjøttkaker i brun saus"]
+    },
+    {
+        "category": "fiskekaker",
+        "aliases": ["fiskekaker", "fiskekarbonader", "fiskepudding","skreikaker","hysekaker"]
+    },
+    {
+        "category": "fiskeburger",
+        "aliases": ["fiskeburger", "fiskefilet", "fiskepinner"]
+    },
+    {
+        "category": "pasta",
+        "aliases": ["fusilli", "penne", "spaghetti", "tagliatelle", "makaroni"]
+    },
+    {
+        "category": "nøtter",
+        "aliases": ["cashewnøtter", "peanøtter", "mandler", "valnøtt", "pistasjenøtter"]
+    },
+    {
+        "category": "bønner",
+        "aliases": ["kidneybønner", "svarte bønner", "brune bønner", "kikerter"]
+    },
+    {
+        "category": "suppe",
+        "aliases": ["tomatsuppe", "grønnsaksuppe", "ertesuppe", "kyllingsuppe","thaisuppe"]
+    },
+    {
+        "category": "gryte",
+        "aliases": ["lapskaus", "gryterett", "kjøttgryte", "fiskegryte","chili con carne"]
+    },
+    {
+        "category": "ris",
+        "aliases": ["jasminris", "jasmin", "basmati", "basmatiris", "grøtris", "fullkornsris"]
+    },
+    {
+        "category": "is",
+        "aliases": ["vaniljeis", "sjokoladeis", "jordbæris", "magnum", "dream"]
+    },
+    {
+        "category": "brus",
+        "aliases": ["cola", "pepsi", "sprite", "fanta", "solo", "mineralvann"]
+    },
+    {
+        "category": "bær",
+        "aliases": ["jordbær", "blåbær", "bringebær", "solbær", "tyttebær", "bjørnebær"]
+    },
+    {
+        "category": "oliven",
+        "aliases": ["grønne oliven", "sorte oliven", "kalamata oliven", "fylte oliven"]
+    },
+    {
+        "category": "bacon",
+        "aliases": ["bacon", "bacon i skiver", "bacon terninger", "stekt bacon"]
+    },
+    {
+        "category": "saus",
+        "aliases": ["pastasaus", "tomatsaus", "hvit saus", "bernaisesaus", "hollandaisesaus", "bearnaise"]
+    },
+    {
+        "category": "pesto",
+        "aliases": ["basilikumpesto", "grønn pesto", "rød pesto", "pesto rosso"]
+    },
+    {
+        "category": "kaffe",
+        "aliases": ["filtermalt kaffe", "hele kaffebønner", "instant kaffe", "espresso", "presskannekaffe"]
+    },
+    {
+        "category": "salatbar",
+        "aliases": ["salatbar", "salatbar plukk og miks", "salatbar plukk & miks"]
+    }
+]

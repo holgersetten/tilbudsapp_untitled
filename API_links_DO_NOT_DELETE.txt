@@ -1,0 +1,68 @@
+API oversikt:
+https://etilbudsavis.no/api/squid/v2/catalogs/suggest?catalog_id=Vjpt6FM_&r_lat=63.427700&r_lng=10.401200&types=paged%2Cincito
+
+Problem: vil kundeavisene hentes automatisk, og vil catalogs/id forandres?
+
+Rema1000 Dealer ID: faa0Ym
+https://api.etilbudsavis.dk/v2/catalogs?dealer_ids=faa0Ym
+
+Uke:
+https://api.etilbudsavis.dk/v2/catalogs/J2qYkMOT/hotspots
+
+Cr: 
+https://api.etilbudsavis.dk/v2/catalogs/4xmbGnrl/hotspots
+
+Bunnpris Dealer ID: 5b11sm
+https://squid-api.tjek.com/v2/catalogs/f6QtID3d/
+
+Uke:
+https://squid-api.tjek.com/v2/catalogs/f6QtID3d/hotspots
+
+Helgetilbud:
+https://squid-api.tjek.com/v2/catalogs/09oDo9kR/hotspots
+
+Meny Dealer ID: 4333pm
+
+Uke:
+https://squid-api.tjek.com/v2/catalogs/-HGEyKfX/hotspots
+
+Spar Dealer ID: c062vm
+
+Uke:
+https://squid-api.tjek.com/v2/catalogs/-YjnVtLe/hotspots
+
+OBS
+
+KIWI (PDF)
+
+
+Funksjoner i app:
+
+- Ta vare på prishistorikk, og kunne sammenligne tidligere priser
+- Dette blir med database eller json-fil.
+
+- Slette duplikater
+
+- Ide: vise forslag til måltid, basert på hva som er på tilbud denne uken.
+
+På formen: Butikknavn, dealer-id, katalog, label, (evt. helge-katalog), (evt. label)
+alle butikker skal lagres som Butikknavn_offers.json, spesialkataloger som Butikknavn_helg_offers.json
+
+Coop Extra, 80742m, uke, "Extra Ugla"
+Coop Mega, de79dm, uke, "Coop Mega Valentinlyst"
+Coop Prix, f5d5lm, uke, "Coop Prix Øya"
+Coop Marked, 68baam, uke, "Coop Marked Rye"
+Coop Obs, 51dawm, uke, "Obs City Lade", helg, "Helgematkuppet"
+Holdbart, pR2h9x, uke, ""
+Europris, e857Mm, uke, "Uke 5"
+Oda, 7kuNoZ, uke, "Tilbake til hverdagen!"
+Meny, 4333pm, helg, "Uke 05 helg"
+Spar, c062vm, uke, "Uke 05 Riks", helg, "Uke 05 Helgens Riks"
+Kiwi, 257bxm, uke, ""
+
+Et mulig problem: label vil trolig endre seg uke for uke, noen annen måte å automatisk fange opp den nyeste tilbudsavisen? Alle butikker har samme link, bortsett fra at dealer_id er byttet ut. Kiwi f.eks : https://squid-api.tjek.com/v2/catalogs?dealer_id=257bxm&order_by=-publication_date&offset=0&limit=24&types=paged%2Cincito&r_lat=63.41952&r_lng=10.39533, kan endre på dealer id for å finne gjeldende butikk?
+
+
+
+
+

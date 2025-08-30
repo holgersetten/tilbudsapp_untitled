@@ -1,0 +1,1482 @@
+[
+  {
+    "title": "Bondebrød og Tine Mellommelk 2% fett",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "iijUyxrwnt47Yy9teQVgN",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "COCA-COLA U/SUKKER",
+    "description": "",
+    "price": 89,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "1LbwG5tDFKPXVG6rK68Uc",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "ZEROH!",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ixfmaXFtXDH1E_MfJGD0K",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "RED BULL",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "wfVJOzvys5b5TejlsJ3iL",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "energidrikke"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "SVIN STRIMLER",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "voQmbCNO-j54TDdFp2ZLC",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "STORFE STRIMLER",
+    "description": "",
+    "price": 70,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "I5FIrDuBOlo29WwpkAtap",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "GRYTEKJØTT STORFE",
+    "description": "",
+    "price": 60,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "z6xkZFHLldiWcr8JHEVAe",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "LAM STRIMLER",
+    "description": "",
+    "price": 70,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "9XXmUiHjw_5-Tb5ww7SGV",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "RED BULL REGULAR",
+    "description": "",
+    "price": 64.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ou8om1FzwxGpqcptqGNPN",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "energidrikke"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "URGE, COCA-COLA M OG U/SUKKER OG FANTA U/SUKKER",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "43sQ6mVdRFUVO-Fhq8-v7",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "LAMBI TOALETTPAPIR",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "CKrQ_YlhlF2Txla0IECGj",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "PEPSI MAX OG SOLO SUPER",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "elWtGbCRWA9YBtbenFvv_",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "LATZ MENYBOKSER TIL KATT",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "SeJln_-fd8A7VYdKR6kbX",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.239Z"
+  },
+  {
+    "title": "PRIOR KYLLINGFILET",
+    "description": "",
+    "price": 95,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "m5IE2gD1RbaVGmZhb9P5b",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "kyllingfilet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "STRIMLET SVINEKJØTT",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "UQ-7uELh93iW7JgPNkcEv",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "COCA-COLA U/SUKKER",
+    "description": "",
+    "price": 89,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_HgV6Rdz1h8OFYFqhFC3n",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "Bondebrød Rett fra ovnen og Tine Mellommelk 2% fett",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "dU2KVz4Ig2yACqHLWGRTa",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "BROKKOLI",
+    "description": "",
+    "price": 15,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "LopCtJClE7V8nuyEPSl4x",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "Pulled Pork Taco",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QOXLknAq-oORio4vyeG0j",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "BACON TERNET",
+    "description": "",
+    "price": 45,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "wZgfZ1JliXbN3nbjzj6Ap",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "bacon"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "Pulled Pork Barbeque",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "mM3wndm4-LHJM9JR0Ty-U",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "BACON SKIVET",
+    "description": "",
+    "price": 29,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Ga_W2RHm3N6hWrBhsBsI6",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "bacon"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "KNACKER BRATWURST OG OST",
+    "description": "",
+    "price": 45,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FVttRo89zcIPGNWXrbjnP",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "pølser"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "PANNEKAKER STEKTE",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "8qm4ro_OgyRI8zCjZJJLd",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "WIENERPØLSE",
+    "description": "",
+    "price": 69,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Qsv7vEhIqnjdQaJiRy9z2",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "pølser"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "PRIOR OSTEPANETTER",
+    "description": "",
+    "price": 69,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "hAERHeT7Hc8ZURtnxW72b",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.240Z"
+  },
+  {
+    "title": "PASTA CARBONARA, BOLOGNESE, TIKKA MASALA OG THAI CHICKEN",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "56pIdcSqgNCwrJKT44CaC",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "KALKUNKORV PEPPER OG NATURELL",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "bIZDBFOGSLzbvJrLNBh3P",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "PRIOR KYLLING NUGGETS",
+    "description": "",
+    "price": 59,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "8dwVehltHbHp0LfoK4ZGk",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "Castello White Original og White M/Chili",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "oFV8Ag6h4hTWG20LMwC-w",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "PRIOR KALKUNKORV",
+    "description": "",
+    "price": 49,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "2PjMt5tr5OTyw5YyLPGln",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "STORFE GRYTEKJØTT",
+    "description": "",
+    "price": 60,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "tamF0xfj6s_q-koxCWEUJ",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "STRIMLET STORFE",
+    "description": "",
+    "price": 70,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_rSf6aptNWdvw6JA-KluJ",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "STRIMLET SVINEKJØTT",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FGuEt6_iivrE8a_lyf-F4",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "HAVREGRANOLA JORDBÆR OG BRINGEBÆR",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "SRsPwjpnHrSFCtm8Dk9rZ",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "COCO POPS CHOCOS OG SMACKS",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "2OzURFS54Y_cWnaHCYsnk",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "TRESOR CHOCO NUT",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "W_FUkFg36NSD2ZiL7HTE1",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "HAVREGRØT FRØ & KARDEMOMME OG SKOGSBÆR",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "YqP55fPutFa0aCMrnIevE",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "TINE YOGHURT, Skogsbær, jordbær, melon og vanilje",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Qamhk8rLYY-MpYnC4x9YS",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "TINE YOGHURT JUNIOR",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "PtNo4Z6V6TCy-sahWCUr5",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "GRANOLA M/ JORDBÆR",
+    "description": "",
+    "price": 45,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Zi0-Awbu8arVsEh36NlUW",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "KVARG BJØRNEBÆR & VANILJE OG SITRON",
+    "description": "",
+    "price": 25,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "_3i0CAzWUpaDly3k1uRKk",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "SKYR MINI JORDBÆR, BRINGEBÆR OG FRUKT&BÆR",
+    "description": "",
+    "price": 10,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "DWvmFubq4xWqle2_Xi80N",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "CRUESLI SOLFROKOST",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "md0Qtf8xrD9cDCWvrwHxL",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "Munkholm Original og Fatøl",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "SHoVX6kDRQ256Q1W-1UuG",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "POWERADE GOLDEN MANGO OG MOUNTAIN BLAST",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "G12TcelP98ujP1CQqqMfi",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "SØRLANDSCHIPS HAVSALT, SPANSK PAPRIKA OG CREME FRAICHE",
+    "description": "",
+    "price": 55,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "pABkpAvckNteI4TUWKqBQ",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "potetgull"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "KINDER SURPRISE",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "5ReHq_IoilDJsBrDu5Njf",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "MAXIM PROTEINBARER",
+    "description": "",
+    "price": 25,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "cIrPTJKTWIBgDzD3H9aT1",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "OREO RULL ORIGINAL OG OREO DOBBEL",
+    "description": "",
+    "price": 55,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "TbKlBc1sL6an6UVqS71Wt",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "OSTERINGER CHEDDAR CHILI, TORTILLACHIPS CHEESE OG TORTILLA MIX CHEESE SWEET CHILI",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "HlAOY6v9oslewDROu21R_",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "potetgull"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.241Z"
+  },
+  {
+    "title": "TORTILLACHIPS CHILI & LIME",
+    "description": "",
+    "price": 25,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "8F8HOmkVUFvsMHVGhcZ7O",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "potetgull"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "MANDELSTANG, MONOLIT, TOPPRIS, PEANØTTKUBE, JAPP OG DAIM DOBBEL",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "oS6MzXcBHX-erJJJussLK",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "POWERKING SPORTSDRIKK TROPICAL, MANGO OG BLOOD ORANGE",
+    "description": "",
+    "price": 15,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "UgetCtgrJnt7J488OByBH",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "PRINGLES ORIGINAL, SOUR CREAM & ONION OG PAPRIKA",
+    "description": "",
+    "price": 55,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Fc5IH1ZW2bmYv8h8fBval",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "FRESH DISCS MARINE OG LAVENDER",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "4og5n6ywhdgwVOVKUcUB4",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "Stabbur-Makrell Porsjon",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "w2cX7wDpbZThyyj4LopLy",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "NATUSAN BABYOIL OG VASK TOP",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "QloH8yAn_XwoP5cAifTkA",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "GRILSTAD SPEKEMAT",
+    "description": "",
+    "price": 100,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Wl4Ng_5l02ABpzbhuzgrG",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "WHISKAS CLASSIC COLLECTION OG FISH SELECTION",
+    "description": "",
+    "price": 65,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "N04xqOotUf_BhfxG3lE2W",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "TØRRMOPP",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "SNpgX5lGleQaVf_vwJqhZ",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "BJØRNISBRØD",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "KC4Ze9vFzcTDwfrprumII",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "MILLS EKTE OG LETT MAJONES",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "bGN6RUmwA5ifDthZzOs5t",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "FINISH IN-WASH",
+    "description": "",
+    "price": 79,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FCGPN09EhZaFjDdxxBL1F",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "MILLS MAJO",
+    "description": "",
+    "price": 29,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "1b-4RoPgZNhZ4huMYNDnF",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "GLADE TOUCH&FRESH",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lzhp5Y1DXy5UxR8iC3jM0",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "MILLS TUBE MAJONES EKTE/LETT OG REMULADE",
+    "description": "",
+    "price": 25,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "9UsPOVv5hY39EUJWMbtJk",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "STØVMOPP STARTSETT",
+    "description": "",
+    "price": 29,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "NBkHteEl-_UV5IAPMSY5m",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "POLARBRØD HAVRE",
+    "description": "",
+    "price": 33,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Ef-oY24K1KtSggBDjPCZA",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "TØRKERULL OG TOALETTPAPIR",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "zDl8Z8fomf0N0o0DxBuLd",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "MILLS OVNSBAKT POSTEI BACON OG GROV",
+    "description": "",
+    "price": 25,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "hqM56XRI2mNku4MzB9Q3A",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "bacon"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "Salame og Spekeskinke Prosciutto",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "41yvCeWps_pex8-rfaiKp",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "spekeskinke",
+      "skinke"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "UNIK FRYSEPOSER",
+    "description": "",
+    "price": 25,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "luQR6y3DDguQ5i22RT7jU",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "Q PROTEINMELK SJOKOLADE",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "2Geh8ybW62lI3pGo-BOFV",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "sjokolade"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "GLADE TOUCH & FRESH LEMON OG LAVENDER REFILL",
+    "description": "",
+    "price": 39,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "GMJfw--hia432lWR7uL-0",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "Stabburet Leverpostei",
+    "description": "",
+    "price": 25,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "RbiRqUw369u4dTaEpjtPC",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "FINISH POWER ALL IN ONE",
+    "description": "",
+    "price": 109,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "4_CwR_QjLuC7WkM9CkAXt",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "PRIOR KALKUNFILET RØKT OG NATURELL",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "WCpGjku2cdxlDqGIykvvv",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "kalkunfilet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "STARBUCKS SKINNY LATTE OG CAPPUCCINO",
+    "description": "",
+    "price": 40,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "kYm3h6vPbeuaLhn6OSOkY",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "TINE GUDBRANDSDALSOST, FLØTEMYSOST OG NORVEGIA PROTEINRIK",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "WRJfTqT-wMVH9MdoonT_g",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "LYNG",
+    "description": "",
+    "price": 100,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "3Vqq_DJZUJcKnNzg0waTl",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "MUNKHOLM ORIGINAL OG FATØL",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "minzynVzhLv_Hjk5XFexn",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "GRØNNE DRUER",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "O3mz8rU9gk_wZ584Z8kwZ",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "druer"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "RED BULL",
+    "description": "",
+    "price": 30,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "KxaZ5x127SJxFf62BAoGK",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "energidrikke"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.242Z"
+  },
+  {
+    "title": "UTVALGTE FREIA-PLATER",
+    "description": "",
+    "price": 100,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FUwOfL8YEdAfRRKSmZ8wo",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.244Z"
+  },
+  {
+    "title": "COCA-COLA",
+    "description": "",
+    "price": 99,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "pvvcgrCtTRdDVI4YhCei7",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.244Z"
+  },
+  {
+    "title": "ZEROH!",
+    "description": "",
+    "price": 50,
+    "originalPrice": null,
+    "discount": null,
+    "validFrom": "2025-08-24T22:00:00+0000",
+    "validTo": "2025-08-31T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "e7_7lZS_gCh88NlIpESgS",
+    "store": "Bunnpris",
+    "storeId": "5b11sm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T21:50:11.244Z"
+  }
+]
