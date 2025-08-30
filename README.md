@@ -1,4 +1,4 @@
-# Middagstilbud App
+# Middagstilbud-App
 
 En norsk web-applikasjon som hjelper deg å finne de beste tilbudene på ingredienser fra forskjellige butikkkjeder.
 
@@ -12,14 +12,12 @@ En norsk web-applikasjon som hjelper deg å finne de beste tilbudene på ingredi
 
 ## 🏪 Støttede butikker
 
-### Hovedbutikker (direkte filter)
+### Butikker
 - Rema 1000
 - Kiwi
 - Meny
 - Coop Extra
 - Bunnpris
-
-### Ytterligere butikker (dropdown)
 - Coop Mega
 - Coop Marked
 - Coop Prix
@@ -82,4 +80,3 @@ Prosjektet bruker:
 
 - Tilbudsdata oppdateres manuelt via Python-skript
 - NLP-server kjører lokalt for personvernhensyn
-- Alle logoer lagres lokalt for bedre ytelse
