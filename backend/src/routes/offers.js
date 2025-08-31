@@ -6,7 +6,14 @@ const router = express.Router();
 // GET /api/offers - Hent alle tilbud
 router.get('/', async (req, res) => {
     try {
-        const offers = offerService.getAllOffers();
+        const { store } = req.query;
+        let offers = offerService.getAllOffers();
+        
+        // Filter by store if specified
+        if (store) {
+            offers = offers.filter(offer => offer.store === store);
+        }
+        
         console.log(`📦 Returnerer ${offers.length} tilbud`);
         res.json(offers);
     } catch (error) {
@@ -35,7 +42,7 @@ router.get('/best', async (req, res) => {
 
         console.log('🔎 Mottatt forespørsel om beste tilbud for ingredienser:', ingredientsList);
         
-        const bestOffers = offerService.getBestOffers(ingredientsList);
+        const bestOffers = await offerService.getBestOffers(ingredientsList);
         
         console.log(`📦 Returnerer ${bestOffers.length} beste tilbud`);
         res.json(bestOffers);
@@ -103,6 +110,20 @@ router.post('/update', async (req, res) => {
         console.error('❌ Feil ved start av oppdatering:', error.message);
         res.status(500).json({ 
             error: 'Kunne ikke starte oppdatering',
+            message: error.message 
+        });
+    }
+});
+
+// GET /api/offers/status - Hent status for tilbud
+router.get('/status', async (req, res) => {
+    try {
+        const status = offerService.getOfferStatus();
+        res.json(status);
+    } catch (error) {
+        console.error('❌ Feil ved henting av tilbudsstatus:', error.message);
+        res.status(500).json({ 
+            error: 'Kunne ikke hente tilbudsstatus',
             message: error.message 
         });
     }

@@ -58,6 +58,19 @@ app.use('/api/meals', mealsRouter);
 app.use('/api/offers', offersRouter);
 app.use('/api/categories', categoriesRouter);
 
+// Meal suggestions shortcut endpoint
+app.get('/api/meal-suggestions', async (req, res) => {
+    try {
+        // Redirect to the full meal suggestions endpoint
+        const mealsResponse = await fetch(`http://localhost:${config.port}/api/meals/suggested/by-offers`);
+        const meals = await mealsResponse.json();
+        res.json(meals);
+    } catch (error) {
+        console.error('❌ Feil ved henting av meal suggestions:', error);
+        res.status(500).json({ error: 'Kunne ikke hente meal suggestions' });
+    }
+});
+
 // Product image endpoint  
 app.get('/api/product-image/:storeName/:offerHeading', async (req, res) => {
     try {
@@ -125,6 +138,53 @@ app.get('/api/best-offers', async (req, res) => {
         console.error('❌ Feil i legacy best-offers endpoint:', error.message);
         console.error('Stack:', error.stack);
         res.status(500).json({ error: 'Kunne ikke hente beste tilbud' });
+    }
+});
+
+// GET /api/offers/status - Status for tilbudshenting
+app.get('/api/offers/status', (req, res) => {
+    try {
+        const stores = ['rema_1000', 'kiwi', 'meny', 'coop_extra', 'bunnpris', 'coop_mega', 'coop_marked', 'coop_prix', 'coop_obs', 'spar'];
+        const status = stores.map(store => {
+            try {
+                const filename = `${store}_offers.json`;
+                const filePath = require('path').join(config.offersDir, filename);
+                const offers = fileService.loadJSON(filePath);
+                
+                return {
+                    store: offerService.normalizeStoreName(store),
+                    filename,
+                    hasData: Array.isArray(offers) && offers.length > 0,
+                    count: Array.isArray(offers) ? offers.length : 0,
+                    lastModified: require('fs').existsSync(filePath) ? 
+                        require('fs').statSync(filePath).mtime.toISOString() : null
+                };
+            } catch (error) {
+                return {
+                    store: offerService.normalizeStoreName(store),
+                    filename: `${store}_offers.json`,
+                    hasData: false,
+                    count: 0,
+                    error: error.message
+                };
+            }
+        });
+
+        const totalOffers = status.reduce((sum, s) => sum + s.count, 0);
+        const activeStores = status.filter(s => s.hasData).length;
+
+        res.json({
+            summary: {
+                totalOffers,
+                activeStores,
+                totalStores: stores.length,
+                updateInProgress: offerService.isUpdateInProgress()
+            },
+            stores: status
+        });
+    } catch (error) {
+        console.error('❌ Feil i offers status endpoint:', error.message);
+        res.status(500).json({ error: 'Kunne ikke hente tilbudsstatus' });
     }
 });
 

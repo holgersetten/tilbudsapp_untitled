@@ -48,18 +48,68 @@ class TjekApiService {
     }
 
     transformHotspotsToOffers(hotspots) {
-        return hotspots.map(hotspot => ({
-            title: hotspot.offer?.heading || 'Ukjent tilbud',
-            description: hotspot.offer?.description || '',
-            price: hotspot.offer?.pricing?.price || null,
-            originalPrice: hotspot.offer?.pricing?.pre_price || null,
-            discount: hotspot.offer?.pricing?.discount || null,
-            validFrom: hotspot.offer?.run_from || null,
-            validTo: hotspot.offer?.run_till || null,
-            imageUrl: hotspot.offer?.images?.[0]?.view?.zoom?.url || null,
-            catalogId: hotspot.catalog_id,
-            hotspotId: hotspot.id
-        }));
+        return hotspots.map(hotspot => {
+            const offer = hotspot.offer;
+            const quantity = offer?.quantity || {};
+            
+            // Parse quantity data - handle both API formats
+            let pieces = 1;
+            let size = null;
+            let unit = '';
+            
+            // Handle different formats of quantity data
+            if (quantity.pieces) {
+                if (typeof quantity.pieces === 'object') {
+                    pieces = quantity.pieces.from || quantity.pieces.to || 1;
+                } else {
+                    pieces = quantity.pieces || 1;
+                }
+            }
+            
+            if (quantity.size) {
+                if (typeof quantity.size === 'object') {
+                    size = quantity.size.from || quantity.size.to;
+                } else {
+                    size = quantity.size;
+                }
+            }
+            
+            if (quantity.unit) {
+                if (typeof quantity.unit === 'object' && quantity.unit.symbol) {
+                    unit = quantity.unit.symbol;
+                } else if (typeof quantity.unit === 'string') {
+                    unit = quantity.unit;
+                }
+            }
+            
+            // Bygg mengdetekst
+            let quantityText = '';
+            if (pieces > 1 && size && unit) {
+                quantityText = `${pieces} × ${size}${unit}`;
+            } else if (size && unit) {
+                quantityText = `${size}${unit}`;
+            } else if (pieces > 1) {
+                quantityText = `${pieces} stk`;
+            }
+            
+            return {
+                title: offer?.heading || 'Ukjent tilbud',
+                description: offer?.description || '',
+                price: offer?.pricing?.price || null,
+                originalPrice: offer?.pricing?.pre_price || null,
+                discount: offer?.pricing?.discount || null,
+                currency: offer?.pricing?.currency || 'NOK',
+                quantity: quantityText,
+                unit: unit,
+                pieces: pieces,
+                size: size,
+                validFrom: offer?.run_from || null,
+                validTo: offer?.run_till || null,
+                imageUrl: offer?.images?.[0]?.view?.zoom?.url || null,
+                catalogId: hotspot.catalog_id,
+                hotspotId: hotspot.id
+            };
+        });
     }
 }
 

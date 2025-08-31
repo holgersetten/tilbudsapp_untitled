@@ -5,6 +5,11 @@
     "price": 100,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -14,7 +19,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.182Z"
+    "updatedAt": "2025-08-30T23:33:43.729Z"
   },
   {
     "title": "Freia småsjokolader",
@@ -22,6 +27,11 @@
     "price": 50,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 47g",
+    "unit": "g",
+    "pieces": 2,
+    "size": 47,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -31,7 +41,7 @@
     "tags": [
       "sjokolade"
     ],
-    "updatedAt": "2025-08-30T21:50:11.182Z"
+    "updatedAt": "2025-08-30T23:33:43.730Z"
   },
   {
     "title": "Gilde skinnfri kjøttpølse",
@@ -39,6 +49,11 @@
     "price": 30,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "450g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 450,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -48,7 +63,7 @@
     "tags": [
       "pølser"
     ],
-    "updatedAt": "2025-08-30T21:50:11.182Z"
+    "updatedAt": "2025-08-30T23:33:43.730Z"
   },
   {
     "title": "Mat i farta",
@@ -56,6 +71,11 @@
     "price": 10,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "119g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 119,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -65,7 +85,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.182Z"
+    "updatedAt": "2025-08-30T23:33:43.730Z"
   },
   {
     "title": "Norske røde epler",
@@ -73,6 +93,11 @@
     "price": 35,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -82,7 +107,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.182Z"
+    "updatedAt": "2025-08-30T23:33:43.730Z"
   },
   {
     "title": "Nidar smågodt i løsvekt",
@@ -90,6 +115,11 @@
     "price": 12,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "100g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 100,
     "validFrom": "2025-09-04T22:00:00+0000",
     "validTo": "2025-09-05T21:59:59+0000",
     "imageUrl": null,
@@ -99,7 +129,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.182Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "NORSKE RØDE EPLER",
@@ -107,6 +137,11 @@
     "price": 35,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -116,7 +151,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.182Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "NORSKE GULRØTTER",
@@ -124,6 +159,11 @@
     "price": 25,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "750g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 750,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -133,7 +173,7 @@
     "tags": [
       "gulrot"
     ],
-    "updatedAt": "2025-08-30T21:50:11.182Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Norske poteter",
@@ -141,6 +181,11 @@
     "price": 15,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -150,7 +195,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "LYNG - QUATRO",
@@ -158,6 +203,11 @@
     "price": 99.9,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -167,7 +217,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "1 valgfritt grovbrød fra Coop + 1 liter melk fra Tine",
@@ -175,6 +225,11 @@
     "price": 50,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -184,7 +239,7 @@
     "tags": [
       "brød"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "COOP SPRUDLE/VANN",
@@ -192,6 +247,11 @@
     "price": 10,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "0.5l",
+    "unit": "l",
+    "pieces": 1,
+    "size": 0.5,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -201,7 +261,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "STABBURET LEVERPOSTEI",
@@ -209,6 +269,11 @@
     "price": 10,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "100g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 100,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -218,7 +283,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Coop iste fersken",
@@ -226,6 +291,11 @@
     "price": 20,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "1.5l",
+    "unit": "l",
+    "pieces": 1,
+    "size": 1.5,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -235,7 +305,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Kindersjokolade maxi",
@@ -243,6 +313,11 @@
     "price": 10,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "21g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 21,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -252,7 +327,7 @@
     "tags": [
       "sjokolade"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Coop blåbærknute m/ vanilje",
@@ -260,6 +335,11 @@
     "price": 10,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "100g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 100,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -269,7 +349,7 @@
     "tags": [
       "bær"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Snickers/Twix",
@@ -277,6 +357,11 @@
     "price": 20,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "75g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 75,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -286,7 +371,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Gilde smårettskinke/ Salami Siliana",
@@ -294,6 +379,11 @@
     "price": 40,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "130g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 130,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -304,7 +394,7 @@
       "salami",
       "skinke"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Gilde kokt skinke/ leverpostei",
@@ -312,6 +402,11 @@
     "price": 30,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "110g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 110,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -322,7 +417,7 @@
       "kokt_skinke",
       "skinke"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Tine kremgo",
@@ -330,6 +425,11 @@
     "price": 20,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "125g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 125,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -339,7 +439,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "Coca-Cola 10 pk",
@@ -347,6 +447,11 @@
     "price": 95,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "10 × 0.33l",
+    "unit": "l",
+    "pieces": 10,
+    "size": 0.33,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -356,7 +461,7 @@
     "tags": [
       "brus"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "MONSTER/BURN",
@@ -364,6 +469,11 @@
     "price": 40,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 0.5l",
+    "unit": "l",
+    "pieces": 2,
+    "size": 0.5,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -373,7 +483,7 @@
     "tags": [
       "energidrikke"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.731Z"
   },
   {
     "title": "COOP SMOOTHIE",
@@ -381,6 +491,11 @@
     "price": 30,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 250ml",
+    "unit": "ml",
+    "pieces": 2,
+    "size": 250,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -390,7 +505,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   },
   {
     "title": "Sørlandschips",
@@ -398,6 +513,11 @@
     "price": 55,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 190g",
+    "unit": "g",
+    "pieces": 2,
+    "size": 190,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -407,7 +527,7 @@
     "tags": [
       "potetgull"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   },
   {
     "title": "Mills frokostprodukter",
@@ -415,6 +535,11 @@
     "price": 60,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 160g",
+    "unit": "g",
+    "pieces": 2,
+    "size": 160,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -424,7 +549,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   },
   {
     "title": "Oreo kjeks",
@@ -432,6 +557,11 @@
     "price": 50,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 114g",
+    "unit": "g",
+    "pieces": 2,
+    "size": 114,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -441,7 +571,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   },
   {
     "title": "Billys Pan Pizza",
@@ -449,6 +579,11 @@
     "price": 30,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 170g",
+    "unit": "g",
+    "pieces": 2,
+    "size": 170,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -458,7 +593,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   },
   {
     "title": "Fun Light",
@@ -466,6 +601,11 @@
     "price": 60,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 0.8l",
+    "unit": "l",
+    "pieces": 2,
+    "size": 0.8,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -475,7 +615,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   },
   {
     "title": "Nidar Smash",
@@ -483,6 +623,11 @@
     "price": 90,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 200g",
+    "unit": "g",
+    "pieces": 2,
+    "size": 200,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -492,7 +637,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   },
   {
     "title": "Synnøve skivet gulost",
@@ -500,6 +645,11 @@
     "price": 90,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 285g",
+    "unit": "g",
+    "pieces": 2,
+    "size": 285,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -509,7 +659,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   },
   {
     "title": "Findus middagsretter",
@@ -517,6 +667,11 @@
     "price": 100,
     "originalPrice": null,
     "discount": null,
+    "currency": "NOK",
+    "quantity": "2 × 540g",
+    "unit": "g",
+    "pieces": 2,
+    "size": 540,
     "validFrom": "2025-08-31T22:00:00+0000",
     "validTo": "2025-09-07T21:59:59+0000",
     "imageUrl": null,
@@ -526,6 +681,6 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.183Z"
+    "updatedAt": "2025-08-30T23:33:43.732Z"
   }
 ]

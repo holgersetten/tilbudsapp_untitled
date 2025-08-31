@@ -1,651 +1,25 @@
 [
   {
-    "title": "FERSK KARBONADEDEIG",
-    "description": "",
-    "price": 69.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "CV-poSJB4qxg1e2o1FrSq",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "kjøttdeig"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "COCA-COLA ZERO 8 PK",
-    "description": "",
-    "price": 109,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "I8AeunS6A_lFSEE_-qxPV",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "brus"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "FLERKORN BAGUETTE MED REKER & MAJONES",
-    "description": "",
-    "price": 79.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "Y-0GyIV0_ig1Nu7okTz1-",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "brød"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "FLERKORN BAGUETTE MED PASTRAMI & ØSTAVIND",
-    "description": "",
-    "price": 85,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "deWzfq_ogv9l2Pxeoc-M4",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "brød"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "NYSMURT HORN MED OST & SKINKE",
-    "description": "",
-    "price": 49.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "8QEziNVOZv3cpMorZEjAu",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "skinke"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "PASTASALAT MED OST & SKINKE",
-    "description": "",
-    "price": 69.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "UNIiUpIxaQTtu2gshJMHC",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "skinke"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "CÆSARSALAT MINI PALETT",
-    "description": "",
-    "price": 59.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "J4vgAwIW4mr1ui3rD-aqY",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "KYLLINGWRAP DELI'S KITCHEN",
-    "description": "",
-    "price": 79.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "yNCJMD0DbaX3vUYHY4m6a",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "SALATBÅR PLUKK & MIKS",
-    "description": "",
-    "price": 19.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "qK0jo1Q1a_R0d-yG7vNJx",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "VARM ANGUSBURGER",
-    "description": "",
-    "price": 64.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "EysGkXnIkfqrQsOO7QuIN",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "hamburger"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "FERSK KARBONADEDEIG",
-    "description": "",
-    "price": 69.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "haM43443aeKb1pcNPgzMN",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "kjøttdeig"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "FERSKE FISKEKAKER",
-    "description": "",
-    "price": 15,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "kjrpoYnF1txx-trv64TMZ",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "fiskekaker"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "PASTA ARRABBIATA",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "7SD6SQLqznKTYqf0NYFtv",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "SPICY BURGER",
-    "description": "",
-    "price": 20,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "5AnFVX09NsqrWPDF4v3Yn",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "hamburger"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "TYNNSKÅRET SPEKESKINKE",
-    "description": "",
-    "price": 34.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "qXjtnwjps2NbTnl7ht_Ed",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "spekeskinke",
-      "skinke"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "GILDE WIENERPØLSER",
-    "description": "",
-    "price": 99,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "1_ki8v6oMojlGRUF5ZN_k",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "pølser"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "SPRØPANERT TORSKEFILET",
-    "description": "",
-    "price": 79.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "83J8AHjkQm8SOXFl_Kdaa",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "Tørkeruller",
-    "description": "",
-    "price": 64.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "k5LhVf8d3Le5DEWavvgmS",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "Kokt skinke/røkt svinefilet",
-    "description": "",
-    "price": 49.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "N1YlxGQwJB31pXrgwwVXI",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "kokt_skinke",
-      "skinke"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "Omo color/hvitt",
-    "description": "",
-    "price": 99,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "-EwscKCTbcn6SQAJ6LpV4",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "Bæråscammen - hvitmuggost",
-    "description": "",
-    "price": 89,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "N2MeLwVTKnWqTRdXtbqwZ",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "Gelé",
-    "description": "",
-    "price": 16.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "t_ytxzzlJpevsQGqXeJAY",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "Nystekt spandauer",
-    "description": "",
-    "price": 15,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "hf051bUGhj4GTun9JnNr3",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.198Z"
-  },
-  {
-    "title": "Nystekt Grovt bondebrød",
-    "description": "",
-    "price": 35,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "Xo0olfY4n1Tz2JviUafZw",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Gräddost",
-    "description": "",
-    "price": 119,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "qgWzhfN4oFG1S6zTUiR9y",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Sørlandsis",
-    "description": "",
-    "price": 59.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "f5X6o9bj4kSU3M2K744TW",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Nescafé",
-    "description": "",
-    "price": 79.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "sqKRvch-LRwsf3aOJDO9e",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Premium juice",
-    "description": "",
-    "price": 34.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "-LuKg_QRITfX2pMawX_p0",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Eplejuice",
-    "description": "",
-    "price": 24.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "A872GZr-KWaF9zz9tvYNz",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Truseinnlegg",
-    "description": "",
-    "price": 26.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "iPiOgHfMUBu3fonJn42YK",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Vitaminer",
-    "description": "",
-    "price": 79.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "OXI1gtNXptjg39PN1131A",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Sunsilk",
-    "description": "",
-    "price": 19.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "dx91O3FJpBuEBWLt8Kqur",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "SPISEMODEN AVOKADO",
-    "description": "",
-    "price": 24.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "LhchuOk1Ld-2C1HnUHBAu",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Tyttebær",
-    "description": "",
-    "price": 49.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "NLdInFXr5EDEf49chrCEI",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "bær"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Spiss paprika",
-    "description": "",
-    "price": 24.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "jVwI_Pe_HU5-iDWz4xzuz",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Cevita druer",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "_JGmZq831IY-3YULFVDV7",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Calluna",
+    "title": "CALLUNA",
     "description": "",
     "price": 100,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "4 × 1pcs",
+    "unit": "pcs",
+    "pieces": 4,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "6A-5ZOUkxFtyocDnmDuT3",
+    "hotspotId": "j0YpWE6338_B9Spf8L9Hh",
     "store": "Meny",
     "storeId": "4333pm",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
-  },
-  {
-    "title": "Roser, Hyperikum og Lepidium",
-    "description": "",
-    "price": 149,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "490U_ugyllUSU1pV3G1Yq",
-    "store": "Meny",
-    "storeId": "4333pm",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
+    "updatedAt": "2025-08-30T23:33:43.792Z"
   },
   {
     "title": "Håndbundet blomstermiks",
@@ -653,15 +27,505 @@
     "price": 299,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "ZlGddwRC9DWmhrlaXFBQl",
+    "hotspotId": "f25qrlUweTWS5akbg-zZC",
     "store": "Meny",
     "storeId": "4333pm",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.199Z"
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Roser, Hyperikum og Lepidium",
+    "description": "",
+    "price": 149,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "PaKP6sAbMDn_GAuvazFzJ",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Stor Nygrillet Kylling",
+    "description": "",
+    "price": 79.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yw7VruE5Hk8uoz1HtD7My",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "FERSK KYLLINGFILET",
+    "description": "",
+    "price": 149,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1.1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1.1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "bPSFY_xZ9GbMacJnh2NRF",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "kyllingfilet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "COCA-COLA ZERO",
+    "description": "",
+    "price": 109,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "8 × 1.5l",
+    "unit": "l",
+    "pieces": 8,
+    "size": 1.5,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yUBcH3usy__EwMoEHvZUT",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "LAKSEFILET",
+    "description": "",
+    "price": 129,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "4 × 125g",
+    "unit": "g",
+    "pieces": 4,
+    "size": 125,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "xgk8fq31UTpy01i4SfDP2",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "laks"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Norske plommer løsvekt",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "w1nS7NbfLSTP1eeZCVxfW",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Tørkeruller",
+    "description": "",
+    "price": 64.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "g24uYEpKwJ3tnA7ZflMxN",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Cevita druer",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "400g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 400,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "-c4ICbQswo8lsrTPA-gsQ",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Kokt skinke/røkt svinefilet",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "250g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 250,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "eJYgomzLkTVKqFtx5GU87",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "kokt_skinke",
+      "skinke"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Tyttebær",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "500g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "LiOkSLeBO9zE_gIIQwy_S",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "bær"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Sørlandschips",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "180g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 180,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "wFHiaTVBPze3fupLiM79-",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "potetgull"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Fønix",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "100g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 100,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lwxbndj-Y8G-_f3CB3fSh",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Gelé",
+    "description": "",
+    "price": 16.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "125g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 125,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "5I6cUHLciDpV6DdxbVvjN",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Nystekt grovt Speltbrød",
+    "description": "",
+    "price": 35,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "700g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 700,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "3ugpGSIDeFDOeq3ciMFus",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Sørlandsis",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "0.95l",
+    "unit": "l",
+    "pieces": 1,
+    "size": 0.95,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "APIS_X1tMR8-_0eRWyykv",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Nystekt croissant",
+    "description": "",
+    "price": 15,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "70g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 70,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "qyFoN5Lxi5Cb9M1vZ1S-a",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Fiskepinner/fish&crisp/ fish&fun/kapteinens fylte",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "245g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 245,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "sK3SvuI7202AnbR5l3ONJ",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "fiskeburger"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Laksefilet",
+    "description": "",
+    "price": 129,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "4 × 125g",
+    "unit": "g",
+    "pieces": 4,
+    "size": 125,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "PaPvp2N-qMoqKpW-V64Ws",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "laks"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Fiskegrateng/crispies/ fiskefileter",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "370g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 370,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "dWd46L4ymB5_exUQiN_3g",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "fiskeburger"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Fiskekaker",
+    "description": "",
+    "price": 69.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "450g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 450,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "uCGCo8j5iB3nLtUeV8j1i",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "fiskekaker"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Vitaminer",
+    "description": "",
+    "price": 79.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "q84OeEPTOhvQpoXDqbHD6",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
+  },
+  {
+    "title": "Truseinnlegg",
+    "description": "",
+    "price": 26.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-03T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "m9m2-QuNJ0G_z5rhXlSh4",
+    "store": "Meny",
+    "storeId": "4333pm",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-30T23:33:43.792Z"
   }
 ]

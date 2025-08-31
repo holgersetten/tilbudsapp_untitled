@@ -1,5 +1,6 @@
 const express = require('express');
 const mealService = require('../services/mealService');
+const offerService = require('../services/offerService');
 
 const router = express.Router();
 
@@ -95,6 +96,78 @@ router.delete('/:mealName', (req, res) => {
         const statusCode = error.message.includes('ikke funnet') ? 404 : 400;
         res.status(statusCode).json({ 
             error: 'Kunne ikke slette middag',
+            message: error.message 
+        });
+    }
+});
+
+// GET /api/meals/suggested/by-offers - Hent middagsforslag rangert etter tilbud
+router.get('/suggested/by-offers', async (req, res) => {
+    try {
+        console.log('🍽️ Henter middagsforslag basert på tilbud...');
+        
+        // Hent alle middagsforslag (kun middag-kategorien)
+        const allMeals = mealService.getMealsByCategory('middag');
+        console.log(`📦 Fant ${allMeals.length} middagsretter`);
+        
+        if (allMeals.length === 0) {
+            return res.json([]);
+        }
+
+        // Hent alle tilbud for å sjekke mot
+        const allOffers = offerService.getAllOffers();
+        console.log(`📦 Fant totalt ${allOffers.length} tilbud på tvers av butikker`);
+
+        // Ranger middagsforslag basert på tilbud
+        const rankedMeals = allMeals.map(meal => {
+            let offersFound = 0;
+            let totalIngredients = meal.ingredients ? meal.ingredients.length : 0;
+            const availableOffers = [];
+
+            if (meal.ingredients && Array.isArray(meal.ingredients)) {
+                meal.ingredients.forEach(ingredient => {
+                    const matchingOffers = allOffers.filter(offer => {
+                        const title = (offer.title || '').toLowerCase();
+                        const ingredientLower = ingredient.toLowerCase();
+                        
+                        // Enkel matching - kan forbedres med NLP senere
+                        return title.includes(ingredientLower) || 
+                               ingredientLower.includes(title.split(' ')[0]);
+                    });
+
+                    if (matchingOffers.length > 0) {
+                        offersFound++;
+                        availableOffers.push({
+                            ingredient,
+                            offers: matchingOffers.slice(0, 3) // Maks 3 tilbud per ingrediens
+                        });
+                    }
+                });
+            }
+
+            const offerPercentage = totalIngredients > 0 ? (offersFound / totalIngredients) * 100 : 0;
+
+            return {
+                ...meal,
+                offersFound,
+                totalIngredients,
+                offerPercentage: Math.round(offerPercentage),
+                availableOffers,
+                score: offersFound * 10 + (meal.difficulty === 'enkel' ? 5 : meal.difficulty === 'medium' ? 3 : 1)
+            };
+        });
+
+        // Sorter etter score (flest tilbud + enkle retter først)
+        rankedMeals.sort((a, b) => b.score - a.score);
+
+        console.log(`🏆 Rangerte ${rankedMeals.length} middagsforslag`);
+        console.log(`🥇 Topp 3: ${rankedMeals.slice(0, 3).map(m => `${m.name} (${m.offerPercentage}%)`).join(', ')}`);
+
+        res.json(rankedMeals);
+    } catch (error) {
+        console.error('❌ Feil ved rangering av middagsforslag:', error.message);
+        res.status(500).json({ 
+            error: 'Kunne ikke hente rangerte middagsforslag',
             message: error.message 
         });
     }

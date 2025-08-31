@@ -7,6 +7,22 @@ const { getActiveStores, getStoreLogoUrl } = require('../config/stores');
 class OfferService {
     constructor() {
         this.updateInProgress = false;
+        this.lastUpdateAttempt = null;
+        this.setupPeriodicUpdates();
+    }
+
+    setupPeriodicUpdates() {
+        // Prøv å oppdatere hver time på hverdager
+        setInterval(() => {
+            const now = new Date();
+            const isWeekday = now.getDay() >= 1 && now.getDay() <= 5; // Mandag-Fredag
+            const isBusinessHours = now.getHours() >= 8 && now.getHours() <= 20;
+            
+            if (isWeekday && isBusinessHours && !this.updateInProgress) {
+                console.log('⏰ Automatisk oppdatering av tilbud...');
+                this.updateAllStoreOffers();
+            }
+        }, 60 * 60 * 1000); // Hver time
     }
 
     async updateAllStoreOffers() {
@@ -40,8 +56,8 @@ class OfferService {
             const offers = await tjekApiService.getStoreOffers(store.dealerId);
             
             if (offers.length === 0) {
-                console.warn(`⚠️ Ingen tilbud funnet for ${store.name}`);
-                return false;
+                console.warn(`⚠️ Ingen tilbud funnet for ${store.name} - bruker eksisterende lokale data`);
+                return this.validateExistingOffers(store);
             }
 
             // Legg til butikknavn og tags til hvert tilbud
@@ -66,6 +82,26 @@ class OfferService {
             return true;
         } catch (error) {
             console.error(`❌ Feil ved oppdatering av ${store.name}:`, error.message);
+            console.log(`🔄 Fallback: Bruker eksisterende lokale data for ${store.name}`);
+            return this.validateExistingOffers(store);
+        }
+    }
+
+    validateExistingOffers(store) {
+        try {
+            const filename = `${store.name.toLowerCase().replace(/\s+/g, '_')}_offers.json`;
+            const filePath = require('path').join(__dirname, '../../offers', filename);
+            const existingOffers = fileService.loadJSON(filePath);
+            
+            if (Array.isArray(existingOffers) && existingOffers.length > 0) {
+                console.log(`✅ Bruker ${existingOffers.length} eksisterende tilbud fra ${store.name}`);
+                return true;
+            } else {
+                console.warn(`⚠️ Ingen gyldige lokale tilbud funnet for ${store.name}`);
+                return false;
+            }
+        } catch (error) {
+            console.error(`❌ Kunne ikke laste lokale tilbud for ${store.name}:`, error.message);
             return false;
         }
     }
@@ -133,6 +169,11 @@ class OfferService {
                         logo: getStoreLogoUrl(storeName),
                         originalPrice: offer.run_from && offer.run_till ? `Gyldig ${offer.run_from} - ${offer.run_till}` : null,
                         description: offer.description || '',
+                        quantity: offer.quantity || '',
+                        currency: offer.currency || 'NOK',
+                        unit: offer.unit || '',
+                        pieces: offer.pieces || 1,
+                        size: offer.size || '',
                         matchScore: offer.matchScore,
                         matchReason: offer.matchReason
                     };
@@ -236,8 +277,94 @@ class OfferService {
         return fileService.loadJSON(filePath);
     }
 
+    getAllOffers() {
+        const stores = ['rema_1000', 'kiwi', 'meny', 'coop_extra', 'bunnpris', 'coop_mega', 'coop_marked', 'coop_prix', 'coop_obs', 'spar'];
+        const allOffers = [];
+
+        stores.forEach(store => {
+            try {
+                const filename = `${store}_offers.json`;
+                const filePath = require('path').join(require('../config').offersDir, filename);
+                const offers = fileService.loadJSON(filePath);
+                
+                if (Array.isArray(offers)) {
+                    // Normaliser butikknavn og konverter priser
+                    const storeName = this.normalizeStoreName(store);
+                    const normalizedOffers = offers.map(offer => ({
+                        ...offer,
+                        store: storeName,
+                        price: typeof offer.price === 'string' ? parseFloat(offer.price) : offer.price,
+                        originalPrice: offer.originalPrice ? 
+                            (typeof offer.originalPrice === 'string' ? parseFloat(offer.originalPrice) : offer.originalPrice) 
+                            : null
+                    }));
+                    allOffers.push(...normalizedOffers);
+                    console.log(`📦 Lastet ${offers.length} tilbud fra ${storeName}`);
+                } else {
+                    console.warn(`⚠️ ${filename} er ikke en gyldig array`);
+                }
+            } catch (error) {
+                console.warn(`⚠️ Kunne ikke laste tilbud fra ${store}:`, error.message);
+            }
+        });
+
+        console.log(`📦 getAllOffers: Totalt ${allOffers.length} tilbud fra alle butikker`);
+        return allOffers;
+    }
+
+    normalizeStoreName(storeKey) {
+        const nameMap = {
+            'rema_1000': 'Rema 1000',
+            'kiwi': 'Kiwi',
+            'meny': 'Meny', 
+            'coop_extra': 'Coop Extra',
+            'bunnpris': 'Bunnpris',
+            'coop_mega': 'Coop Mega',
+            'coop_marked': 'Coop Marked',
+            'coop_prix': 'Coop Prix',
+            'coop_obs': 'Coop Obs',
+            'spar': 'Spar'
+        };
+        return nameMap[storeKey] || storeKey.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    }
+
     isUpdateInProgress() {
         return this.updateInProgress;
+    }
+
+    getOfferStatus() {
+        const stores = getActiveStores();
+        let totalOffers = 0;
+        const storeStatuses = [];
+
+        // Count offers for each store
+        stores.forEach(store => {
+            try {
+                const offers = fileService.loadJSON(`offers/${store.name.toLowerCase().replace(/\s+/g, '_')}_offers.json`, []);
+                const storeCount = offers.length;
+                totalOffers += storeCount;
+
+                storeStatuses.push({
+                    name: store.name,
+                    offers: storeCount,
+                    status: storeCount > 0 ? 'fresh' : 'empty'
+                });
+            } catch (error) {
+                storeStatuses.push({
+                    name: store.name,
+                    offers: 0,
+                    status: 'error'
+                });
+            }
+        });
+
+        return {
+            totalOffers,
+            storeCount: stores.length,
+            lastUpdated: this.lastUpdateAttempt || new Date().toISOString(),
+            stores: storeStatuses,
+            updating: this.updateInProgress
+        };
     }
 }
 
