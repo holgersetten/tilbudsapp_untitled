@@ -133,12 +133,12 @@
       letter-spacing: 0.5px;
     }
     .store-buttons {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
     }
     .store-btn {
-      padding: 8px;
+      padding: 10px 12px;
       border: 1px solid var(--border);
       background: var(--surface);
       color: var(--text-soft);
@@ -146,14 +146,11 @@
       border-radius: var(--radius);
       cursor: pointer;
       transition: all 0.2s ease;
-      text-align: center;
+      text-align: left;
       display: flex;
       align-items: center;
-      justify-content: center;
       gap: 8px;
       font-weight: 500;
-      min-height: 56px;
-      aspect-ratio: 1;
     }
     .store-btn:hover {
       background: var(--surface-alt);
@@ -166,11 +163,9 @@
       color: white;
     }
     .store-btn img {
-      width: 40px;
-      height: 40px;
+      width: 16px;
+      height: 16px;
       border-radius: 2px;
-      object-fit: contain;
-      pointer-events: none;
     }
     main {
       background: var(--bg-alt);
@@ -316,30 +311,15 @@
       box-shadow: var(--shadow);
     }
     .offer-image {
-      position: relative;
-      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       margin-bottom: 12px;
-      border-radius: var(--radius);
-      overflow: hidden;
-      background: var(--surface-alt);
-    }
-    .offer-product-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: var(--radius);
     }
     .offer-store-logo {
-      position: absolute;
-      top: 8px;
-      right: 8px;
       width: 32px;
       height: 32px;
       border-radius: var(--radius-sm);
-      object-fit: contain;
-      background: rgba(255, 255, 255, 0.9);
-      padding: 4px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     .offer-content {
       flex: 1;
@@ -356,7 +336,6 @@
       text-overflow: ellipsis;
       display: -webkit-box;
       -webkit-line-clamp: 2;
-      line-clamp: 2;
       -webkit-box-orient: vertical;
     }
     .offer-price {
@@ -454,40 +433,37 @@
         <h3>Butikker</h3>
         <div class="store-buttons">
           <button class="store-btn active" data-store="" onclick="filterStore(this)">
-            <span style="font-size: 24px;">🏪</span>
+            <span>🏪</span> Alle butikker
           </button>
           <button class="store-btn" data-store="Bunnpris" onclick="filterStore(this)">
-            <img src="/images/bunnpris_logo.png" alt="Bunnpris" />
+            <img src="/images/bunnpris_logo.png" alt="Bunnpris" /> Bunnpris
           </button>
           <button class="store-btn" data-store="Rema 1000" onclick="filterStore(this)">
-            <img src="/images/rema_logo.png" alt="Rema 1000" />
+            <img src="/images/rema_logo.png" alt="Rema 1000" /> Rema 1000
           </button>
           <button class="store-btn" data-store="Meny" onclick="filterStore(this)">
-            <img src="/images/meny_logo.png" alt="Meny" />
+            <img src="/images/meny_logo.png" alt="Meny" /> Meny
           </button>
           <button class="store-btn" data-store="Kiwi" onclick="filterStore(this)">
-            <img src="/images/kiwi_logo.png" alt="Kiwi" />
+            <img src="/images/kiwi_logo.png" alt="Kiwi" /> Kiwi
           </button>
           <button class="store-btn" data-store="Spar" onclick="filterStore(this)">
-            <img src="/images/spar_logo_1.png" alt="Spar" />
+            <img src="/images/spar_logo_1.png" alt="Spar" /> Spar
           </button>
           <button class="store-btn" data-store="Coop Extra" onclick="filterStore(this)">
-            <img src="/images/coop_extra_logo.png" alt="Coop Extra" />
+            <img src="/images/coop_extra_logo.png" alt="Coop Extra" /> Coop Extra
           </button>
           <button class="store-btn" data-store="Coop Mega" onclick="filterStore(this)">
-            <img src="/images/coop_mega_logo.png" alt="Coop Mega" />
+            <img src="/images/coop_mega_logo.png" alt="Coop Mega" /> Coop Mega
           </button>
           <button class="store-btn" data-store="Coop Marked" onclick="filterStore(this)">
-            <img src="/images/coop_marked_logo.png" alt="Coop Marked" />
+            <img src="/images/coop_marked_logo.png" alt="Coop Marked" /> Coop Marked
           </button>
           <button class="store-btn" data-store="Coop Prix" onclick="filterStore(this)">
-            <img src="/images/coop_prix_logo.png" alt="Coop Prix" />
+            <img src="/images/coop_prix_logo.png" alt="Coop Prix" /> Coop Prix
           </button>
           <button class="store-btn" data-store="Obs" onclick="filterStore(this)">
-            <img src="/images/coop_obs_logo.png" alt="Obs" />
-          </button>
-          <button class="store-btn" data-store="Joker" onclick="filterStore(this)">
-            <img src="/images/joker_logo.png" alt="Joker" />
+            <img src="/images/coop_obs_logo.png" alt="Obs" /> Obs
           </button>
         </div>
       </div>
@@ -697,7 +673,6 @@
         })();
         html += `<div class="offer-card" data-store="${offer.store || ''}" data-heading="${offer.title || ''}">
           <div class="offer-image">
-            <img class="offer-product-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23f3f4f6'/%3E%3Ctext x='50' y='50' text-anchor='middle' dy='.3em' fill='%23999'%3Elaster bilde%3C/text%3E%3C/svg%3E" alt="Produktbilde" style="display:none;" />
             <img class="offer-store-logo" src="${getStoreLogo(offer.store)}" alt="${offer.store}" />
           </div>
           <div class="offer-content">
@@ -711,70 +686,22 @@
       html += '</div></div></div>';
       content.innerHTML = html;
       console.log('✅ Rendered offers to DOM');
-      
-      // Load product images
-      setTimeout(() => loadProductImages(), 100);
     }
 
     function getStoreLogo(storeName) {
       const logos = { 
-        'Rema 1000': '/images/rema_logo.png',
-        'Kiwi': '/images/kiwi_logo.png',
-        'Meny': '/images/meny_logo.png',
-        'Coop Extra': '/images/coop_extra_logo.png',
-        'Coop Mega': '/images/coop_mega_logo.png',
-        'Coop Marked': '/images/coop_marked_logo.png',
-        'Coop Prix': '/images/coop_prix_logo.png',
-        'Obs': '/images/coop_obs_logo.png',
-        'Bunnpris': '/images/bunnpris_logo.png',
-        'Spar': '/images/spar_logo_1.png',
-        'Joker': '/images/joker_logo.png'
+        'Rema 1000':'/images/rema_logo.png',
+        'Kiwi':'/images/kiwi_logo.png',
+        'Meny':'/images/meny_logo.png',
+        'Coop Extra':'/images/coop_extra_logo.png',
+        'Coop Mega':'/images/coop_mega_logo.png',
+        'Coop Marked':'/images/coop_marked_logo.png',
+        'Coop Prix':'/images/coop_prix_logo.png',
+        'Obs':'/images/coop_obs_logo.png',
+        'Bunnpris':'/images/bunnpris_logo.png',
+        'Spar':'/images/spar_logo_1.png'
       };
-      return logos[storeName] || 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="32" height="32"%3E%3Ctext y="24" font-size="20" text-anchor="middle" x="16"%3E🏪%3C/text%3E%3C/svg%3E';
-    }
-
-    async function loadProductImages() {
-      console.log('🖼️ Starting loadProductImages function');
-      
-      const offerCards = document.querySelectorAll('.offer-card[data-store][data-heading]');
-      console.log(`🖼️ Found ${offerCards.length} offer cards with data attributes`);
-      
-      for (const card of offerCards) {
-        const storeName = card.getAttribute('data-store');
-        const heading = card.getAttribute('data-heading');
-        const imageElement = card.querySelector('.offer-product-image');
-        
-        console.log(`🖼️ Processing card: store="${storeName}", heading="${heading}"`);
-        
-        if (!imageElement) {
-          console.log('🖼️ No image element found in card');
-          continue;
-        }
-        
-        try {
-          const url = `/api/product-image/${encodeURIComponent(storeName)}/${encodeURIComponent(heading)}`;
-          console.log(`🖼️ Fetching image from: ${url}`);
-          
-          const response = await fetch(url);
-          if (!response.ok) {
-            console.log(`🖼️ Failed to fetch image: ${response.status} ${response.statusText}`);
-            continue;
-          }
-          
-          const data = await response.json();
-          console.log(`🖼️ Received image data:`, data);
-          
-          if (data.imageUrl) {
-            imageElement.src = data.imageUrl;
-            imageElement.style.display = 'block';
-            console.log(`🖼️ Set image URL: ${data.imageUrl}`);
-          } else {
-            console.log('🖼️ No imageUrl in response');
-          }
-        } catch (error) {
-          console.error(`🖼️ Error loading image for ${storeName}/${heading}:`, error);
-        }
-      }
+      return logos[storeName] || 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24"%3E%3Crect width="24" height="24" fill="%23e5e7eb"/%3E%3C/svg%3E';
     }
 
     function filterStore(btn) {
@@ -791,13 +718,8 @@
       document.querySelectorAll('.content').forEach(c => c.classList.remove('active'));
       document.getElementById('tilbud-content').classList.add('active');
       
-      // Load offers if not already loaded
-      if (!state.generalOffersLoaded) {
-        loadCurrentOffers();
-      } else {
-        // Re-render offers for this store
-        renderOffers();
-      }
+      // Re-render offers for this store
+      renderOffers();
     }
 
     // Search for meal suggestions
@@ -870,7 +792,6 @@
           })();
           html += `<div class="offer-card" data-store="${offer.store || ''}" data-heading="${offer.title || ''}">
             <div class="offer-image">
-              <img class="offer-product-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23f3f4f6'/%3E%3Ctext x='50' y='50' text-anchor='middle' dy='.3em' fill='%23999'%3Elaster bilde%3C/text%3E%3C/svg%3E" alt="Produktbilde" style="display:none;" />
               <img class="offer-store-logo" src="${getStoreLogo(offer.store)}" alt="${offer.store}" />
             </div>
             <div class="offer-content">
@@ -886,9 +807,6 @@
       
       html += '</div>';
       content.innerHTML = html;
-      
-      // Load product images
-      setTimeout(() => loadProductImages(), 100);
     }
 
     // Check if we need to show "Middager" tab on load

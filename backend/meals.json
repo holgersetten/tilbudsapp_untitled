@@ -24,6 +24,95 @@
     "category": "middag"
   },
   {
+    "name": "Fiskekaker med potetmos",
+    "ingredients": [
+      "Fiskekaker",
+      "Poteter",
+      "Gulrøtter",
+      "Smør",
+      "Melk"
+    ],
+    "difficulty": "enkel",
+    "category": "middag"
+  },
+  {
+    "name": "Taco med kjøttdeig",
+    "ingredients": [
+      "Kjøttdeig",
+      "Tacoskjell",
+      "Tacokrydder",
+      "Tomat",
+      "Salat",
+      "Ost",
+      "Rømme"
+    ],
+    "difficulty": "enkel",
+    "category": "middag"
+  },
+  {
+    "name": "Laksesalat",
+    "ingredients": [
+      "Laks",
+      "Salat",
+      "Agurk",
+      "Tomat",
+      "Avokado",
+      "Sitron"
+    ],
+    "difficulty": "enkel",
+    "category": "middag"
+  },
+  {
+    "name": "Pasta Carbonara",
+    "ingredients": [
+      "Pasta",
+      "Bacon",
+      "Egg",
+      "Parmesan",
+      "Fløte",
+      "Hvitløk"
+    ],
+    "difficulty": "medium",
+    "category": "middag"
+  },
+  {
+    "name": "Pizza Margherita",
+    "ingredients": [
+      "Pizzabunn",
+      "Tomatsaus",
+      "Mozzarella",
+      "Basilikum",
+      "Olivenolje"
+    ],
+    "difficulty": "enkel",
+    "category": "middag"
+  },
+  {
+    "name": "Biff med poteter",
+    "ingredients": [
+      "Biff",
+      "Poteter",
+      "Løk",
+      "Smør",
+      "Pepper"
+    ],
+    "difficulty": "medium",
+    "category": "middag"
+  },
+  {
+    "name": "Grønnsakssuppe",
+    "ingredients": [
+      "Gulrøtter",
+      "Poteter",
+      "Løk",
+      "Selleri",
+      "Buljong",
+      "Brokkoli"
+    ],
+    "difficulty": "enkel",
+    "category": "middag"
+  },
+  {
     "id": 1756598826202,
     "name": "Test Meal",
     "ingredients": [

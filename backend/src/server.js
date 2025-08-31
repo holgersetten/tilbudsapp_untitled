@@ -75,25 +75,56 @@ app.get('/api/meal-suggestions', async (req, res) => {
 app.get('/api/product-image/:storeName/:offerHeading', async (req, res) => {
     try {
         const { storeName, offerHeading } = req.params;
-        console.log(`🖼️ Søker etter produktbilde: ${offerHeading} fra ${storeName}`);
+        const decodedHeading = decodeURIComponent(offerHeading);
+        console.log(`🖼️ Søker etter produktbilde: ${decodedHeading} fra ${storeName}`);
         
-        // Enkel test uten ImageService først
-        console.log(`🧪 Test respons for ${storeName} - ${offerHeading}`);
+        // Find the offer by title and store to get hotspotId
+        const allOffers = offerService.getAllOffers();
+        const matchingOffer = allOffers.find(offer => 
+            offer.title === decodedHeading && offer.store === storeName && offer.hotspotId
+        );
+
+        if (!matchingOffer || !matchingOffer.hotspotId) {
+            console.log(`❌ No matching offer found with hotspotId for: ${decodedHeading}`);
+            return res.json({
+                success: false,
+                message: 'Tilbud ikke funnet eller mangler hotspotId',
+                imageUrl: null
+            });
+        }
+
+        // Get image from etilbudsavis API using hotspotId
+        const imageService = require('./services/imageService');
+        const images = await imageService.getOfferImage(matchingOffer.hotspotId);
         
-        res.json({
-            success: false,
-            message: 'Bildehenting deaktivert for testing',
-            debug: {
-                storeName,
-                offerHeading: decodeURIComponent(offerHeading)
-            }
-        });
+        // Get the best available image
+        const bestImageUrl = imageService.getBestImage(images);
         
+        if (bestImageUrl) {
+            console.log(`✅ Found image for ${decodedHeading}: ${bestImageUrl}`);
+            res.json({
+                success: true,
+                imageUrl: bestImageUrl,
+                images: images, // Include all image sizes for frontend choice
+                offerId: matchingOffer.hotspotId
+            });
+        } else {
+            console.log(`❌ No image found for offer ${matchingOffer.hotspotId}`);
+            res.json({
+                success: false,
+                message: 'Ingen bilde funnet for dette tilbudet',
+                imageUrl: null,
+                offerId: matchingOffer.hotspotId,
+                error: images.error
+            });
+        }
+
     } catch (error) {
-        console.error('❌ Feil ved henting av produktbilde:', error);
+        console.error('❌ Feil ved henting av produktbilde:', error.message);
         res.status(500).json({
             success: false,
-            error: error.message
+            error: 'Kunne ikke hente produktbilde',
+            message: error.message
         });
     }
 });

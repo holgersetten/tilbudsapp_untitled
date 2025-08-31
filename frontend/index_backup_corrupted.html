@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="no" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Middagstilbud – Modern</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='24' font-size='24'>🍳</text></svg>">
+        // Handle grouped data structure (from /api/best-offers)
+        console.log('📂 Processing grouped data structure');
+        const grouped = {};
+        state.offersRaw.forEach(group => { 
+          if (group.ingredient && group.offers) {
+            grouped[group.ingredient] = group.offers;
+          }
+        });
+        console.log('📂 Grouped offers:', Object.keys(grouped));
+        
+        // Filter by selected store and collect all offers
+        Object.keys(grouped).forEach(ing => {
+          console.log(`🔍 Processing ingredient "${ing}" with ${grouped[ing].length} offers`);
+          console.log(`🔍 Current selectedStore: "${state.selectedStore}"`);
+          console.log(`🔍 Sample stores in this group:`, [...new Set(grouped[ing].slice(0, 5).map(o => o.store))]);
+          
+          const filtered = grouped[ing].filter(o => {
+            if (!state.selectedStore || state.selectedStore === '') {
+              return true; // Show all if no store selected
+            }
+            const matches = o.store && o.store.toLowerCase().includes(state.selectedStore.toLowerCase());
+            if (!matches) {
+              console.log(`🚫 Filtered out: "${o.store}" (doesn't match "${state.selectedStore}")`);
+            }
+            return matches;
+          });
+          
+          console.log(`🎯 Filtered ${ing}: ${grouped[ing].length} -> ${filtered.length} offers`);
+          offersToRender.push(...filtered);
+        });
+      } else {
+        // Handle simple array structure (from /api/offers)
+        console.log('📋 Processing simple offers array');
+        console.log('🔍 Current selectedStore:', state.selectedStore);
+        console.log('🔍 Sample store names:', [...new Set(state.offersRaw.slice(0, 20).map(o => o.store))]);
+        offersToRender = state.offersRaw.filter(o => {
+          if (!state.selectedStore || state.selectedStore === '') {
+            return true; // Show all if no store selected
+          }
+          const matches = o.store && o.store.toLowerCase().includes(state.selectedStore.toLowerCase());
+          return matches;
+        });
+      }
+
+      console.log('🎯 Final offers to render:', offersToRender.length);
+      console.log('🏪 Stores in final offers:', [...new Set(offersToRender.map(o => o.store))]);
+      
+      if (offersToRender.length === 0) {
+        content.innerHTML = '<div class="empty"><h3>Ingen tilbud</h3><p>Ingen tilbud funnet for valgt butikk.</p></div>';
+        return;
+      }
+      
+      // Render the offers
+      let html = '<div class="search-results">';
+      html += `<div class="ingredient-section"><div class="ingredient-header" style="display:flex;justify-content:space-between;align-items:center;margin:0 0 14px;padding:8px 0;border-bottom:1px solid var(--border);"><h3 style="margin:0;font-size:20px;font-weight:600;">Aktuelle tilbud</h3><span class="count-badge" style="background:var(--surface-alt);padding:4px 10px;border-radius:var(--radius-full);font-size:12px;font-weight:600;">${offersToRender.length} tilbud</span></div><div class="offers-grid fixed-size">`;
+      
+      offersToRender.forEach(offer => {
+        const priceVal = (()=>{ 
+          if (!offer.price && offer.price!==0) return 'N/A'; 
+          const str = offer.price.toString(); 
+          return /kr/i.test(str)? str.replace(/\s*kr\s*$/i,'') : str; 
+        })();
+        html += `<div class="offer-card" data-store="${offer.store || ''}" data-heading="${offer.title || ''}"><div class="offer-image"><img class="offer-product-image" alt="Produkt" style="display:none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="/><img class="offer-store-logo" src="${getStoreLogo(offer.store)}" alt="${offer.store}" /></div><div class="offer-content"><h4 class="offer-title">${offer.title || 'Ukjent produkt'}</h4><div class="offer-price"><span class="offer-price-main">${priceVal} kr</span></div>${offer.quantity ? `<div class="offer-quantity" title="${offer.quantity}">${offer.quantity}</div>` : ''}</div></div>`;
+      });
+      
+      html += '</div></div></div>';
+      content.innerHTML = html;
+      console.log('✅ Rendered offers to DOM');
+    }
+
+    function getStoreLogo(storeName) {
+      const logos = { 'Rema 1000':'/images/rema_logo.png','Kiwi':'/images/kiwi_logo.png','Meny':'/images/meny_logo.png','Coop Extra':'/images/coop_extra_logo.png','Coop Mega':'/images/coop_mega_logo.png','Coop Marked':'/images/coop_marked_logo.png','Coop Prix':'/images/coop_prix_logo.png','Coop Obs':'/images/coop_obs_logo.png','Bunnpris':'/images/bunnpris_logo.png','Spar':'/images/spar_logo_1.png' };
+      return logos[storeName] || 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24"%3E%3Crect width="24" height="24" fill="%23e5e7eb"/%3E%3C/svg%3E';
+    }
+
+    function filterStore(btn) {
+      console.log('🎯 filterStore called, store:', btn.dataset.store);
+      state.selectedStore = btn.dataset.store || '';
+      
+      // Update active button styling
+      document.querySelectorAll('.store-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      // Auto-switch to Tilbud tab
+      document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
+      document.getElementById('tab-tilbud').classList.add('active');
+      document.querySelectorAll('.content').forEach(c => c.classList.remove('active'));
+      document.getElementById('tilbud-content').classList.add('active');
+      
+      // Re-render offers for this store
+      renderOffers();
+    }
+
+    // Utility function for product image loading (disabled for debugging)
+    function loadProductImages() {
+      console.log('🖼️ Image loading disabled for debugging');
+      return;
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #fdfefe;
+      --bg-alt: #f4f7fa;
+      --surface: #ffffff;
+      --surface-alt: #f1f5f9;
+      --border: #e2e8f0;
+      --border-strong:#cbd5e1;
+      --text: #1e293b;
+      --text-soft:#64748b;
+      --accent: #2563eb;
+      --accent-rgb: 37 99 235;
+      --accent-alt:#1d4ed8;
+      --warn:#ea580c;
+      --success:#15803d;
+      --radius-xs:4px; --radius-sm:8px; --radius:12px; --radius-lg:18px; --radius-full:999px;
+      --shadow-xs:0 1px 2px rgba(0 0 0 / .05);
+      --shadow-sm:0 2px 4px rgba(0 0 0 / .06);
+      --shadow:0 4px 18px -6px rgba(0 0 0 / .15);
+      --focus:0 0 0 3px rgba(var(--accent-rgb)/.35);
+      --transition:140ms cubic-bezier(.4,0,.2,1);
+      --grad-accent:linear-gradient(90deg,var(--accent),var(--accent-alt));
+    }
+    [data-theme="dark"] {
+      --bg:#0f172a; --bg-alt:#142033; --surface:#1e293b; --surface-alt:#24344b;
+      --border:#334155; --border-strong:#475569; --text:#f1f5f9; --text-soft:#94a3b8;
+      --shadow-xs:0 1px 2px rgba(0 0 0 /.5); --shadow-sm:0 2px 6px rgba(0 0 0 /.55); --shadow:0 6px 24px -4px rgba(0 0 0 /.65);
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family: system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif; background:var(--bg); color:var(--text); -webkit-font-smoothing:antialiased; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    ::selection { background:rgba(var(--accent-rgb)/.18); }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); border:0; }
+
+    /* Layout */
+    .app-shell { display:grid; grid-template-columns: 250px 1fr; min-height:100vh; }
+    .sidebar { background:var(--surface); border-right:1px solid var(--border); padding:28px 22px 32px; display:flex; flex-direction:column; gap:32px; position:sticky; top:0; height:100vh; }
+    .brand { display:flex; align-items:center; gap:12px; }
+    .brand h1 { font-size:20px; letter-spacing:-.5px; margin:0; font-weight:600; }
+    .theme-toggle { margin-left:auto; background:var(--surface-alt); border:1px solid var(--border); padding:6px 14px; border-radius: var(--radius-full); cursor:pointer; font-size:13px; display:flex; align-items:center; gap:6px; color:var(--text-soft); }
+    .theme-toggle:hover { color:var(--text); }
+
+    nav.primary-nav { display:flex; flex-direction:column; gap:8px; }
+    .tab-btn { all:unset; cursor:pointer; padding:10px 14px; border-radius: var(--radius); font-size:14px; font-weight:500; color:var(--text-soft); display:flex; gap:10px; align-items:center; border:1px solid transparent; transition:var(--transition); }
+    .tab-btn:hover { background:var(--surface-alt); color:var(--text); }
+    .tab-btn.active { background:var(--grad-accent); color:#fff; box-shadow:var(--shadow-xs); }
+    .tab-btn:focus-visible { outline:none; box-shadow:var(--focus); }
+
+    .sidebar-section { display:flex; flex-direction:column; gap:14px; }
+    .sidebar h2 { font-size:12px; font-weight:600; letter-spacing:1px; text-transform:uppercase; margin:0; color:var(--text-soft); }
+
+    .store-filter { display:flex; flex-wrap:wrap; gap:8px; }
+    .store-btn { background:var(--surface-alt); border:1px solid var(--border); padding:6px 12px; min-width:86px; height:40px; display:flex; justify-content:center; align-items:center; gap:6px; border-radius: var(--radius-full); cursor:pointer; font-size:12px; font-weight:500; color:var(--text-soft); transition:var(--transition); }
+    .store-btn:hover { background:var(--surface); color:var(--text); }
+    .store-btn.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+    .store-logo-btn { height:26px; width:auto; object-fit:contain; }
+
+    .content-area { display:flex; flex-direction:column; min-height:100vh; }
+    header.topbar { position:sticky; top:0; z-index:30; backdrop-filter:saturate(180%) blur(14px); background:rgba(255 255 255 /.85); border-bottom:1px solid var(--border); padding:14px 28px; display:flex; gap:18px; align-items:center; }
+    [data-theme="dark"] header.topbar { background:rgba(15 23 42 /.85); }
+
+    .search-wrap { flex:1; max-width:620px; position:relative; }
+    .search-wrap input { width:100%; padding:14px 16px 14px 46px; border:1px solid var(--border); border-radius: var(--radius-full); font-size:15px; background:var(--surface); color:var(--text); transition:var(--transition); }
+    .search-wrap input:focus { outline:none; border-color:var(--accent); box-shadow: var(--focus); }
+    .search-icon { position:absolute; left:16px; top:50%; transform:translateY(-50%); opacity:.55; }
+    .search-actions { display:flex; gap:8px; }
+    .btn { border:1px solid var(--border); background:var(--surface-alt); color:var(--text); padding:10px 18px; font-size:14px; font-weight:500; border-radius: var(--radius-full); cursor:pointer; display:inline-flex; align-items:center; gap:6px; transition:var(--transition); }
+    .btn:hover { background:var(--surface); }
+    .btn-primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .btn-primary:hover { filter:brightness(1.05); }
+
+    main { padding:32px clamp(20px,4vw,56px) 96px; flex:1; }
+    #content { min-height:320px; }
+
+    /* Meals */
+    .section-header { display:flex; flex-wrap:wrap; gap:16px; justify-content:space-between; align-items:flex-end; margin:0 0 24px; }
+    .section-header h2 { margin:0; font-size:26px; letter-spacing:-.5px; font-weight:600; }
+    .meals-grid { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); }
+    .meal-card { background:var(--surface); border:1px solid var(--border); border-radius: var(--radius-lg); padding:18px 18px 20px; display:flex; flex-direction:column; gap:10px; cursor:pointer; transition:var(--transition); position:relative; }
+    .meal-card:hover { border-color:var(--border-strong); box-shadow:var(--shadow-sm); }
+    .meal-header { display:flex; justify-content:space-between; gap:12px; }
+    .meal-title { margin:0; font-size:18px; font-weight:600; line-height:1.25; }
+    .meal-stats { display:flex; flex-direction:column; gap:6px; align-items:flex-end; }
+    .difficulty-badge, .offer-badge { font-size:11px; padding:4px 10px; border-radius: var(--radius-full); font-weight:600; letter-spacing:.3px; background:var(--surface-alt); color:var(--text-soft); }
+    .offer-badge.high-offers { background:#dcfce7; color:#166534; }
+    .offer-badge.medium-offers { background:#fef3c7; color:#92400e; }
+    .offer-badge.low-offers { background:#fee2e2; color:#991b1b; }
+    .ingredient-list { display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 0; }
+    .ingredient-tag { font-size:11px; padding:4px 10px; border-radius: var(--radius-full); background:var(--surface-alt); border:1px solid var(--border); color:var(--text-soft); font-weight:500; }
+    .ingredient-tag.has-offer { background:#dcfce7; border-color:#bbf7d0; color:#166534; font-weight:600; }
+    .meal-offers-preview { background:var(--surface-alt); border:1px solid var(--border); padding:10px 12px; border-radius: var(--radius); font-size:12px; }
+    .mini-offer { display:flex; justify-content:space-between; margin:2px 0; }
+    .store-count { color:var(--accent); font-weight:600; }
+
+    /* Offers */
+    .offers-grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); }
+  /* Fixed card sizing so single cards don't stretch full width */
+  .offers-grid.fixed-size { grid-template-columns:repeat(auto-fill, minmax(200px, 200px)); justify-content:flex-start; }
+    .offer-card { background:var(--surface); border:1px solid var(--border); border-radius: var(--radius); overflow:hidden; height:182px; display:flex; flex-direction:column; transition:var(--transition); }
+    .offer-card:hover { border-color:var(--border-strong); box-shadow:var(--shadow-sm); }
+    .offer-image { position:relative; height:108px; background:var(--surface-alt); display:flex; align-items:center; justify-content:center; }
+    .offer-product-image { width:100%; height:100%; object-fit:cover; }
+    .offer-store-logo { position:absolute; top:6px; left:6px; height:20px; width:auto; background:#fff; padding:2px 5px; border-radius: var(--radius-xs); box-shadow:0 1px 2px rgba(0 0 0 /.15); }
+    .offer-content { flex:1; display:flex; flex-direction:column; justify-content:space-between; padding:8px 9px; }
+    .offer-title { margin:0 0 4px; font-size:12px; font-weight:600; line-height:1.25; height:2.5em; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; line-clamp:2; -webkit-box-orient: vertical; }
+    .offer-price-main { font-size:16px; font-weight:650; color:var(--accent); letter-spacing:-.4px; }
+    .offer-quantity { font-size:10px; color:var(--text-soft); white-space:nowrap; }
+  .offer-quantity { overflow:hidden; text-overflow:ellipsis; }
+
+    /* Meal details */
+    .meal-details .meal-header { border-bottom:1px solid var(--border); margin-bottom:26px; padding-bottom:14px; }
+    .meal-meta { display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 0; }
+    .category-badge { background:rgba(var(--accent-rgb)/.12); color:var(--accent); padding:5px 12px; border-radius: var(--radius-full); font-size:12px; font-weight:600; }
+    .ingredient-group { background:var(--surface); border:1px solid var(--border); border-radius: var(--radius-lg); padding:18px 18px 22px; }
+    .ingredient-group h4 { margin:0 0 14px; font-size:18px; font-weight:600; color:var(--text); }
+    .offers-row { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); }
+
+    /* States */
+    .loading { position:relative; overflow:hidden; background:var(--surface); border:1px solid var(--border); border-radius: var(--radius-lg); padding:42px 30px; text-align:center; color:var(--text-soft); font-size:15px; }
+    .loading:before { content:""; position:absolute; inset:0; background:linear-gradient(110deg, transparent 0%, rgba(var(--accent-rgb)/.08) 45%, rgba(var(--accent-rgb)/.12) 55%, transparent 100%); background-size:200% 100%; animation: shimmer 1.5s linear infinite; }
+    @keyframes shimmer { to { background-position:-200% 0; } }
+    .empty { background:var(--surface); border:1px dashed var(--border); padding:46px 30px; text-align:center; border-radius: var(--radius-lg); color:var(--text-soft); }
+
+    footer { padding:28px 32px 60px; font-size:12px; color:var(--text-soft); text-align:center; }
+
+    /* Responsive */
+    @media (max-width: 1040px) { .app-shell { grid-template-columns: 82px 1fr; } .sidebar { padding:24px 14px; } .brand h1 { display:none; } .store-filter { flex-direction:column; align-items:stretch; } }
+    @media (max-width: 820px) { .app-shell { grid-template-columns: 1fr; } .sidebar { position:static; height:auto; flex-direction:row; flex-wrap:wrap; gap:20px; border-right:none; border-bottom:1px solid var(--border); } nav.primary-nav { flex-direction:row; flex-wrap:wrap; } .store-filter { order:10; width:100%; } }
+    @media (max-width: 560px) { header.topbar { flex-wrap:wrap; padding:12px 18px; } .search-actions { width:100%; } .btn-primary, .btn { flex:1; justify-content:center; } main { padding:28px 18px 80px; } }
+  </style>
+</head>
+<body>
+  <a href="#content" class="sr-only">Hopp til innhold</a>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <span style="font-size:28px;">🍳</span>
+        <h1>Middagstilbud</h1>
+        <button class="theme-toggle" id="themeToggle" aria-label="Bytt tema" title="Bytt tema">🌗</button>
+      </div>
+      <nav class="primary-nav" aria-label="Hovedfaner">
+        <button class="tab-btn active" data-tab="middager">🍽️ Middager</button>
+        <button class="tab-btn" data-tab="tilbud">💸 Tilbud</button>
+        <button class="tab-btn" data-tab="handleliste">🛒 Handleliste</button>
+      </nav>
+      <div class="sidebar-section">
+        <h2>Butikker</h2>
+        <div class="store-filter" id="storeFilter">
+          <div class="store-btn active" data-store="" onclick="filterStore(this)" title="Alle">Alle</div>
+          <div class="store-btn" data-store="Rema 1000" onclick="filterStore(this)" title="Rema 1000"><img src="/images/rema_logo.png" class="store-logo-btn" alt="Rema" /></div>
+          <div class="store-btn" data-store="Kiwi" onclick="filterStore(this)" title="Kiwi"><img src="/images/kiwi_logo.png" class="store-logo-btn" alt="Kiwi" /></div>
+          <div class="store-btn" data-store="Meny" onclick="filterStore(this)" title="Meny"><img src="/images/meny_logo.png" class="store-logo-btn" alt="Meny" /></div>
+          <div class="store-btn" data-store="Coop Extra" onclick="filterStore(this)" title="Coop Extra"><img src="/images/coop_extra_logo.png" class="store-logo-btn" alt="Coop Extra" /></div>
+          <div class="store-btn" data-store="Bunnpris" onclick="filterStore(this)" title="Bunnpris"><img src="/images/bunnpris_logo.png" class="store-logo-btn" alt="Bunnpris" /></div>
+          <div class="store-btn" data-store="Spar" onclick="filterStore(this)" title="Spar"><img src="/images/spar_logo_1.png" class="store-logo-btn" alt="Spar" /></div>
+          <div class="store-btn" data-store="Coop Mega" onclick="filterStore(this)" title="Coop Mega"><img src="/images/coop_mega_logo.png" class="store-logo-btn" alt="Coop Mega" /></div>
+          <div class="store-btn" data-store="Coop Marked" onclick="filterStore(this)" title="Coop Marked"><img src="/images/coop_marked_logo.png" class="store-logo-btn" alt="Coop Marked" /></div>
+          <div class="store-btn" data-store="Coop Prix" onclick="filterStore(this)" title="Coop Prix"><img src="/images/coop_prix_logo.png" class="store-logo-btn" alt="Coop Prix" /></div>
+          <div class="store-btn" data-store="Coop Obs" onclick="filterStore(this)" title="Coop Obs"><img src="/images/coop_obs_logo.png" class="store-logo-btn" alt="Coop Obs" /></div>
+        </div>
+      </div>
+    </aside>
+    <div class="content-area">
+      <header class="topbar" role="banner">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input id="ingredientsInput" placeholder="Søk etter ingrediens, rett eller butikk…" autocomplete="off" />
+        </div>
+        <div class="search-actions">
+          <button class="btn btn-primary" onclick="findOffers()">Søk</button>
+          <button class="btn" onclick="showTestOffers()">Test</button>
+        </div>
+      </header>
+      <main>
+        <div id="content" aria-live="polite"></div>
+      </main>
+      <footer>
+        <p>Datakobling til ukens mattilbud • <span id="year"></span></p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Original script logic (uendret funksjonalitet) -->
+  <script>
+  const state = { offersRaw: [], filteredOffers: [], currentIngredients: [], selectedStore: '', loadingOffers: false, recipes: [], generalOffersLoaded: false };
+
+    function setYear(){ document.getElementById('year').textContent = new Date().getFullYear(); }
+
+    // Tema toggle
+    (function(){
+      const btn = document.getElementById('themeToggle');
+      const root = document.documentElement;
+      const stored = localStorage.getItem('theme');
+      if (stored) root.setAttribute('data-theme', stored);
+      btn.addEventListener('click', ()=>{
+        const cur = root.getAttribute('data-theme');
+        const next = cur === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    })();
+
+    async function loadProductImages() {
+      console.log('🖼️ Image loading disabled for debugging');
+      return; // Temporarily disabled
+      const offerCards = document.querySelectorAll('.offer-card[data-store][data-heading]');
+      for (const card of offerCards) {
+        const storeName = card.getAttribute('data-store');
+        const heading = card.getAttribute('data-heading');
+        const imageElement = card.querySelector('.offer-product-image');
+        if (!imageElement) continue;
+        try {
+          const url = `/api/product-image/${encodeURIComponent(storeName)}/${encodeURIComponent(heading)}`;
+          const response = await fetch(url);
+          if (!response.ok) continue;
+            const data = await response.json();
+            if (data.imageUrl) {
+              imageElement.src = data.imageUrl;
+              imageElement.style.display = 'block';
+            }
+        } catch(e) { /* silent */ }
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      setYear();
+      const input = document.getElementById('ingredientsInput');
+      input.addEventListener('keypress', e => { if (e.key === 'Enter') findOffers(); });
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => switchView(btn.dataset.tab)));
+      document.addEventListener('click', e => { if (e.target.classList.contains('meal-select-btn')) { const mealName = e.target.textContent.replace('Se tilbud for ', ''); showMealDetails(mealName); }});
+      showDefaultContent();
+    });
+
+    async function findOffers() {
+      const input = document.getElementById('ingredientsInput').value.trim();
+      if (!input) return;
+      state.loadingOffers = true;
+  state.generalOffersLoaded = false; // spesifikt søk overstyrer generelle
+      state.currentIngredients = input.split(/[\s,]+/).filter(Boolean);
+      try {
+        const cleaned = state.currentIngredients.map(i => i.toLowerCase().trim());
+        const url = `/api/best-offers?ingredients=${encodeURIComponent(cleaned.join(','))}`;
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        state.offersRaw = await res.json();
+        state.loadingOffers = false;
+        renderOffers();
+        setTimeout(loadProductImages, 100);
+      } catch(e) {
+        state.loadingOffers = false;
+        document.getElementById('content').innerHTML = `<div class="empty"><h3>Feil ved søk</h3><p>Kunne ikke hente tilbud nå.</p></div>`;
+      }
+    }
+
+    function renderOffers() {
+      console.log('🎨 renderOffers() called');
+      console.log('📊 state.offersRaw:', state.offersRaw);
+      console.log('🔍 state.offersRaw type:', typeof state.offersRaw);
+      console.log('🔍 state.offersRaw length:', state.offersRaw?.length);
+      
+      const content = document.getElementById('content');
+      if (state.loadingOffers) { content.innerHTML = '<div class="loading">Søker etter tilbud...</div>'; return; }
+      
+      // Check if we have data
+      if (!state.offersRaw || state.offersRaw.length === 0) { 
+        console.log('❌ No offersRaw data');
+        content.innerHTML = '<div class="empty"><h3>Ingen tilbud</h3><p>Prøv andre ingredienser.</p></div>'; 
+        return; 
+      }
+
+      // Check if this is grouped data (from /api/best-offers) or simple array (from /api/offers)
+      const isGroupedData = state.offersRaw.length > 0 && state.offersRaw[0].ingredient && state.offersRaw[0].offers;
+      console.log('🔍 Is grouped data:', isGroupedData);
+      
+      let offersToRender = [];
+      
+      if (isGroupedData) {
+        // Handle grouped data structure (from /api/best-offers)
+        const grouped = {};
+        state.offersRaw.forEach(group => { 
+          if (group.ingredient && group.offers) {
+            grouped[group.ingredient] = group.offers;
+          }
+        });
+        console.log('📂 Grouped offers:', Object.keys(grouped));
+        
+        // Filter by selected store
+        Object.keys(grouped).forEach(ing => {
+          const filtered = grouped[ing].filter(o => !state.selectedStore || (o.store && o.store.toLowerCase().includes(state.selectedStore.toLowerCase())));
+          offersToRender.push(...filtered);
+        });
+      } else {
+        // Handle simple array structure (from /api/offers)
+        console.log('� Processing simple offers array');
+        offersToRender = state.offersRaw.filter(o => !state.selectedStore || (o.store && o.store.toLowerCase().includes(state.selectedStore.toLowerCase())));
+      }
+      
+      console.log('🎯 Final offers to render:', offersToRender.length);
+      console.log('🏪 Stores in final offers:', [...new Set(offersToRender.map(o => o.store))]);
+      
+      if (offersToRender.length === 0) {
+        content.innerHTML = '<div class="empty"><h3>Ingen tilbud</h3><p>Ingen tilbud funnet for valgt butikk.</p></div>';
+        return;
+      }
+      
+      // Render the offers
+      let html = '<div class="search-results">';
+      html += `<div class="ingredient-section"><div class="ingredient-header" style="display:flex;justify-content:space-between;align-items:center;margin:0 0 14px;padding:8px 0;border-bottom:1px solid var(--border);"><h3 style="margin:0;font-size:20px;font-weight:600;">Aktuelle tilbud</h3><span class="count-badge" style="background:var(--surface-alt);padding:4px 10px;border-radius:var(--radius-full);font-size:12px;font-weight:600;">${offersToRender.length} tilbud</span></div><div class="offers-grid fixed-size">`;
+      
+      offersToRender.forEach(offer => {
+        const priceVal = (()=>{ 
+          if (!offer.price && offer.price!==0) return 'N/A'; 
+          const str = offer.price.toString(); 
+          return /kr/i.test(str)? str.replace(/\s*kr\s*$/i,'') : str; 
+        })();
+        html += `<div class="offer-card" data-store="${offer.store || ''}" data-heading="${offer.title || ''}"><div class="offer-image"><img class="offer-product-image" alt="Produkt" style="display:none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="/><img class="offer-store-logo" src="${getStoreLogo(offer.store)}" alt="${offer.store}" /></div><div class="offer-content"><h4 class="offer-title">${offer.title || 'Ukjent produkt'}</h4><div class="offer-price"><span class="offer-price-main">${priceVal} kr</span></div>${offer.quantity ? `<div class="offer-quantity" title="${offer.quantity}">${offer.quantity}</div>` : ''}</div></div>`;
+      });
+      
+      html += '</div></div></div>';
+      content.innerHTML = html;
+      console.log('✅ Rendered offers to DOM');
+    }
+
+    function getStoreLogo(storeName) {
+      const logos = { 'Rema 1000':'/images/rema_logo.png','Kiwi':'/images/kiwi_logo.png','Meny':'/images/meny_logo.png','Coop Extra':'/images/coop_extra_logo.png','Coop Mega':'/images/coop_mega_logo.png','Coop Marked':'/images/coop_marked_logo.png','Coop Prix':'/images/coop_prix_logo.png','Coop Obs':'/images/coop_obs_logo.png','Bunnpris':'/images/bunnpris_logo.png','Spar':'/images/spar_logo_1.png' };
+      return logos[storeName] || 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24"%3E%3Crect width="24" height="24" fill="%23e5e7eb"/%3E%3C/svg%3E';
+    }
+
+    function filterStore(btn) {
+      document.querySelectorAll('.store-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.selectedStore = btn.dataset.store || '';
+      const activeTab = document.querySelector('.tab-btn.active')?.dataset.tab;
+      if (activeTab !== 'tilbud') {
+        state.generalOffersLoaded = false;
+        switchView('tilbud');
+        return;
+      }
+      const hasStore = state.offersRaw.some(g => g.offers && g.offers.some(o => o.store && o.store.toLowerCase().includes(state.selectedStore.toLowerCase())));
+      if (!hasStore) {
+        state.generalOffersLoaded = false;
+        loadCurrentOffers();
+        return;
+      }
+      renderOffers();
+      setTimeout(loadProductImages, 50);
+    }
+
+    async function selectMealForOffers(mealName) {
+      try {
+        const response = await fetch(`/api/meals/${encodeURIComponent(mealName)}`);
+        if (!response.ok) throw new Error();
+        const meal = await response.json();
+        if (!meal.ingredients) throw new Error();
+        document.getElementById('ingredientsInput').value = meal.ingredients.join(', ');
+        switchView('tilbud');
+        await findOffers();
+      } catch(e) { alert('Kunne ikke hente tilbud for retten.'); }
+    }
+
+    function switchView(tab) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tab));
+      if (tab === 'middager') { showDefaultContent(); return; }
+      if (tab === 'tilbud') {
+        if (!state.generalOffersLoaded) {
+          loadCurrentOffers();
+          return;
+        }
+        if (state.selectedStore) {
+          const hasStore = state.offersRaw.some(g => g.offers && g.offers.some(o => o.store && o.store.toLowerCase().includes(state.selectedStore.toLowerCase())));
+          if (!hasStore) { loadCurrentOffers(); return; }
+        }
+        renderOffers();
+        setTimeout(loadProductImages,100);
+        return;
+      }
+      if (tab === 'handleliste') showShoppingList();
+    }
+
+    function showTestOffers() {
+      const testData = [{ ingredient: 'test produkter', offers:[ { title:'COCA-COLA', price:99, quantity:'6 × 1.5l', store:'Bunnpris' }, { title:'Mills Majones', price:25, quantity:'160g', store:'Kiwi' }, { title:'Freia Sjokolade', price:100, quantity:'4 × 100g', store:'Rema 1000' }, { title:'Stabburet Leverpostei', price:25, quantity:'6 × 22g', store:'Bunnpris' } ] }];
+      displayResults(testData);
+    }
+
+    async function showDefaultContent() {
+      const c = document.getElementById('content');
+      c.innerHTML = `<div class="loading"><h3 style='margin-top:0'>Laster ukens middagsforslag...</h3><p>Ser etter retter med gode tilbud</p></div>`;
+      try {
+        const response = await fetch('/api/meals/suggested/by-offers');
+        if (!response.ok) throw new Error();
+        const ranked = await response.json();
+        if (!ranked.length) { c.innerHTML = `<div class='empty'><h3>Ingen forslag</h3><p>Prøv å søke etter ingredienser.</p></div>`; return; }
+        const top = ranked.slice(0,6);
+        let html = `<div class='meals-section'><div class='section-header'><h2>Ukens beste middagsforslag</h2><p style='margin:0;font-size:13px;color:var(--text-soft)'>Basert på hvor mange ingredienser som er på tilbud</p></div><div class='meals-grid'>`;
+        const diffEmoji = { 'enkel':'🟢', 'medium':'🟡', 'vanskelig':'🔴' };
+        top.forEach(meal => {
+          html += `<div class='meal-card' onclick="selectMealForOffers('${meal.name.replace(/'/g, "&#39;")}')"><div class='meal-header'><h3 class='meal-title'>${meal.name}</h3><div class='meal-stats'><span class='difficulty-badge'>${diffEmoji[meal.difficulty]||'⚪'} ${meal.difficulty}</span><span class='offer-badge ${meal.offerPercentage>=50?'high-offers': meal.offerPercentage>=25?'medium-offers':'low-offers'}'>${meal.offerPercentage}% på tilbud</span></div></div><div class='meal-ingredients'><p style='margin:0 0 4px;font-size:12px;color:var(--text-soft)'><strong>Ingredienser (${meal.totalIngredients}):</strong></p><div class='ingredient-list'>${meal.ingredients.map(ing=>{ const hasOffer = meal.availableOffers.some(ao=>ao.ingredient===ing); return `<span class='ingredient-tag ${hasOffer?'has-offer':''}'>${ing}</span>`; }).join('')}</div></div>${meal.offersFound>0?`<div class='meal-offers-preview'><p style='margin:0 0 4px;'><strong>Tilbud (${meal.offersFound}):</strong></p>${meal.availableOffers.slice(0,2).map(ao=>`<div class='mini-offer'><span>${ao.ingredient}</span><span class='store-count'>${ao.offers.length} tilbud</span></div>`).join('')}</div>`:''}<button class='btn btn-primary meal-select-btn' style='margin-top:4px;'>Se tilbud for ${meal.name}</button></div>`;
+        });
+        html += '</div></div>';
+        c.innerHTML = html;
+      } catch(e) {
+        c.innerHTML = `<div class='empty'><h3>Feil</h3><p>Kunne ikke hente middagsforslag.</p></div>`;
+      }
+    }
+
+    async function showMealDetails(mealName) {
+      const c = document.getElementById('content');
+      c.innerHTML = `<div class='loading'>Laster tilbud for ${mealName}...</div>`;
+      try {
+        const mealResponse = await fetch(`/api/meals/${encodeURIComponent(mealName)}`);
+        const meal = await mealResponse.json();
+        if (!meal.ingredients) throw new Error();
+        const offersResponse = await fetch(`/api/best-offers?ingredients=${encodeURIComponent(meal.ingredients.join(','))}`);
+        const bestOffers = await offersResponse.json();
+        let html = `<div class='meal-details'><div class='meal-header'><button class='btn btn-secondary back-btn' onclick='showDefaultContent()'>← Tilbake</button><h2 style='margin:8px 0 0;'>${meal.name}</h2><div class='meal-meta'><span class='difficulty-badge ${meal.difficulty}'>${meal.difficulty}</span><span class='category-badge'>${meal.category}</span></div></div><div class='ingredients-list'><h3 style='margin:0 0 8px;'>Ingredienser (${meal.ingredients.length})</h3><div class='ingredient-tags'>${meal.ingredients.map(i=>`<span class='ingredient-tag'>${i}</span>`).join('')}</div></div><div class='meal-offers-section'><h3 style='margin:0 0 18px;'>Beste tilbud</h3>`;
+        if (bestOffers && bestOffers.length) {
+          html += `<div class='offers-grid'>${bestOffers.map(group => `<div class='ingredient-group'><h4>${group.ingredient}</h4><div class='offers-row'>${group.offers.slice(0,3).map(offer => `<div class='offer-card' data-store='${offer.store||''}' data-heading='${offer.title||''}'><div class='offer-image'><img class='offer-store-logo' src='${getStoreLogo(offer.store)}' alt='${offer.store}' /><div class='product-image-placeholder' style='font-size:32px;opacity:.4;'>📦</div></div><div class='offer-content'><h4 class='offer-title'>${offer.title}</h4><div class='offer-price'><span class='offer-price-main'>${offer.price} kr</span></div>${offer.quantity?`<div class='offer-quantity'>${offer.quantity}</div>`:''}</div></div>`).join('')}</div>${group.offers.length>3?`<p style='text-align:center;margin:10px 0 0;font-size:12px;color:var(--text-soft);'>+ ${group.offers.length-3} flere</p>`:''}</div>`).join('')}</div>`;
+        } else {
+          html += `<div class='empty'><p>Ingen tilbud funnet.</p></div>`;
+        }
+        html += `</div></div>`;
+        c.innerHTML = html;
+        setTimeout(loadProductImages, 120);
+      } catch(e) {
+        c.innerHTML = `<div class='empty'><h3>Feil</h3><p>Kunne ikke vise detaljer for "${mealName}".</p></div>`;
+      }
+    }
+
+    function showShoppingList() {
+      document.getElementById('content').innerHTML = `<div class='empty'><h3>Handleliste</h3><p>Kommer snart.</p></div>`;
+    }
+
+    // Backwards compat function used by showTestOffers (original naming)
+    function displayResults(data){ state.offersRaw = data; renderOffers(); setTimeout(loadProductImages, 100); }
+
+    // Hent "aktuelle tilbud" (generelle tilbud uten ingrediensfilter)
+  async function loadCurrentOffers() {
+      console.log('🔄 loadCurrentOffers() called');
+      const content = document.getElementById('content');
+      content.innerHTML = '<div class="loading">Henter aktuelle tilbud...</div>';
+      state.loadingOffers = true;
+      try {
+        console.log('🌐 Fetching /api/offers...');
+        const res = await fetch('/api/offers');
+        console.log('📡 Response status:', res.status, res.ok);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        let offers = await res.json();
+        console.log('📦 Received offers:', offers.length, 'items');
+        console.log('🔍 First 3 offers:', offers.slice(0, 3));
+        console.log('🔍 Store names in first 10:', offers.slice(0, 10).map(o => o.store));
+        if (!Array.isArray(offers)) offers = [];
+        // Sorter med nyeste / laveste pris først som enkel heuristikk
+        offers.sort((a,b)=>{
+          const da = new Date(a.updatedAt||0).getTime();
+          const db = new Date(b.updatedAt||0).getTime();
+          if (db !== da) return db - da; // nyeste først
+          const pa = parseFloat(a.price)||Infinity; const pb = parseFloat(b.price)||Infinity;
+          return pa - pb;
+        });
+        // No limit applied - show all offers
+        // Normaliser til eksisterende renderOffers struktur
+        state.offersRaw = [{ ingredient: 'Aktuelle tilbud', offers: offers.map(o => ({
+          title: o.title || o.heading || 'Ukjent produkt',
+            price: typeof o.price === 'number' ? o.price : (parseFloat((o.price||'').toString().replace(/[^\d,.-]/g,'').replace(',','.'))||'N/A'),
+            quantity: o.quantity || o.size || '',
+            store: o.store || (o.dealer && o.dealer.name) || 'Ukjent'
+        })) }];
+  state.loadingOffers = false;
+  state.generalOffersLoaded = true;
+        console.log('✅ Processed offers for rendering:', state.offersRaw[0].offers.length);
+        console.log('🎯 state.offersRaw structure:', state.offersRaw);
+        console.log('🏪 Stores in processed offers:', state.offersRaw[0].offers.slice(0, 10).map(o => o.store));
+        console.log('🏪 All unique stores:', [...new Set(state.offersRaw[0].offers.map(o => o.store))]);
+        renderOffers();
+        // Image loading disabled for debugging
+      } catch(e) {
+        console.error('❌ Error in loadCurrentOffers:', e);
+        state.loadingOffers = false;
+        content.innerHTML = '<div class="empty"><h3>Feil</h3><p>Klarte ikke hente aktuelle tilbud.</p></div>';
+      }
+    }
+  </script>
+</body>
+</html>

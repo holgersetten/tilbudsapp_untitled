@@ -1,479 +1,47 @@
 [
   {
-    "title": "LAKSEFILET M/SKINN",
+    "title": "STRIMLET KYLLINGFILET",
     "description": "",
-    "price": 58.9,
-    "originalPrice": null,
+    "price": 69.9,
+    "originalPrice": 89.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "450g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 450,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "13982Wr4keVfnhcEJV5Di",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "laks"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.215Z"
-  },
-  {
-    "title": "KYLLINGFILET",
-    "description": "",
-    "price": 99,
-    "originalPrice": 129,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "1xDFNUWyloYuh1WUYceIR",
+    "hotspotId": "bmvU-0DNGFt4GgvpuCh8i",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "kyllingfilet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.215Z"
+    "updatedAt": "2025-08-31T16:51:26.190Z"
   },
   {
-    "title": "LEVERPOSTEI",
+    "title": "LAKSEFILET M/SKINN",
     "description": "",
-    "price": 10,
-    "originalPrice": 15.4,
+    "price": 58.9,
+    "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "400g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 400,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "EX6LKLDNGXzAlj3NBKq-j",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.215Z"
-  },
-  {
-    "title": "GULLSALAMI",
-    "description": "",
-    "price": 44.9,
-    "originalPrice": 55.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "_xcXOdMKzfqJRSQcPOzZ1",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "salami"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.215Z"
-  },
-  {
-    "title": "EPLEJUICE",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": 27.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "NM4-oJ1TB0JnLMf2ry4Ry",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.215Z"
-  },
-  {
-    "title": "KAVIAR",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": 24.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "MCStzEG4_bqDgPKt94MxN",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.215Z"
-  },
-  {
-    "title": "RØKT LAKS SKIVET",
-    "description": "",
-    "price": 39.9,
-    "originalPrice": 49.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "XDRB00I-_7QO9cKkaL8Ih",
+    "hotspotId": "iMOm2Siy_38ysYf3LrZgU",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "laks"
     ],
-    "updatedAt": "2025-08-30T21:50:11.215Z"
-  },
-  {
-    "title": "EKTE MAJONES MILLS",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": 39.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "b2TriWsCU-HkfI04pINdj",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "EGG 6PK",
-    "description": "",
-    "price": 25,
-    "originalPrice": 29.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "HUO-xp0SaUEgMGWOYDLae",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "GULOST SKIVET",
-    "description": "",
-    "price": 44.9,
-    "originalPrice": 54.3,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "KfunOMvEJzCxD1V6wVcT6",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "SAFARI YOGHURT",
-    "description": "",
-    "price": 34.9,
-    "originalPrice": 39.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "qwp00Z_Sj7_RlgZyg8uBv",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "SKRELLA MOZZARELLA",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": 34.4,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "rZusp8qJSj_4ScURztGAR",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "BABYBEL MINI",
-    "description": "",
-    "price": 39.9,
-    "originalPrice": 44.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "5yS_ujMV7ZQyGQ68NxNdz",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "UTVALGT SKINKE",
-    "description": "",
-    "price": 26.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "lcaK4o_CFmJ0vFDaodqK9",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "skinke"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "OVNSBAKT LEVERPOSTEI",
-    "description": "",
-    "price": 19.9,
-    "originalPrice": 26.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "RSB3JXzMq0JIb5iFB05dz",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "BACON LEVERPOSTEI",
-    "description": "",
-    "price": 26.9,
-    "originalPrice": 30.4,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "DYYFPX5g5uGw9Z-U8JBoe",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "bacon"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "GROV LEVERPOSTEI",
-    "description": "",
-    "price": 19.9,
-    "originalPrice": 25.4,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "X0bEtSDj-5GJw6_nPhEhP",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "KREOLSK KYLLINGSALAT",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": 32.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "j5BoWs4ubluBx5AtVQEV5",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "CHILIKREPS I AIOLI",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": 39.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "Fj8dcFMrKT1KShdxwJckD",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "KALKUNKORV",
-    "description": "",
-    "price": 39.9,
-    "originalPrice": 49.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "AQtscJ_1fB54MddQwDd0G",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "RUNDBRØD",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": 39.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "W0ZIFzEwhxNzhyeQglOYM",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "BRØDMIKS SUPERHELT",
-    "description": "",
-    "price": 19.9,
-    "originalPrice": 25.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "q0nVWYT70SM2GYUk3UFTt",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "SUPERHELT BRØD",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": 39.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "pNBozWjGJyQXpC6P6WUwq",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "HAVREHJERTER/KAKAOPUTER",
-    "description": "",
-    "price": 31.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "dI5QpAqsiZ202Anrgg9PL",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "FRUKTMÜSLI",
-    "description": "",
-    "price": 26.9,
-    "originalPrice": 33.5,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "5eiLa4lUPItVpQQ_PZoKY",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "BESTEMORS FISKEKAKER",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": 38.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "6rbwIizxSSBnaBsKFCvlY",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "fiskekaker"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "FISKEPUDDING",
-    "description": "",
-    "price": 39.9,
-    "originalPrice": 54.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "0u1supfVNLvri5B7OqkZz",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "fiskekaker"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "SCAMPI MARINERT",
-    "description": "",
-    "price": 49.9,
-    "originalPrice": 55,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "qCqBGu7KpnF8SHGkXlzMa",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "scampi"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
+    "updatedAt": "2025-08-31T16:51:26.191Z"
   },
   {
     "title": "TORSK SPRØBAKT",
@@ -481,16 +49,65 @@
     "price": 59.9,
     "originalPrice": 79.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "300g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 300,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "TXcpyXNklGAGmhbvdVIEQ",
+    "hotspotId": "cBZ3eB24LZD1EunXkg28Y",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
+    "updatedAt": "2025-08-31T16:51:26.192Z"
+  },
+  {
+    "title": "SCAMPI MARINERT",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": 55,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "170g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 170,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FtltewahJ-uv0xXPo65T6",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "scampi"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.192Z"
+  },
+  {
+    "title": "FISKEPUDDING",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 54.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "550g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 550,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "1uTsAGY6JO-fKNz9DRSYz",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "fiskekaker"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.192Z"
   },
   {
     "title": "HEL LANDKYLLING",
@@ -498,543 +115,263 @@
     "price": 99.9,
     "originalPrice": 124.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "9YHMEp9zyP2gqM_J1Q2oU",
+    "hotspotId": "LOz1jE3TniEzw9H-EsjBV",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "hel_kylling"
     ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
+    "updatedAt": "2025-08-31T16:51:26.192Z"
   },
   {
-    "title": "NUDLER",
+    "title": "KYLLINGFILET",
     "description": "",
-    "price": 5.9,
-    "originalPrice": null,
+    "price": 99.9,
+    "originalPrice": 129,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "750g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 750,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "R5dF6sZuWKcAwXJG2aZFx",
+    "hotspotId": "svfd0leD9e5yYQG61m0WO",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
-      "annet"
+      "kyllingfilet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
+    "updatedAt": "2025-08-31T16:51:26.192Z"
+  },
+  {
+    "title": "GILDE KARBONADER",
+    "description": "",
+    "price": 69.9,
+    "originalPrice": 95.4,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "720g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 720,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "gPvwZxqQmZ0-S1JNkbrzD",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "kjøttkaker"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.192Z"
   },
   {
     "title": "KJØTTPØLSE",
     "description": "",
-    "price": 29.9,
-    "originalPrice": 52.4,
+    "price": 34.9,
+    "originalPrice": 48.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "600g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 600,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "xlwyzFbLxGweRd-sZuwkS",
+    "hotspotId": "d40ty1JdXlpDqe4RbTRrK",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "pølser"
     ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
+    "updatedAt": "2025-08-31T16:51:26.192Z"
   },
   {
-    "title": "NUDLER KOPP",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "3fPHXjCN7Ryj_QLgA50QS",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "LAKSEFILET M/SKINN",
-    "description": "",
-    "price": 58.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "GWIneet__Z503ID8B4pXT",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "laks"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "GULROT",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "xHPlEluFsK3zKtQwrPqwO",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "gulrot"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "MIDDAGSPOTET",
-    "description": "",
-    "price": 24.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "pFi5-ypvFi10kXpK4i0WP",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "SANDEFJORDSAUS",
-    "description": "",
-    "price": 27.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "5QaLBX3eG0DGcijGAGHbG",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "UTVALGTE SUPPER",
-    "description": "",
-    "price": 69.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "fObhN4XlzqAmwczvKgHlq",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "MEKSIKANSK GRYTE",
-    "description": "",
-    "price": 87.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "9ODtkfcFAFklUgM89sCwR",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "LYS LAPSKAUS",
-    "description": "",
-    "price": 63.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "88eOl3GWD7MzzlVUu0IyL",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "gryte"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "GULROT SNACK",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "1CepxOhLs0DTN-_z-_I5j",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "gulrot"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "PAPRIKA SWEET BITE",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "pHf7sXcwPPpeaE1BNc11X",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "SUKKERERTER",
-    "description": "",
-    "price": 24.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "uhPjO6U17e-IvC3rOCDnf",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "BENDIT SMOOTHIE",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "GoGBMIRpS_7cqlaFhBNtG",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "GULROT",
-    "description": "",
-    "price": 14.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "cRT0KmbCHGjF70OURHSGS",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "gulrot"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "CALLUNA",
-    "description": "",
-    "price": 24.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "RnkIOeZ3XCUIPUJNT_bmm",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "GRANDIOSA ORIGINAL",
-    "description": "",
-    "price": 25,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "YDqhoS79CqMqwpiVTw4uq",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "ferdigpizza"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "TOALETTPAPIR 24PK",
-    "description": "",
-    "price": 79.9,
-    "originalPrice": 113.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "KPQb2r0RjR9WETUplxNkO",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "BESTEMORS FISKEKAKER",
+    "title": "UTVALGT DRESSING",
     "description": "",
     "price": 29.9,
-    "originalPrice": 38.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "Qo1mc_S8S23SykPT7KrG1",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "fiskekaker"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.216Z"
-  },
-  {
-    "title": "UTVALTE GRØNNSAKSBLANDINGER",
-    "description": "",
-    "price": 29,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "400ml",
+    "unit": "ml",
+    "pieces": 1,
+    "size": 400,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "c8n7FNE5c84I9SMaZKQvT",
+    "hotspotId": "9Ihye_lwOubDvHXAkNpVH",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.192Z"
   },
   {
-    "title": "SCAMPI NATURELL",
-    "description": "",
-    "price": 59.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "yFdiYIZy2dJr5d6A3QA8O",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "scampi"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
-  },
-  {
-    "title": "LAKS LOIN",
-    "description": "",
-    "price": 339,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "h1IywexWQ5gJZztu_xuRN",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
-  },
-  {
-    "title": "KARBONADER",
+    "title": "KJØTTBOLLER/KJØTTKAKER",
     "description": "",
     "price": 49.9,
-    "originalPrice": 62.9,
+    "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "550g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 550,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "7cEdelVfK3bZ7Gf_W1jfT",
+    "hotspotId": "DG81We_5UuH6RyJ5GZZZ3",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "kjøttkaker"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.192Z"
   },
   {
-    "title": "BACON",
-    "description": "",
-    "price": 79.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "2PbkTdpR0At4CcTM6t6Om",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "bacon"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
-  },
-  {
-    "title": "KJØTTKAKER M/GRØNNSAKER",
-    "description": "",
-    "price": 49.9,
-    "originalPrice": 59.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "iHKFv5gXfQu86Ce3iLouK",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "kjøttkaker"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
-  },
-  {
-    "title": "OSTEGRILL M/ GRØNNSAKER",
-    "description": "",
-    "price": 19.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "-wSS25IirN8q4Y5j1-YUN",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
-  },
-  {
-    "title": "ASIATISKE SMAKSKIT",
-    "description": "",
-    "price": 19.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "sLQqkZ5YDChdYj91uIiqt",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
-  },
-  {
-    "title": "KYLLING LÅRFILET",
-    "description": "",
-    "price": 99,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "mi3xudmMIcEykISzgzqME",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
-  },
-  {
-    "title": "SUNNIVA JUICE",
+    "title": "MØRPØLSE",
     "description": "",
     "price": 34.9,
-    "originalPrice": null,
+    "originalPrice": 36.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "150g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 150,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "mQaRy3vP8SQpzLiUvFNmp",
+    "hotspotId": "-hAPIIpMIkgCEhfNKu7PC",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.192Z"
   },
   {
-    "title": "DANONINO YOGHURT",
+    "title": "PHILADELPHIA",
     "description": "",
-    "price": 20,
-    "originalPrice": null,
+    "price": 26.9,
+    "originalPrice": 33.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "200g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 200,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "-r4P6gp9t4PtVLKhJBMQ_",
+    "hotspotId": "hCaEaivwS_lxUKhlRPkBh",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.192Z"
   },
   {
-    "title": "KNEKKEBRØD",
+    "title": "PHILADELPHIA LIGHT",
     "description": "",
-    "price": 39.9,
-    "originalPrice": null,
+    "price": 26.9,
+    "originalPrice": 29.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "200g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 200,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "yTurJIUh59ocGA2vcOgJa",
+    "hotspotId": "axXIfBu4Lzk0oCjIYHf9K",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.193Z"
+  },
+  {
+    "title": "L'OR KAFFEKAPSLER",
+    "description": "",
+    "price": 52.9,
+    "originalPrice": 82.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "20pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 20,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "J7dFwYG4DJ6RYxR1Pe8G3",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.193Z"
+  },
+  {
+    "title": "Q FROKOSTYOGHURT",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "800g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 800,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "KogybMDVb_ns2ux_g8Mkm",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.193Z"
+  },
+  {
+    "title": "EPLEJUICE",
+    "description": "",
+    "price": 14.9,
+    "originalPrice": 27.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1l",
+    "unit": "l",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "V74BCHFk0w5yFOiQXHyjM",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.193Z"
   },
   {
     "title": "FRIA GLUTENFRITT BRØD",
@@ -1042,84 +379,835 @@
     "price": 69.9,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "500g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "f-HyRcZjI3EXzIZD8qP_S",
+    "hotspotId": "JwbBxUTLYu84H4YsxkDWp",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.193Z"
   },
   {
-    "title": "SUSHIRIS",
+    "title": "KYLLINGKORV",
+    "description": "",
+    "price": 25,
+    "originalPrice": 31.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "300g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 300,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "BXpZ6ZqYgNAUF1_IOyCWL",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.193Z"
+  },
+  {
+    "title": "BABYBEL MINI",
     "description": "",
     "price": 39.9,
-    "originalPrice": 48.9,
+    "originalPrice": 44.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "120g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 120,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "QFY3qx0QT2TtDDNAfJPO2",
+    "hotspotId": "JKl5RV88CWaMuLVpgWJqD",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.193Z"
   },
   {
-    "title": "SUSHI NORI",
+    "title": "UTVALGT SKINKE",
     "description": "",
-    "price": 29.9,
-    "originalPrice": 39.9,
+    "price": 26.9,
+    "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "150g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 150,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "YNNJsoOQxnHDSPVAn7LFf",
+    "hotspotId": "CdtUMb6J4dq59djXtTkFo",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "skinke"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.193Z"
+  },
+  {
+    "title": "KAVIAR",
+    "description": "",
+    "price": 14.9,
+    "originalPrice": 24.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "185g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 185,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "PhEqQmFqtCuPpRd56T_Jj",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.193Z"
   },
   {
-    "title": "INGEFÆR SYLTET",
+    "title": "FRUKTMÜSLI",
+    "description": "",
+    "price": 26.9,
+    "originalPrice": 33.6,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "750g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 750,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "3PTvgKm07BFY43nGhs21U",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.193Z"
+  },
+  {
+    "title": "RØKT LAKS SKIVET",
     "description": "",
     "price": 39.9,
     "originalPrice": 49.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "100g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 100,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "vg5d7v4yLzpa62ldOykMk",
+    "hotspotId": "357Me8AArgpbqnHKMVU93",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
-      "annet"
+      "laks"
     ],
-    "updatedAt": "2025-08-30T21:50:11.218Z"
+    "updatedAt": "2025-08-31T16:51:26.193Z"
   },
   {
-    "title": "WASABI ORIGINAL",
+    "title": "HAVREHJERTER/KAKAOPUTER",
     "description": "",
-    "price": 49.9,
-    "originalPrice": 69.9,
+    "price": 31.9,
+    "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "375g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 375,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "6ETtsG2IP9EPloxsEV2bj",
+    "hotspotId": "dCHbS7I5qT1k9SkEJsK5f",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "EKTE MAJONES",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 39.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "330g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 330,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "2FuEGMGwlc8CmuwHWi4O1",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "RUNDBRØD",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 39.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "450g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 450,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yvl3AQ_L3hzm73E2YSe0e",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "EGG 6PK",
+    "description": "",
+    "price": 25,
+    "originalPrice": 29.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "6pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 6,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "du4F8tTKPs7O7a_sCoN-x",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "SUPERHELT BRØD",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 39.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "660g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 660,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "d6PuoFFNT45i47m8wGmrP",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "KREOLSK KYLLINGSALAT",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 32.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "180g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 180,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "NG0OCZB9JIAz1pidT-vE6",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "UTVALGTE SUPPER",
+    "description": "",
+    "price": 69.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ZtrUffgRfOCQOwP_rf-kC",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "CHILIKREPS I AIOLI",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 39.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "180g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 180,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "q4k6w6Oqns6QOhm3jTiDJ",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "MEKSIKANSK GRYTE",
+    "description": "",
+    "price": 87.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "900g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 900,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "CibGoIu9XkoC2-MXzb1dI",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "GROV LEVERPOSTEI",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": 25.4,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "200g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 200,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FpBbCEuXIH5zLlTJYqRPW",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.194Z"
+  },
+  {
+    "title": "LYS LAPSKAUS",
+    "description": "",
+    "price": 63.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "2ybJhTMAO0NnWe89BGfyb",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "gryte"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "KJØTTKAKER",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "650g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 650,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yWuJC-cXZn0pqG3sH2dvr",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "kjøttkaker"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "BIFFLAPSKAUS",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": 63.7,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "450g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 450,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "yjwE2icubT01y0hCfgzxO",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "gryte"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "SWEET & SOUR",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": 69.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "460g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 460,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "9MPobuFGC_VJjbIypqVp6",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "FISKEBOLLER",
+    "description": "",
+    "price": 54.9,
+    "originalPrice": 69.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "500g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "7o2ZtkRmyLXrD04swL8Kd",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "STRIMLET KYLLINGFILET",
+    "description": "",
+    "price": 69.9,
+    "originalPrice": 89.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "450g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 450,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "-nxd0uxLj5d9wb2uVKmsc",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "kyllingfilet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "SVENSKE KJØTTBOLLER",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": 88.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "566g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 566,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "rUhIaQfiEqS4LuK4Bhfzp",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "MATFLØTE 18 %",
+    "description": "",
+    "price": 22.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "0.3l",
+    "unit": "l",
+    "pieces": 1,
+    "size": 0.3,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Z8BHMiNmSkjVUssGAeZ2B",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "BIFFSNADDER",
+    "description": "",
+    "price": 69.9,
+    "originalPrice": 91.4,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "490g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 490,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "X0aGUbHcc5qV6LhSJkJHa",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "BRATWURST",
+    "description": "",
+    "price": 64.9,
+    "originalPrice": 74.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "490g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 490,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "b2p37mTSsAolP3v1J1mV7",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "pølser"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "SOLTØRKEDE TOMATER",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "280g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 280,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "vkG8zwbvpr0BNXbo4gz6Z",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "tomat"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.195Z"
+  },
+  {
+    "title": "FÅRIKÅL",
+    "description": "",
+    "price": 79.9,
+    "originalPrice": 99,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "565g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 565,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "-uw-8e_1f8akWt8pD_-mv",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "NORSK NYPOTET",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "GGRYDKGjyFNPusw4axNbu",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "ISBERG MIX",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "250g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 250,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "qUaKaUQzHez83wtfDV8F1",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "salat"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "CALLUNA",
+    "description": "",
+    "price": 24.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "FSnwxd8-bFkUQM_TUIqip",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "BANANER",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "4C1Zlh2G6q6psapaEmqIN",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "LØK I STRØMPE",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "400g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 400,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "wHW39IckXEhBmgjiO-IZQ",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "gul_løk"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "BLÅSKJELL",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1000g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 1000,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "OFFznI0lubS0pTbwiMH_k",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "NORSK NYPOTET",
+    "description": "",
+    "price": 19.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "IbhxRYvwGgF7NeOVHNGYI",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "FYLT KRABBESKJELL",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "150g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 150,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "n1NSaeC0l_FdBXxianIXr",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.196Z"
+  },
+  {
+    "title": "SCAMPI NATURELL",
+    "description": "",
+    "price": 59.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "270g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 270,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "fAdwL3hV-0UOOV7JCF0qB",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "scampi"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.197Z"
   },
   {
     "title": "LAKS LOIN",
@@ -1127,169 +1215,395 @@
     "price": 339,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "WLAWi3wgFXA-iZhn55RQf",
+    "hotspotId": "iiR8Vg9YPpBKgVTfbxOVI",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.197Z"
   },
   {
-    "title": "FREIA STORPLATER",
+    "title": "KJØTTKAKER M/ GRØNNSAKER",
     "description": "",
-    "price": 39.9,
-    "originalPrice": 59.9,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "bR9JGPr3-_HuhCu6NNVXJ",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
-  },
-  {
-    "title": "OPPVASKBØRSTE",
-    "description": "",
-    "price": 15,
+    "price": 49.9,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "550g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 550,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "ducwOyE_o0M_EeYjeT_QX",
+    "hotspotId": "5DfKFdIuIWWgA-C4lF-3L",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
-      "annet"
+      "kjøttkaker"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.197Z"
   },
   {
-    "title": "OPPVASKSÅPE",
+    "title": "OSTEGRILL M/ GRØNNSAKER",
     "description": "",
-    "price": 15,
+    "price": 19.9,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "350g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 350,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "hRzQXZD0TZtNf7UDcGblO",
+    "hotspotId": "YDdsRZ6MiPw3AYIBKZRUu",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.197Z"
   },
   {
-    "title": "PLUMBO HEAVY GEL",
+    "title": "KYLLING LÅRFILET",
     "description": "",
-    "price": 69.9,
+    "price": 99,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "600g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 600,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "NL0-lVuyzIn8AyqSKLMvY",
+    "hotspotId": "L7qHV_A1bGh_5z_3Gwgg-",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.197Z"
   },
   {
-    "title": "SQUASHIES ORIGINAL",
+    "title": "SCHPRØ M/PISTASJ",
     "description": "",
     "price": 29.9,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "130g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 130,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "e-N5y0bEGlJeqKXwbSG0g",
+    "hotspotId": "HZLN-MHiMMPu524kIlxb0",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.197Z"
   },
   {
-    "title": "CARAMEL CRUNCH",
+    "title": "KIMS CHIPS",
     "description": "",
-    "price": 45.4,
-    "originalPrice": null,
+    "price": 24.9,
+    "originalPrice": 32.9,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "200g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 200,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "HDMv2M2KixYiTeZXuYeq4",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
-  },
-  {
-    "title": "SQUASHIES SOUR",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "Xgsdt4jWXlIFyYrNDpmZF",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
-  },
-  {
-    "title": "SQUASH. LOVE HEART",
-    "description": "",
-    "price": 29.9,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "w_1Oo2BqTUL_YkI-RUEjs",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "annet"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
-  },
-  {
-    "title": "BONDENS CHIPS",
-    "description": "",
-    "price": 49,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "yIhzAl3k41Wx_l3Xyn_dk",
+    "hotspotId": "nJhuqLcf_XqSfcHPzmjo0",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "potetgull"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.197Z"
+  },
+  {
+    "title": "SVINEKOTELETTER",
+    "description": "",
+    "price": 99.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "4IetQslD5DHHl_aSPMkNt",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "svinekoteletter"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.197Z"
+  },
+  {
+    "title": "KVIKK LUNSJ BITER",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "130g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 130,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "J9bMMRyjah-o5RaBvWSc0",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.197Z"
+  },
+  {
+    "title": "ASIATISKE SMAKSKIT",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "255g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 255,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "F4nTg8To_7RQhx77r7757",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.197Z"
+  },
+  {
+    "title": "NEW ENERGY 4-PK",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "140g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 140,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "a8HdY5hnXqFIjbol7b0ws",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
+  },
+  {
+    "title": "CHOCOLATE BALL",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "55g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 55,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "tGh6HLbWbbM1UHoVSJwP4",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "brus"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
+  },
+  {
+    "title": "EXCELLENCE SJOKOLADE",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "100g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 100,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "odaEo1UV4l96Co7kdltoN",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "sjokolade"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
+  },
+  {
+    "title": "COCO CHOCO",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "55g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 55,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "RNGtzAHHoAklRjC1eWTa0",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
+  },
+  {
+    "title": "BANANA DREAM",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "55g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 55,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "vq1WBmaKyG2ky3NRAXStN",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "is"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
+  },
+  {
+    "title": "CRUNCHY GRANOLA",
+    "description": "",
+    "price": 29.6,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "450g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 450,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "1oELIFkT_fqVhiZPxb3VQ",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
+  },
+  {
+    "title": "GODT&BLANDET",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "170g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 170,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "AM2EwrSRzrTBtsqgo1Qd9",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
+  },
+  {
+    "title": "SOFT PEANUT CARAMEL",
+    "description": "",
+    "price": 34.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "55g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 55,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "IgfurupUdxXXkeOo0fcPq",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
+  },
+  {
+    "title": "PROTEIN+",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "200g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 200,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "E1fkdKHU9MGqV6wjpKKKX",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.198Z"
   },
   {
     "title": "LANDO NORRIS ZERO SUGAR",
@@ -1297,151 +1611,416 @@
     "price": 25.9,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "500ml",
+    "unit": "ml",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "vphYt2GZrMoEbNlvR1Wzn",
+    "hotspotId": "_G4-waEE_4a886d-CN4TJ",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.199Z"
   },
   {
-    "title": "COCA-COLA U/SUKKER 4PK",
+    "title": "SOFT CARAMEL CHOCO",
     "description": "",
-    "price": 79.9,
+    "price": 34.9,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "55g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 55,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "WCVXygT9zSK4ykk1HZek-",
-    "store": "Rema 1000",
-    "storeId": "faa0Ym",
-    "tags": [
-      "brus"
-    ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
-  },
-  {
-    "title": "BOKSER",
-    "description": "",
-    "price": 179,
-    "originalPrice": null,
-    "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
-    "imageUrl": null,
-    "hotspotId": "rQ4THtWUNxOtmuaElUnlZ",
+    "hotspotId": "X3rbsoWiqg5LrvfzqZTWQ",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.199Z"
   },
   {
-    "title": "TRUSER",
+    "title": "TOPPING",
     "description": "",
-    "price": 129,
+    "price": 49.9,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "330g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 330,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "tzN2PgKn8iARhwmqjPQOW",
+    "hotspotId": "HWra93yAnlxgSfzNbU9Gl",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.199Z"
   },
   {
-    "title": "KNESTRØMPER",
+    "title": "DUSJSÅPE 3I1 HERRE",
     "description": "",
-    "price": 64.9,
+    "price": 15,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "275ml",
+    "unit": "ml",
+    "pieces": 1,
+    "size": 275,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "4ytlylnFrKrsb-YOXM2_4",
+    "hotspotId": "3Jy_J2oswr1kTHTxz21-B",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.199Z"
   },
   {
-    "title": "SOKKER",
+    "title": "DUSJSÅPE HARMONI",
     "description": "",
-    "price": 49,
+    "price": 15,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "275ml",
+    "unit": "ml",
+    "pieces": 1,
+    "size": 275,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "MUKBiscIKSgJzSpRxMJoY",
+    "hotspotId": "iw1TCIjwYM31zYOALM5Il",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.199Z"
   },
   {
-    "title": "ALLE TRUSER",
+    "title": "HÅNDSÅPE REFILL",
     "description": "",
-    "price": 129,
+    "price": 30,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "1l",
+    "unit": "l",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "OyAb9cG30c0h9RAYKGNPw",
+    "hotspotId": "Oo741C7MI8ARq1FMvMcS0",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.199Z"
   },
   {
-    "title": "ALLE BOMULLSOKKER",
+    "title": "OPPVASKBØRSTE",
     "description": "",
-    "price": 49,
+    "price": 35.9,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "Mjdszmnel9GvwLTW-DED8",
+    "hotspotId": "POaMwp_38qjouNBs8FhpS",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.199Z"
   },
   {
-    "title": "BOKSER",
+    "title": "BOMULLSPINNER",
     "description": "",
-    "price": 179,
+    "price": 20,
     "originalPrice": null,
     "discount": null,
-    "validFrom": "2025-08-24T22:00:00+0000",
-    "validTo": "2025-08-30T21:59:59+0000",
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
     "imageUrl": null,
-    "hotspotId": "1nxeIb6LBFE9V3fz8dQ-_",
+    "hotspotId": "B0XmAU7D1-q0BAx-R9IKM",
     "store": "Rema 1000",
     "storeId": "faa0Ym",
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-30T21:50:11.219Z"
+    "updatedAt": "2025-08-31T16:51:26.199Z"
+  },
+  {
+    "title": "ZALO SPRAY",
+    "description": "",
+    "price": 47.4,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "500ml",
+    "unit": "ml",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "bS1UPOIWa7Az9j1nWeI9n",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.199Z"
+  },
+  {
+    "title": "BOMULLSPADS",
+    "description": "",
+    "price": 15,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1pcs",
+    "unit": "pcs",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "ns4UJtePMuiLoKWe4M0fp",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.199Z"
+  },
+  {
+    "title": "ZALO LAVENDEL",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "500ml",
+    "unit": "ml",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "bZ9TIYVLyiJH5ird53m0A",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.199Z"
+  },
+  {
+    "title": "HÅNDSÅPE",
+    "description": "",
+    "price": 20,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "500ml",
+    "unit": "ml",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "Yi430DOsUlgUNaoq-9151",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.199Z"
+  },
+  {
+    "title": "SUSHIRIS",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 48.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "500g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "lx752a3-52SYpvbmlBikb",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.199Z"
+  },
+  {
+    "title": "ZALO ULTRA",
+    "description": "",
+    "price": 31.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "500ml",
+    "unit": "ml",
+    "pieces": 1,
+    "size": 500,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "O7jZNM5i7A1PuEd2morf4",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.200Z"
+  },
+  {
+    "title": "APOBASE OILY CREAM",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "200g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 200,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "No2MoxaeBQEuHlZmCzh8H",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.200Z"
+  },
+  {
+    "title": "Sushi Nori",
+    "description": "",
+    "price": 29.9,
+    "originalPrice": 39.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "11g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 11,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "6xXq--gYq6CbnerEssaq5",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.200Z"
+  },
+  {
+    "title": "INGEFÆR SYLTET",
+    "description": "",
+    "price": 39.9,
+    "originalPrice": 49.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "145g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 145,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "5eh4whkpV3Txu6WMmPphP",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.200Z"
+  },
+  {
+    "title": "WASABI ORIGINAL",
+    "description": "",
+    "price": 49.9,
+    "originalPrice": 69.9,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "45g",
+    "unit": "g",
+    "pieces": 1,
+    "size": 45,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "TYEHZZaMZr8mfMdBqD5ns",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.200Z"
+  },
+  {
+    "title": "Laks Loin",
+    "description": "",
+    "price": 339,
+    "originalPrice": null,
+    "discount": null,
+    "currency": "NOK",
+    "quantity": "1kg",
+    "unit": "kg",
+    "pieces": 1,
+    "size": 1,
+    "validFrom": "2025-08-31T22:00:00+0000",
+    "validTo": "2025-09-06T21:59:59+0000",
+    "imageUrl": null,
+    "hotspotId": "IljgPhTQlfHqaIqokMsOf",
+    "store": "Rema 1000",
+    "storeId": "faa0Ym",
+    "tags": [
+      "annet"
+    ],
+    "updatedAt": "2025-08-31T16:51:26.200Z"
   }
 ]

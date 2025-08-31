@@ -3,6 +3,7 @@ const fileService = require('./fileService');
 const categoryService = require('./categoryService');
 const intelligentMatching = require('./intelligentMatchingService');
 const { getActiveStores, getStoreLogoUrl } = require('../config/stores');
+const config = require('../config');
 
 class OfferService {
     constructor() {
@@ -103,15 +104,6 @@ class OfferService {
         } catch (error) {
             console.error(`❌ Kunne ikke laste lokale tilbud for ${store.name}:`, error.message);
             return false;
-        }
-    }
-
-    getAllOffers() {
-        try {
-            return fileService.loadAllOffers();
-        } catch (error) {
-            console.error('❌ Feil ved henting av alle tilbud:', error.message);
-            return [];
         }
     }
 
@@ -278,38 +270,61 @@ class OfferService {
     }
 
     getAllOffers() {
-        const stores = ['rema_1000', 'kiwi', 'meny', 'coop_extra', 'bunnpris', 'coop_mega', 'coop_marked', 'coop_prix', 'coop_obs', 'spar'];
-        const allOffers = [];
+        const storeKeys = ['rema_1000', 'kiwi', 'meny', 'coop_extra', 'bunnpris', 'coop_mega', 'coop_marked', 'coop_prix', 'coop_obs', 'spar'];
+        const path = require('path');
+        const fs = require('fs');
+        const collected = [];
 
-        stores.forEach(store => {
-            try {
-                const filename = `${store}_offers.json`;
-                const filePath = require('path').join(require('../config').offersDir, filename);
-                const offers = fileService.loadJSON(filePath);
-                
-                if (Array.isArray(offers)) {
-                    // Normaliser butikknavn og konverter priser
-                    const storeName = this.normalizeStoreName(store);
-                    const normalizedOffers = offers.map(offer => ({
-                        ...offer,
-                        store: storeName,
-                        price: typeof offer.price === 'string' ? parseFloat(offer.price) : offer.price,
-                        originalPrice: offer.originalPrice ? 
-                            (typeof offer.originalPrice === 'string' ? parseFloat(offer.originalPrice) : offer.originalPrice) 
-                            : null
-                    }));
-                    allOffers.push(...normalizedOffers);
-                    console.log(`📦 Lastet ${offers.length} tilbud fra ${storeName}`);
-                } else {
-                    console.warn(`⚠️ ${filename} er ikke en gyldig array`);
+        storeKeys.forEach(key => {
+            // Primær filnavn (underscores)
+            const primary = `${key}_offers.json`;
+            // Variant med space der underscores byttes ut (for historiske filer f.eks. "rema 1000")
+            const spaced = `${key.replace(/_/g,' ')}_offers.json`;
+            // Spesialtilfelle for coop_obs -> obs_offers.json (fra tidligere lagring med navn "Obs")
+            const legacyObs = key === 'coop_obs' ? 'obs_offers.json' : null;
+
+            const candidates = [primary, spaced, legacyObs].filter(Boolean);
+            let loaded = false;
+            for (const file of candidates) {
+                const filePath = path.join(config.offersDir, file);
+                if (fs.existsSync(filePath)) {
+                    const data = fileService.loadJSON(filePath);
+                    if (Array.isArray(data)) {
+                        const storeName = this.normalizeStoreName(key);
+                        console.log(`🏷️ Setting store name: ${key} -> ${storeName} for ${data.length} offers`);
+                        data.forEach(o => {
+                            collected.push({
+                                ...o,
+                                store: storeName,
+                                price: typeof o.price === 'string' ? parseFloat(o.price) : o.price,
+                                originalPrice: o.originalPrice ? (typeof o.originalPrice === 'string' ? parseFloat(o.originalPrice) : o.originalPrice) : null
+                            });
+                        });
+                        console.log(`📦 Lastet ${data.length} tilbud fra ${storeName} (fil: ${file})`);
+                        loaded = true;
+                        break; // stopp etter første match
+                    }
                 }
-            } catch (error) {
-                console.warn(`⚠️ Kunne ikke laste tilbud fra ${store}:`, error.message);
+            }
+            if (!loaded) {
+                console.warn(`⚠️ Fant ingen gyldig fil for ${key} (forsøkt: ${candidates.join(', ')})`);
             }
         });
 
-        console.log(`📦 getAllOffers: Totalt ${allOffers.length} tilbud fra alle butikker`);
-        return allOffers;
+        // Fjern duplikater
+        const seen = new Set();
+        const unique = collected.filter(o => {
+            const key = o.hotspotId || `${(o.title||'').toLowerCase()}-${o.store}-${o.price}`;
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
+
+        if (unique.length !== collected.length) {
+            console.log(`🧹 Fjernet ${collected.length - unique.length} duplikater`);
+        }
+        console.log(`📦 getAllOffers: Totalt ${unique.length} tilbud fra alle butikker`);
+        return unique;
     }
 
     normalizeStoreName(storeKey) {
