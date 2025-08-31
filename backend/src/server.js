@@ -28,9 +28,12 @@ app.use(express.urlencoded({ extended: true }));
 // Serve static files (logoer)
 app.use('/images', express.static(path.join(__dirname, 'img')));
 
-// Request logging middleware
+// Request logging middleware - kun for viktige endepunkter
 app.use((req, res, next) => {
-    console.log(`${new Date().toISOString()} - ${req.method} ${req.path}`);
+    // Kun log viktige endepunkter, ikke produktbilder og statiske filer
+    if (!req.path.startsWith('/api/product-image') && !req.path.startsWith('/images') && !req.path.startsWith('/favicon')) {
+        console.log(`${new Date().toISOString()} - ${req.method} ${req.path}`);
+    }
     next();
 });
 
@@ -75,8 +78,33 @@ app.get('/api/meal-suggestions', async (req, res) => {
 app.get('/api/product-image/:storeName/:offerHeading', async (req, res) => {
     try {
         const { storeName, offerHeading } = req.params;
-        const decodedHeading = decodeURIComponent(offerHeading);
-        console.log(`🖼️ Søker etter produktbilde: ${decodedHeading} fra ${storeName}`);
+        
+        // Safely decode URI with improved error handling
+        let decodedHeading;
+        try {
+            // First attempt: standard decodeURIComponent
+            decodedHeading = decodeURIComponent(offerHeading);
+            // Additional cleanup for problematic characters
+            decodedHeading = decodedHeading.normalize('NFC');
+        } catch (uriError) {
+            try {
+                // Second attempt: manually handle common percentage cases
+                let cleanedHeading = offerHeading;
+                // Replace common problematic sequences
+                cleanedHeading = cleanedHeading.replace(/%25/g, '%');  // Double-encoded %
+                cleanedHeading = cleanedHeading.replace(/%20/g, ' ');  // Spaces
+                cleanedHeading = cleanedHeading.replace(/\+/g, ' ');   // Plus signs as spaces
+                
+                // Try decoding the cleaned version
+                decodedHeading = decodeURIComponent(cleanedHeading);
+                decodedHeading = decodedHeading.normalize('NFC');
+                // console.log(`🔧 Fixed URI decode for: "${offerHeading}" -> "${decodedHeading}"`);
+            } catch (secondError) {
+                // Final fallback: use the original string with basic cleanup
+                decodedHeading = offerHeading.replace(/%20/g, ' ').replace(/\+/g, ' ');
+                // console.log(`⚠️ Using fallback decode for: "${offerHeading}" -> "${decodedHeading}"`);
+            }
+        }
         
         // Find the offer by title and store to get hotspotId
         const allOffers = offerService.getAllOffers();
@@ -84,13 +112,32 @@ app.get('/api/product-image/:storeName/:offerHeading', async (req, res) => {
             offer.title === decodedHeading && offer.store === storeName && offer.hotspotId
         );
 
+        // console.log(`🔍 Looking for offer: "${decodedHeading}" from ${storeName}, found: ${!!matchingOffer}`);
+
         if (!matchingOffer || !matchingOffer.hotspotId) {
-            console.log(`❌ No matching offer found with hotspotId for: ${decodedHeading}`);
-            return res.json({
-                success: false,
-                message: 'Tilbud ikke funnet eller mangler hotspotId',
-                imageUrl: null
-            });
+            // Sjekk om tilbudet finnes uten hotspotId
+            const offerWithoutHotspot = allOffers.find(offer => 
+                offer.title === decodedHeading && offer.store === storeName
+            );
+            
+            if (offerWithoutHotspot) {
+                // Tilbudet finnes, men mangler hotspotId - dette er normalt for noen butikker
+                return res.json({
+                    success: false,
+                    message: 'Bilde ikke tilgjengelig for denne butikken',
+                    imageUrl: null,
+                    reason: 'NO_HOTSPOT_ID'
+                });
+            } else {
+                // Tilbudet finnes ikke i det hele tatt
+                return res.json({
+                    success: false,
+                    message: 'Tilbud ikke funnet',
+                    imageUrl: null,
+                    debug: `Søkte etter: "${decodedHeading}" fra ${storeName}`,
+                    reason: 'OFFER_NOT_FOUND'
+                });
+            }
         }
 
         // Get image from etilbudsavis API using hotspotId
@@ -101,7 +148,8 @@ app.get('/api/product-image/:storeName/:offerHeading', async (req, res) => {
         const bestImageUrl = imageService.getBestImage(images);
         
         if (bestImageUrl) {
-            console.log(`✅ Found image for ${decodedHeading}: ${bestImageUrl}`);
+            // Stille success - ikke log hver gang
+            // console.log(`✅ Found image for ${decodedHeading}: ${bestImageUrl}`);
             res.json({
                 success: true,
                 imageUrl: bestImageUrl,
@@ -109,6 +157,7 @@ app.get('/api/product-image/:storeName/:offerHeading', async (req, res) => {
                 offerId: matchingOffer.hotspotId
             });
         } else {
+            // Kun log ved faktiske feil
             console.log(`❌ No image found for offer ${matchingOffer.hotspotId}`);
             res.json({
                 success: false,
@@ -120,6 +169,7 @@ app.get('/api/product-image/:storeName/:offerHeading', async (req, res) => {
         }
 
     } catch (error) {
+        // Log alle unhandled errors
         console.error('❌ Feil ved henting av produktbilde:', error.message);
         res.status(500).json({
             success: false,

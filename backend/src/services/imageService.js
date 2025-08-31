@@ -13,11 +13,12 @@ class ImageService {
             const cacheKey = `offer_${offerId}`;
             const cached = this.cache.get(cacheKey);
             if (cached && (Date.now() - cached.timestamp < this.cacheTimeout)) {
-                console.log(`📸 Cache hit for offer ${offerId}`);
+                // Stille cache hit - ikke log hver gang
                 return cached.data;
             }
 
-            console.log(`📸 Fetching image data for offer ID: ${offerId}`);
+            // Bare log ved feil eller ved behov for debugging
+            // console.log(`📸 Fetching image data for offer ID: ${offerId}`);
             
             const response = await axios.get(`${this.baseUrl}/offers/${offerId}`, {
                 headers: {
@@ -42,7 +43,8 @@ class ImageService {
                 timestamp: Date.now()
             });
 
-            console.log(`📸 Retrieved images for offer ${offerId}:`, Object.keys(images).filter(k => images[k]));
+            // Bare log ved debugging behov
+            // console.log(`📸 Retrieved images for offer ${offerId}:`, Object.keys(images).filter(k => images[k]));
             return images;
 
         } catch (error) {

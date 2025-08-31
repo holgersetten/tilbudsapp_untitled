@@ -9,6 +9,9 @@ class OfferService {
     constructor() {
         this.updateInProgress = false;
         this.lastUpdateAttempt = null;
+        this.cachedOffers = null;
+        this.cacheTimestamp = null;
+        this.cacheValidityMs = 5 * 60 * 1000; // 5 minutter cache
         this.setupPeriodicUpdates();
     }
 
@@ -39,6 +42,10 @@ class OfferService {
             const stores = getActiveStores();
             const updatePromises = stores.map(store => this.updateStoreOffers(store));
             await Promise.allSettled(updatePromises);
+            
+            // Tøm cache etter oppdatering
+            this.cachedOffers = null;
+            this.cacheTimestamp = null;
             
             console.log('✅ Oppdatering av alle butikker fullført');
             return true;
@@ -75,6 +82,9 @@ class OfferService {
             const saved = fileService.saveIfChanged(filename, enrichedOffers);
             
             if (saved) {
+                // Tøm cache når nye data lagres
+                this.cachedOffers = null;
+                this.cacheTimestamp = null;
                 console.log(`✅ Oppdatert ${enrichedOffers.length} tilbud fra ${store.name}`);
             } else {
                 console.log(`ℹ️ Ingen nye tilbud fra ${store.name}`);
@@ -270,6 +280,13 @@ class OfferService {
     }
 
     getAllOffers() {
+        // Sjekk om vi har gyldig cache
+        const now = Date.now();
+        if (this.cachedOffers && this.cacheTimestamp && (now - this.cacheTimestamp) < this.cacheValidityMs) {
+            return this.cachedOffers;
+        }
+
+        // Last inn data på nytt
         const storeKeys = ['rema_1000', 'kiwi', 'meny', 'coop_extra', 'bunnpris', 'coop_mega', 'coop_marked', 'coop_prix', 'coop_obs', 'spar'];
         const path = require('path');
         const fs = require('fs');
@@ -283,7 +300,10 @@ class OfferService {
             // Spesialtilfelle for coop_obs -> obs_offers.json (fra tidligere lagring med navn "Obs")
             const legacyObs = key === 'coop_obs' ? 'obs_offers.json' : null;
 
-            const candidates = [primary, spaced, legacyObs].filter(Boolean);
+            // For Obs: prioriter obs_offers.json som har hotspotId over coop_obs_offers.json som mangler hotspotId
+            const candidates = key === 'coop_obs' ? 
+                [legacyObs, primary, spaced].filter(Boolean) : 
+                [primary, spaced, legacyObs].filter(Boolean);
             let loaded = false;
             for (const file of candidates) {
                 const filePath = path.join(config.offersDir, file);
@@ -291,7 +311,7 @@ class OfferService {
                     const data = fileService.loadJSON(filePath);
                     if (Array.isArray(data)) {
                         const storeName = this.normalizeStoreName(key);
-                        console.log(`🏷️ Setting store name: ${key} -> ${storeName} for ${data.length} offers`);
+                        // console.log(`🏷️ Setting store name: ${key} -> ${storeName} for ${data.length} offers`);
                         data.forEach(o => {
                             collected.push({
                                 ...o,
@@ -300,7 +320,10 @@ class OfferService {
                                 originalPrice: o.originalPrice ? (typeof o.originalPrice === 'string' ? parseFloat(o.originalPrice) : o.originalPrice) : null
                             });
                         });
-                        console.log(`📦 Lastet ${data.length} tilbud fra ${storeName} (fil: ${file})`);
+                        // console.log(`📦 Lastet ${data.length} tilbud fra ${storeName} (fil: ${file})`);
+                        // if (storeName === 'Obs') {
+                        //     console.log(`🔍 First Obs offer: ${data[0]?.title} - store: ${data[0]?.store}`);
+                        // }
                         loaded = true;
                         break; // stopp etter første match
                     }
@@ -324,6 +347,11 @@ class OfferService {
             console.log(`🧹 Fjernet ${collected.length - unique.length} duplikater`);
         }
         console.log(`📦 getAllOffers: Totalt ${unique.length} tilbud fra alle butikker`);
+        
+        // Oppdater cache
+        this.cachedOffers = unique;
+        this.cacheTimestamp = now;
+        
         return unique;
     }
 
@@ -337,7 +365,7 @@ class OfferService {
             'coop_mega': 'Coop Mega',
             'coop_marked': 'Coop Marked',
             'coop_prix': 'Coop Prix',
-            'coop_obs': 'Coop Obs',
+            'coop_obs': 'Obs',  // Fikset: bruker "Obs" i stedet for "Coop Obs" for konsistens
             'spar': 'Spar'
         };
         return nameMap[storeKey] || storeKey.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
