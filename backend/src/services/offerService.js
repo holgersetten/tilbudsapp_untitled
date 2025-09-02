@@ -335,13 +335,15 @@ class OfferService {
         });
 
         // Fjern duplikater
-        const seen = new Set();
-        const unique = collected.filter(o => {
-            const key = o.hotspotId || `${(o.title||'').toLowerCase()}-${o.store}-${o.price}`;
-            if (seen.has(key)) return false;
-            seen.add(key);
-            return true;
-        });
+            // Ekstra duplikatlogikk: fjern tilbud med ulik hotspotId men lik tittel, pris, kilopris og enhet
+            const seen = new Set();
+            const unique = collected.filter(o => {
+                // Bruk tittel, butikk, pris, kilopris og enhet som nøkkel
+                const key = `${(o.title||'').toLowerCase()}-${o.store}-${o.price}-${o.unit || ''}-${o.pricePerKg || o.pricePerL || ''}`;
+                if (seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            });
 
         if (unique.length !== collected.length) {
             console.log(`🧹 Fjernet ${collected.length - unique.length} duplikater`);

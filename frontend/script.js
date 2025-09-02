@@ -139,6 +139,23 @@ function handleOffersSearchInput() {
   }, 300);
 }
 
+// Search offers by category
+async function searchOffersByCategory(category) {
+  console.log('🏷️ searchOffersByCategory called with:', category);
+  
+  // Set the search input to the category
+  const searchInput = document.getElementById('offers-search-input');
+  searchInput.value = category;
+  
+  // Clear any existing search timeout
+  if (state.offersSearchTimeout) {
+    clearTimeout(state.offersSearchTimeout);
+  }
+  
+  // Trigger search immediately
+  await searchOffers();
+}
+
 // Load offers from API
 async function loadCurrentOffers() {
   console.log('🔄 loadCurrentOffers() called');
@@ -290,6 +307,7 @@ function renderOffers() {
       const str = offer.price.toString(); 
       return /kr/i.test(str)? str.replace(/\s*kr\s*$/i,'') : str; 
     })();
+    const unitPrice = calculateUnitPrice(offer);
     html += `<div class="offer-card" data-store="${offer.store || ''}" data-heading="${offer.title || ''}">
       <div class="offer-image">
         <img class="offer-product-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23f3f4f6'/%3E%3Ctext x='50' y='50' text-anchor='middle' dy='.3em' fill='%23999'%3Elaster bilde%3C/text%3E%3C/svg%3E" alt="Produktbilde" style="display:none;" />
@@ -297,7 +315,10 @@ function renderOffers() {
       </div>
       <div class="offer-content">
         <h4 class="offer-title">${formatTitle(offer.title)}</h4>
-        <div class="offer-price"><span class="offer-price-main">${priceVal} kr</span></div>
+        <div class="offer-price">
+          <span class="offer-price-main">${priceVal} kr</span>
+          ${unitPrice ? `<span class="offer-unit-price">(${unitPrice})</span>` : ''}
+        </div>
         ${offer.quantity ? `<div class="offer-quantity" title="${offer.quantity}">${offer.quantity}</div>` : ''}
       </div>
     </div>`;
@@ -328,6 +349,57 @@ function getStoreLogo(storeName) {
   return logos[storeName] || 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="32" height="32"%3E%3Ctext y="24" font-size="20" text-anchor="middle" x="16"%3E🏪%3C/text%3E%3C/svg%3E';
 }
 
+// Calculate unit price (per kg/liter) for display
+function calculateUnitPrice(offer) {
+  if (!offer.price || !offer.size || !offer.unit) {
+    return null;
+  }
+  
+  const price = parseFloat(offer.price);
+  let size = parseFloat(offer.size);
+  
+  if (isNaN(price) || isNaN(size) || size <= 0) {
+    return null;
+  }
+  
+  // Check for multi-pack quantities like "4 × 100g" or "2 × 0.5l"
+  let pieces = offer.pieces || 1;
+  if (offer.quantity && typeof offer.quantity === 'string') {
+    const multiPackMatch = offer.quantity.match(/(\d+)\s*[×x]\s*[\d.,]+[a-zA-Z]+/);
+    if (multiPackMatch) {
+      pieces = parseInt(multiPackMatch[1]);
+    }
+  }
+  
+  // Calculate total size for multi-pack
+  const totalSize = size * pieces;
+  
+  let unitText = '';
+  let unitPricePerUnit = 0;
+  
+  // Convert to per kg or per liter
+  if (offer.unit === 'g') {
+    unitPricePerUnit = (price / totalSize) * 1000; // Convert to per kg
+    unitText = 'kg';
+  } else if (offer.unit === 'ml' || offer.unit === 'l') {
+    if (offer.unit === 'ml') {
+      unitPricePerUnit = (price / totalSize) * 1000; // Convert to per liter
+    } else {
+      unitPricePerUnit = price / totalSize; // Already per liter
+    }
+    unitText = 'l';
+  } else {
+    return null; // Unknown unit
+  }
+  
+  // Format the price nicely
+  const formattedPrice = unitPricePerUnit < 10 
+    ? unitPricePerUnit.toFixed(2)
+    : Math.round(unitPricePerUnit);
+  
+  return `${formattedPrice} kr/${unitText}`;
+}
+
 function formatTitle(title) {
   if (!title) return 'Ukjent produkt';
   
@@ -350,45 +422,51 @@ function formatTitle(title) {
 }
 
 async function loadProductImages() {
-  console.log('🖼️ Starting loadProductImages function');
+  // console.log('🖼️ Starting loadProductImages function');
   
   const offerCards = document.querySelectorAll('.offer-card[data-store][data-heading]');
-  console.log(`🖼️ Found ${offerCards.length} offer cards with data attributes`);
+  // console.log(`🖼️ Found ${offerCards.length} offer cards with data attributes`);
   
   for (const card of offerCards) {
     const storeName = card.getAttribute('data-store');
     const heading = card.getAttribute('data-heading');
     const imageElement = card.querySelector('.offer-product-image');
     
-    console.log(`🖼️ Processing card: store="${storeName}", heading="${heading}"`);
+    // console.log(`🖼️ Processing card: store="${storeName}", heading="${heading}"`);
     
+    // Try to fetch image
     if (!imageElement) {
-      console.log('🖼️ No image element found in card');
       continue;
     }
     
     try {
-      const url = `/api/product-image/${encodeURIComponent(storeName)}/${encodeURIComponent(heading)}`;
-      console.log(`🖼️ Fetching image from: ${url}`);
+      // Clean the heading to avoid encoding issues
+      const cleanHeading = heading.trim();
+      const cleanStoreName = storeName.trim();
+      
+      const url = `/api/product-image/${encodeURIComponent(cleanStoreName)}/${encodeURIComponent(cleanHeading)}`;
       
       const response = await fetch(url);
       if (!response.ok) {
-        console.log(`🖼️ Failed to fetch image: ${response.status} ${response.statusText}`);
+        // Stille feil - ikke log hver gang
         continue;
       }
       
       const data = await response.json();
-      console.log(`🖼️ Received image data:`, data);
       
-      if (data.imageUrl) {
+      if (data.success && data.imageUrl) {
         imageElement.src = data.imageUrl;
         imageElement.style.display = 'block';
-        console.log(`🖼️ Set image URL: ${data.imageUrl}`);
-      } else {
-        console.log('🖼️ No imageUrl in response');
+        // console.log(`✅ Image loaded for: ${cleanHeading}`);
+      } else if (data.reason === 'NO_HOTSPOT_ID') {
+        // Stille håndtering - bilde ikke tilgjengelig for denne butikken
+        continue;
       }
     } catch (error) {
-      console.error(`🖼️ Error loading image for ${storeName}/${heading}:`, error);
+      // Kun log faktiske feil, ikke manglende bilder
+      if (error.name !== 'TypeError') {
+        console.error(`❌ Error loading image for "${heading}":`, error);
+      }
     }
   }
 }
@@ -942,6 +1020,7 @@ function renderBestOffers() {
         const str = offer.price.toString(); 
         return /kr/i.test(str)? str.replace(/\s*kr\s*$/i,'') : str; 
       })();
+      const unitPrice = calculateUnitPrice(offer);
       html += `<div class="offer-card" data-store="${offer.store || ''}" data-heading="${offer.title || ''}">
         <div class="offer-image">
           <img class="offer-product-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23f3f4f6'/%3E%3Ctext x='50' y='50' text-anchor='middle' dy='.3em' fill='%23999'%3Elaster bilde%3C/text%3E%3C/svg%3E" alt="Produktbilde" style="display:none;" />
@@ -949,7 +1028,10 @@ function renderBestOffers() {
         </div>
         <div class="offer-content">
           <h4 class="offer-title">${formatTitle(offer.title)}</h4>
-          <div class="offer-price"><span class="offer-price-main">${priceVal} kr</span></div>
+          <div class="offer-price">
+            <span class="offer-price-main">${priceVal} kr</span>
+            ${unitPrice ? `<span class="offer-unit-price">(${unitPrice})</span>` : ''}
+          </div>
           ${offer.quantity ? `<div class="offer-quantity" title="${offer.quantity}">${offer.quantity}</div>` : ''}
         </div>
       </div>`;

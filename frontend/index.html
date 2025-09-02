@@ -168,26 +168,59 @@
 
       <div id="tilbud-content" class="content">
         <div class="header-section">
-          <h2>Alle tilbud</h2>
-          <p>Se alle tilbud fra alle butikker</p>
+          <h2>Se alle tilbud</h2>
         </div>
         
-        <div class="search-section">
-          <div class="search-form">
-            <div class="input-group">
-              <label for="offers-search-input">Søk i tilbud</label>
+        <!-- Categories section -->
+        <div class="categories-section">
+          <div class="categories-grid">
+            <button class="category-btn" onclick="searchOffersByCategory('ferdigpizza')">
+              <span class="category-icon">🍕</span>
+              <span class="category-text">Ferdigpizza</span>
+            </button>
+            <button class="category-btn" onclick="searchOffersByCategory('energidrikke')">
+              <span class="category-icon">⚡</span>
+              <span class="category-text">Energidrikke</span>
+            </button>
+            <button class="category-btn" onclick="searchOffersByCategory('pålegg')">
+              <span class="category-icon">🥪</span>
+              <span class="category-text">Pålegg</span>
+            </button>
+            <button class="category-btn" onclick="searchOffersByCategory('yogurt')">
+              <span class="category-icon">🥛</span>
+              <span class="category-text">Yogurt</span>
+            </button>
+            <button class="category-btn" onclick="searchOffersByCategory('brød')">
+              <span class="category-icon">🍞</span>
+              <span class="category-text">Brød</span>
+            </button>
+            <button class="category-btn" onclick="searchOffersByCategory('kjøtt')">
+              <span class="category-icon">🥩</span>
+              <span class="category-text">Kjøtt</span>
+            </button>
+            <button class="category-btn" onclick="searchOffersByCategory('frukt')">
+              <span class="category-icon">🍎</span>
+              <span class="category-text">Frukt</span>
+            </button>
+            <button class="category-btn" onclick="searchOffersByCategory('snacks')">
+              <span class="category-icon">🍿</span>
+              <span class="category-text">Snacks</span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="search-section compact">
+          <div class="search-form compact">
+            <div class="input-group compact">
               <input 
                 type="text" 
                 id="offers-search-input" 
-                class="search-input" 
-                placeholder="f.eks. kjøttdeig, yogurt, brød"
+                class="search-input compact" 
+                placeholder="Søk i tilbud (f.eks. kjøttdeig, yogurt, brød)"
                 onkeypress="if(event.key==='Enter') searchOffers()"
                 oninput="handleOffersSearchInput()"
               />
             </div>
-            <button type="button" class="btn btn-primary" onclick="searchOffers()">
-              <span>🔍</span> Søk tilbud
-            </button>
           </div>
         </div>
         

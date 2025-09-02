@@ -19,7 +19,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.773Z"
   },
   {
     "title": "BANAN",
@@ -41,7 +41,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.773Z"
   },
   {
     "title": "RED BULL",
@@ -63,7 +63,7 @@
     "tags": [
       "energidrikke"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.773Z"
   },
   {
     "title": "GILDE KJØTTPØLSE",
@@ -85,7 +85,7 @@
     "tags": [
       "pølser"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.773Z"
   },
   {
     "title": "YTREFILET AV SVIN",
@@ -107,7 +107,7 @@
     "tags": [
       "biff"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.773Z"
   },
   {
     "title": "MR. LEE NUDLER I KOPP",
@@ -129,7 +129,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.773Z"
   },
   {
     "title": "HVITLØKSBRØD",
@@ -152,7 +152,7 @@
       "gul_løk",
       "hvitløk"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "COOP FISKEBURGER",
@@ -175,13 +175,13 @@
       "hamburger",
       "fiskeburger"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "LESGARDS MARMELADE",
     "description": "",
     "price": 49.9,
-    "originalPrice": 69.9,
+    "originalPrice": null,
     "discount": null,
     "currency": "NOK",
     "quantity": "120g",
@@ -197,7 +197,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "JARLSBERG",
@@ -219,7 +219,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "DALFOUR MARMELADE",
@@ -241,7 +241,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "CASTELLO",
@@ -263,7 +263,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "COOP GROVBRØD MED LINFRØ",
@@ -285,7 +285,7 @@
     "tags": [
       "brød"
     ],
-    "updatedAt": "2025-08-31T16:51:26.274Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "DEN STOLTE HANE GÅRDSEGG 12 PK",
@@ -307,7 +307,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "COOP WIENERBRØD SPANDAUER/WIENERPECAN",
@@ -329,7 +329,7 @@
     "tags": [
       "pølser"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "LERUM SYLTETØY",
@@ -351,7 +351,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "SKYR",
@@ -373,7 +373,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "COOP FRII SAFT",
@@ -395,7 +395,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "PUKKA TE",
@@ -417,7 +417,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "MEAL DEAL",
@@ -439,7 +439,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "FISKESUPPE M/LAKS",
@@ -461,7 +461,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "TINE ØSTAVIND",
@@ -483,7 +483,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "RED BULL",
@@ -505,7 +505,7 @@
     "tags": [
       "energidrikke"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "SØRLANDSCHIPS ORIGINAL",
@@ -527,7 +527,7 @@
     "tags": [
       "potetgull"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "BATTERY 0,5L",
@@ -549,7 +549,7 @@
     "tags": [
       "energidrikke"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "L’OR KAFFEKAPSLER 10 STK",
@@ -571,7 +571,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "NIDAR POSER",
@@ -593,7 +593,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "GULROT BUNT",
@@ -615,7 +615,7 @@
     "tags": [
       "gulrot"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "BANAN",
@@ -637,7 +637,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "AVOKADO SPISEMODEN 2PK",
@@ -659,7 +659,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "TOMAT",
@@ -681,7 +681,7 @@
     "tags": [
       "tomat"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "Lyng - Quatro",
@@ -703,7 +703,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "PURRE BUNT 2 STK",
@@ -725,7 +725,7 @@
     "tags": [
       "purreløk"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "ROSER",
@@ -747,7 +747,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "GRØNNE DRUER",
@@ -769,10 +769,10 @@
     "tags": [
       "druer"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
-    "title": "AMALIES GROVBRØD/ COOP TINDEBRØD.",
+    "title": "AMALIES GROVBRØD/ COOP TINDEBRØD",
     "description": "",
     "price": 24.9,
     "originalPrice": null,
@@ -791,7 +791,7 @@
     "tags": [
       "brød"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "GULROT BUNT",
@@ -813,7 +813,7 @@
     "tags": [
       "gulrot"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   },
   {
     "title": "BANAN",
@@ -835,6 +835,6 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.275Z"
+    "updatedAt": "2025-09-02T19:50:55.774Z"
   }
 ]

@@ -222,6 +222,110 @@ main {
   margin-bottom: 32px;
 }
 
+/* Compact search styling */
+.search-section.compact {
+  padding: 16px;
+  margin-bottom: 16px;
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+
+.search-form.compact {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.input-group.compact {
+  flex: 1;
+  margin-bottom: 0;
+  min-width: 0; /* Allow shrinking */
+}
+
+.input-group.compact label {
+  display: none; /* Hide label in compact mode */
+}
+
+.search-input.compact {
+  padding: 10px 14px;
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+
+.btn.compact {
+  padding: 10px 16px;
+  min-width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; /* Prevent button from shrinking */
+}
+
+/* Categories section */
+.categories-section {
+  margin-bottom: 16px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.category-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.category-btn:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
+
+.category-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.category-btn:active {
+  transform: translateY(0);
+}
+
+.category-icon {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.category-text {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
 .search-form {
   display: flex;
   gap: 12px;
@@ -614,6 +718,8 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+  clear: both;
+  width: 100%;
 }
 
 .offers-grid.fixed-size {
@@ -624,6 +730,13 @@ main {
   height: 260px;
   display: flex;
   flex-direction: column;
+}
+
+/* Ensure offers content flows properly and is positioned correctly */
+#offers-content {
+  clear: both;
+  width: 100%;
+  margin-top: 16px;
 }
 
 .offer-card {
@@ -695,6 +808,9 @@ main {
 
 .offer-price {
   margin-bottom: 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
 }
 
 .offer-price-main {
@@ -716,6 +832,13 @@ main {
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 100%;
+}
+
+.offer-unit-price {
+  font-size: 11px;
+  color: var(--text-soft);
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .empty {
@@ -767,5 +890,38 @@ main {
   .btn-primary, .btn {
     flex: 1;
     justify-content: center;
+  }
+  
+  /* Responsive categories */
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .category-btn {
+    padding: 10px 6px;
+    gap: 4px;
+  }
+  
+  .category-icon {
+    font-size: 18px;
+  }
+  
+  .category-text {
+    font-size: 11px;
+  }
+  
+  .search-form.compact {
+    gap: 6px;
+  }
+  
+  /* Mobile offers grid */
+  .offers-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  
+  .offers-grid.fixed-size {
+    grid-template-columns: 1fr 1fr;
   }
 }

@@ -19,7 +19,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.306Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop kylling lårfilet",
@@ -41,7 +41,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.306Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop Fettuccine",
@@ -63,7 +63,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Parmigiano Reggiano",
@@ -85,7 +85,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop perletomater",
@@ -107,7 +107,7 @@
     "tags": [
       "tomat"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Laksefilet uten skinn",
@@ -129,7 +129,7 @@
     "tags": [
       "laks"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop gulrot i bunt",
@@ -151,7 +151,7 @@
     "tags": [
       "gulrot"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Norsk purre",
@@ -173,7 +173,7 @@
     "tags": [
       "purreløk"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Änglamark dill",
@@ -195,13 +195,13 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Gilde kjøttboller",
     "description": "",
     "price": 60,
-    "originalPrice": 77.9,
+    "originalPrice": null,
     "discount": null,
     "currency": "NOK",
     "quantity": "400g",
@@ -217,7 +217,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop spaghetti",
@@ -239,7 +239,7 @@
     "tags": [
       "pasta"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop pastasaus Basilicata",
@@ -261,7 +261,7 @@
     "tags": [
       "saus"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop mozzarella",
@@ -283,7 +283,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop fra havet scampi",
@@ -305,7 +305,7 @@
     "tags": [
       "scampi"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop perletomater",
@@ -327,7 +327,7 @@
     "tags": [
       "tomat"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop spaghetti",
@@ -349,7 +349,7 @@
     "tags": [
       "pasta"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop gul løk 2 pk",
@@ -371,7 +371,7 @@
     "tags": [
       "gul_løk"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Taga Prosciutto Crudo",
@@ -393,7 +393,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop pizzabunn",
@@ -415,7 +415,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop mozzarella revet",
@@ -437,7 +437,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "Coop pizzasaus",
@@ -459,7 +459,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.742Z"
   },
   {
     "title": "BLÅBÆR",
@@ -481,7 +481,7 @@
     "tags": [
       "bær"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "COOP BLÅBÆR",
@@ -503,7 +503,7 @@
     "tags": [
       "bær"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "PÆRER",
@@ -525,7 +525,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "GULROT I BUNT",
@@ -547,7 +547,7 @@
     "tags": [
       "gulrot"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "PURRE/SELLERIROT",
@@ -569,7 +569,7 @@
     "tags": [
       "purreløk"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "COOP PERLETOMATER",
@@ -591,7 +591,7 @@
     "tags": [
       "tomat"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "COOP GUL LØK 2 PK",
@@ -613,7 +613,7 @@
     "tags": [
       "gul_løk"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "COOP SALATMIKS",
@@ -635,7 +635,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "KIWI",
@@ -657,7 +657,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "XTRA LAKSEFILET",
@@ -679,7 +679,7 @@
     "tags": [
       "laks"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "LERØY LAKSEFILET",
@@ -701,7 +701,7 @@
     "tags": [
       "laks"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "LERØY FISKEGRATENG",
@@ -723,7 +723,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "SKYR MINI BANAN KLEMMEPOSE 6 PK",
@@ -745,7 +745,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "COOP CORN CAKES CHEESE",
@@ -767,7 +767,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "STABBURMAKRELL",
@@ -789,7 +789,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "STABBURET LEVERPOSTEI",
@@ -811,7 +811,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "DANONINO YOGHURT KLEMMEPOSE",
@@ -833,7 +833,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "NIDAR SMASH",
@@ -855,7 +855,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "NIDAR LABAN ORIGINAL",
@@ -877,7 +877,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "NIDAR TROIKA",
@@ -899,7 +899,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.307Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "NIDAR NEW ENERGY",
@@ -921,7 +921,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "BERTHAS LEFSEBIT",
@@ -943,7 +943,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "SNICKERS 2 PK",
@@ -965,7 +965,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "OSRAM LED-LYSPÆRE 4 PK",
@@ -987,7 +987,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "BRILLERENS/SKJERMRENS",
@@ -1009,7 +1009,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "OSRAM LEDSPOT",
@@ -1031,7 +1031,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "COLGATE TANNKREM SENSITIVE WHITE 2 PK",
@@ -1053,7 +1053,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "SOFTLAN OUTDOOR FRESH",
@@ -1075,7 +1075,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "FAMILY FRESH",
@@ -1097,7 +1097,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "XTRA VASKEKLUT 5 PK",
@@ -1119,7 +1119,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "XTRA BALLONGER 50 PK",
@@ -1141,7 +1141,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "XTRA FREEZY MATOPPBEVARINGSBOKS",
@@ -1163,7 +1163,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "XTRA SAKSESETT 3 PK",
@@ -1185,7 +1185,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "XTRA BOLLESETT 3 PK",
@@ -1207,7 +1207,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "XTRA STEKEPANNE",
@@ -1229,7 +1229,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.743Z"
   },
   {
     "title": "COOP HAKKEDE TOMATER",
@@ -1251,7 +1251,7 @@
     "tags": [
       "tomat"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP TOALETT-/TØRKEPAPIR",
@@ -1273,7 +1273,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP TORTELLONI",
@@ -1295,7 +1295,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP PASTA",
@@ -1317,7 +1317,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "STRANDA WESTFALER",
@@ -1339,7 +1339,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "SYNNØVE FINDEN EKTE GOUDA",
@@ -1361,7 +1361,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "MY PIZZA SLICE",
@@ -1383,7 +1383,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "HATTING RUNDSTYKKER",
@@ -1405,7 +1405,7 @@
     "tags": [
       "brød"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "TINE YT PROTEIN YOGHURT",
@@ -1427,7 +1427,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "PATAK’S BUTTER CHICKEN/ TIKKA MASALA",
@@ -1449,7 +1449,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "GILDE FAMILIESKINKE",
@@ -1471,7 +1471,7 @@
     "tags": [
       "skinke"
     ],
-    "updatedAt": "2025-08-31T16:51:26.310Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "MAARUD POTETGULL",
@@ -1493,7 +1493,7 @@
     "tags": [
       "potetgull"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "EARTH CONTROL",
@@ -1515,7 +1515,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "STRATOS MELKEGLEDE/SJOKOLADEFAMILIEN",
@@ -1537,7 +1537,7 @@
     "tags": [
       "sjokolade"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "KINDER MAXI",
@@ -1559,7 +1559,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP SPRUDLE",
@@ -1581,7 +1581,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP BRUS",
@@ -1603,7 +1603,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "Lyng - Quatro",
@@ -1625,7 +1625,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "ROSER 14 STK",
@@ -1647,7 +1647,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "TENA DISCREET MINI",
@@ -1669,7 +1669,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "TENA DISCREET ULTRA NORMAL",
@@ -1691,7 +1691,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "TENA LADY ULTRA MINI",
@@ -1713,7 +1713,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "TENA LADY MINI MAGIC",
@@ -1735,7 +1735,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "SEMPER GRØT KLEMMEPOSE",
@@ -1757,7 +1757,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "SEMPER FLERKORNSGRØT KLEMMEPOSE",
@@ -1779,7 +1779,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "SEMPER GRØT KLEMMEPOSE",
@@ -1801,7 +1801,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "SEMPER FLERKORNSGRØT KLEMMEPOSE",
@@ -1823,7 +1823,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP TINDEBRØD",
@@ -1845,7 +1845,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP SMAK* LANDEMANNEN",
@@ -1867,7 +1867,7 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP AMALIES GROVBRØD",
@@ -1889,13 +1889,13 @@
     "tags": [
       "brød"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   },
   {
     "title": "COOP DONUT",
     "description": "",
     "price": 20,
-    "originalPrice": null,
+    "originalPrice": 37.2,
     "discount": null,
     "currency": "NOK",
     "quantity": "3 × 55g",
@@ -1911,6 +1911,6 @@
     "tags": [
       "annet"
     ],
-    "updatedAt": "2025-08-31T16:51:26.311Z"
+    "updatedAt": "2025-09-02T19:50:55.744Z"
   }
 ]
